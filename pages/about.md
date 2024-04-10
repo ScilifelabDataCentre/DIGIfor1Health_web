@@ -2,7 +2,7 @@
 layout: page
 title: Om oss
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/globe_R.jpeg"
 tags: [Page]
 ---
 
