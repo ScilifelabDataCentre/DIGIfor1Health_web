@@ -2,7 +2,7 @@
 layout: page
 title: Resultat
 permalink: /outputs/
-position: 4
+position: 3
 feature-img: "assets/img/pexels/digi_D_o.jpeg"
 tags: [Page]
 ---
