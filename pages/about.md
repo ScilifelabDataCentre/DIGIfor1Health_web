@@ -7,7 +7,7 @@ bootstrap: true
 ---
 
    <!-- Page Content -->
-<div class="container">
+<div class="container-fluid">
 
   <div class="row">
     <div class="col-lg-6 mb-4">
