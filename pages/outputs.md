@@ -4,7 +4,13 @@ title: Aktuellt
 permalink: /outputs/
 position: 3
 feature-img: "assets/img/pexels/digi_D_o.jpeg"
-tags: [Page]
+
 ---
 
-On this page you will find all the results from our research and more 
+ <style scoped>
+
+</style>
+
+{% capture _blog %}{% include blog/blog.liquid %}{% endcapture %}
+{{ _blog | split: " " | join: " "}}
+
