@@ -9,7 +9,6 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ett ö
 
     <!-- Page Content -->
 <div class="container">
-
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
