@@ -8,7 +8,6 @@ tags: [Page]
 ---
 
 With questions related to the project contact:
-email:
-telephone: 
+ 
 
-For technical support contact:
+For technical support contact: datacentre@scilifelab.se
