@@ -10,4 +10,4 @@ tags: [Page]
 With questions related to the project contact:
  
 
-For technical support contact: datacentre@scilifelab.se
+For technical support contact: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Centre</a>
