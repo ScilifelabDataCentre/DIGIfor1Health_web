@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/DIGIfor1HealthSE"
-url: "https://scilifelabdatacentre.github.io"
+baseurl:
+url: "https://digifor1health.se/"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Hemsida                                          # site's title
