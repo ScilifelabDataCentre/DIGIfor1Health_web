@@ -5,8 +5,8 @@ url: "https://digifor1health.se/"
 # THEME-SPECIFIC CONFIGURATION
 title: Hem                                          # site's title
 description: "Website for DIGIfor1HealthSE project"      # used by search engines
-avatar:                        # Empty for no avatar in navbar
-favicon: assets/img/SciLifeLab.jpg                            # Icon displayed in the tab
+avatar:                                             # Empty for no avatar in navbar
+favicon: assets/img/SciLifeLab.jpg                  # Icon displayed in the tab
 
 # Header and footer text
 header_text: Välkommen till DIGIfor1HealthSE          # Change Blog header text
