@@ -43,7 +43,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ett ö
     Heléne Spjuth (Region Stockholm) <br>
     Magnus Kjellberg (Västra Götalandsregionen) <br>
     Markus Lingman (Region Halland) <br>
-    Anna Sandström (AstraZeneca)</p>
+    Anna Sandström (AstraZeneca) <br>
+    Michel Silvestri (E-hälsomyndigheten)</p>
         </div>
       </div>
     </div>
