@@ -6,7 +6,7 @@ url: "https://digifor1health.se/"
 title: Hem                                          # site's title
 description: "Website for DIGIfor1HealthSE project"      # used by search engines
 avatar:                                             # Empty for no avatar in navbar
-favicon: assets/img/SciLifeLab.ico                  # Icon displayed in the tab
+favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 
 # Header and footer text
 header_text: Välkommen till DIGIfor1HealthSE          # Change Blog header text
