@@ -26,8 +26,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ett ö
     Sebastiaan Meijer (HDS, Kungliga Tekniska Högkolan KTH) <br>
     Richard Rosenquist Brandell (GMS, Karolinska Institutet) <br>
     Johan Rung (SciLifeLab/UU) <br> 
-    Sandra Falck (SciLifeLab/KTH) adjungerad <br>
-    Päivi Östling (SciLifeLab/KI)</p>
+    Sandra Falck (SciLifeLab/KTH), chairman <br>
+    Päivi Östling (SciLifeLab/KI), adjungerad </p>
         </div>
       </div>
     </div>
@@ -44,7 +44,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ett ö
     Magnus Kjellberg (Västra Götalandsregionen) <br>
     Markus Lingman (Region Halland) <br>
     Anna Sandström (AstraZeneca) <br>
-    Michel Silvestri (E-hälsomyndigheten)</p>
+    Michel Silvestri (E-hälsomyndigheten) <br>
+    Göran Larsson (Region Västerbotten) </p>
         </div>
       </div>
     </div>
