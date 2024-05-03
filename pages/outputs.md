@@ -6,7 +6,7 @@ position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
 
 ---
-<h1>Senaste i Projekten</h1>
+
 Rapport från projektets förstudie var framtagen som ett underlag för redovisning till finansiären samt vägledning vid planeringen och genomförandet av aktuella samarbeten inom hälsodata framöver. 
 Den innehåller sammanställning kring våra gemensamma expertisområden inom rättsfrågor, semantiskt interoperabilitet, teknisk infrastruktur och datasäkerhet. Den innehåller även riskanalyser 
 och diskussion kring design av lösningar för datadelning och förslag på fortsatt arbete med hälsodata inför införandet av det europeiska hälsodataområdet EHDS. Förstudien har utförts med stöd 
