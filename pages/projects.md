@@ -71,9 +71,9 @@ bootstrap: true
 
         <div class="card-body">
           <h4 class="card-title">
-            <a href="https://tef-health.se/">Testbädden TEF-HEALTH</a>
+            <a href="https://tef-health.se/">TEF-HEALTH</a>
           </h4>
-          <p class="card-text">ormar test- och experimentanläggningar i världsklass för att stimulera utvecklingen av AI och dess användning inom hälsovård. Detta innebär en ökad förmåga att koppla SMEs behov av AI-utveckling till kritisk hårdvaruinfrastruktur, hälsodata, och expertis inom hälso- och sjukvården och hälsoforskningen. Genom att inkludera stora sjukhus och unika infrastrukturer omfattar konsortiet upp till 20 miljoner årliga patienter samtidigt som det erbjuder toppmoderna avbildnings- och testanläggningar. Genom att tillgängliggöra och kombinera unika infrastrukturer för in vivo-avbildning, multimodal ex vivo-profilering, samt säkra och AI-baserade kombinationer av dessa erbjuder TEF internationellt konkurrenskraftiga möjligheter.</p>
+          <p class="card-text">är ett av Europeiska kommissionen medfinansierat initiativ för att inrätta test- och experimentanläggningar (TEF) för artificiell intelligens (AI) och robotik, inom hälso- och sjukvård. Projektets huvudmål är att öka implementeringen av AI-drivna lösningar inom hälso- och sjukvården genom att tillhandahålla tjänster och verktyg för validering och certifiering av den senaste tekniken samtidigt som man säkerställer överensstämmelse med relevanta lagliga, etiska, kvalitets- och interoperabilitetsstandarder och krav. En kombination av fysiska och virtuella anläggningar samt konsultjänster kommer att erbjudas där teknikleverantörer kan få stöd för att testa och utveckla sina senaste AI-baserade mjuk-/hårdvarutekniker i verkliga miljöer.</p>
         </div>
       </div>
     </div>
