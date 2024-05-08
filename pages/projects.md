@@ -41,7 +41,7 @@ bootstrap: true
 
         <div class="card-body">
           <h4 class="card-title">
-            <a href="https://www.healthdatasweden.eu/">EU-innovationshub HDS</a>
+            <a href="https://www.healthdatasweden.eu/">EDIH HDS</a>
           </h4>
           <p class="card-text">bidrar till att säkra, tillgängliggöra och utveckla framtidens digitala hälsotjänster, med fokus på hälsodata och högkvalitativa, tillgängliga, hälsofrämjande och hållbara hälso- och sjukvårds- och välfärdstjänster för alla europeiska medborgare. Den fokuserar på att öka kontakten med regionala och nationella nätverk och erbjuda och stödja utvecklingen av nya produkter och tjänster, implementering och utbildning. Den fungerar som en one-stop-shop som hjälper företag att dynamiskt svara på de digitala utmaningarna och bli mer konkurrenskraftiga. </p>
         </div>
