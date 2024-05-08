@@ -14,10 +14,31 @@ bootstrap: true
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
 
-       
         <div class="card-body">
           <h4 class="card-title">
-            <a href="https://gdi.onemilliongenomes.eu/">EHDS GDI</a>
+            <a href="https://www.scilifelab.se">SciLifeLab</a>
+          </h4>
+          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning som omfattar alla större universitet i Sverige. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://genomicmedicine.se/">GMS</a>
+          </h4>
+          <p class="card-text">är ett nationellt initiativ som syftar till att patienter i Sverige på ett jämlikt och kostnadseffektivt sätt ska få tillgång till bred gensekvensering för att möjliggöra bättre diagnostik och mer individanpassad vård, behandling och prevention. Fokusområden är sällsynta diagnoser, cancer, infektionssjukdomar samt komplexa sjukdomar. GMS leds av de sju regionerna med universitetssjukvård tillsammans med de sju universiteten med medicinska fakulteter. I samverkan ingår också de 14 övriga regionerna, näringslivet, patientorganisationer och SciLifeLab. GMS har även etablerat den Nationella Genomikplattformen för gemensam datadelning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://gdi.onemilliongenomes.eu/">EDHS GDI</a>
           </h4>
           <p class="card-text">syftar till att implementera en europeisk infrastruktur för primärt genomikdata som utgör grunden för att möjliggöra det europeiska 1+MG-initiativet där 27 länder skrivit under en deklaration för att tillgängliggöra genomdata med tillhörande basala kliniska fenotypiska data för möjliggörande av individanpassade behandlingar och förbättrad forskning och innovation.  GDI har som mål att minst 15 länder i Europa skall ha nationella 1+MG-noder i full verksamhet vid projektets slut. Totalt är 20+ länder engagerade. </p>
         </div>
@@ -56,31 +77,6 @@ bootstrap: true
         </div>
       </div>
     </div>
-    
-     <div class="card-body">
-          <h4 class="card-title">
-            <a href="https://genomicmedicine.se/">GMS</a>
-          </h4>
-          <p class="card-text">är ett nationellt initiativ som syftar till att patienter i Sverige på ett jämlikt och kostnadseffektivt sätt ska få tillgång till bred gensekvensering för att möjliggöra bättre diagnostik och mer individanpassad vård, behandling och prevention. Fokusområden är sällsynta diagnoser, cancer, infektionssjukdomar samt komplexa sjukdomar. GMS leds av de sju regionerna med universitetssjukvård tillsammans med de sju universiteten med medicinska fakulteter. I samverkan ingår också de 14 övriga regionerna, näringslivet, patientorganisationer och SciLifeLab. GMS har även etablerat den Nationella Genomikplattformen för gemensam datadelning.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 mb-4">
-      <div class="card h-100">
-
-    <div class="card-body">
-          <h4 class="card-title">
-            <a href="https://www.scilifelab.se">SciLifeLab</a>
-          </h4>
-          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning som omfattar alla större universitet i Sverige. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 mb-4">
-      <div class="card h-100">
-
-          
-
   </div>
   <!-- /.row -->
 
