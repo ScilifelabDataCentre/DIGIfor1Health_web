@@ -28,7 +28,7 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ett ö
     Sebastiaan Meijer (HDS, Kungliga Tekniska Högkolan KTH) <br>
     Richard Rosenquist Brandell (GMS, Karolinska Institutet) <br>
     Johan Rung (SciLifeLab/UU) <br> 
-    Sandra Falck (SciLifeLab/KTH), chairman <br>
+    Sandra Falck (SciLifeLab/KTH), ordförande <br>
     Päivi Östling (SciLifeLab/KI), adjungerad </p>
         </div>
       </div>
