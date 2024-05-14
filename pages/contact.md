@@ -10,4 +10,4 @@ tags: [Page]
 Projektledare: <a href="mailto:Sevim.Barbasso-Helmers@scilifelab.uu.se">Sevim Barbasso Helmers</a>
  
 
-For technical support contact: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Centre</a>
+Teknisk support: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Centre</a>
