@@ -30,7 +30,7 @@ bootstrap: true
       
         <div class="card-body">
           <h4 class="card-title">
-            <a href="https://cancerimage.eu/">EHDS EUCAIM</a>
+            <a href="https://cancerimage.eu/">Cancer Image Europe – EUCAIM</a>
           </h4>
           <p class="card-text">bygger på det befintliga big data-initiativet för medicinsk avbildning "AI for Health Imaging" AI4HI där 86 institutioner från 20 länder involverade i 5 olika EU-finansierade projekt som genererar information om 91 000 cancerpatienter. Inom dessa pågår utvecklingen av en omfattande och avancerad arkitektur för urskiljning, insamling, lagring, integration och användning av all medicinsk avbildning. EUCAIM bygger infrastruktur för datadelning, AI-utveckling, testning och validering där såväl central som federerad lösning ska levereras. EUCAIM är en viktig insats för samordning av cancerdata och spelar en avgörande roll för accelerationen av informationsdriven cancervård såväl nationellt som i Europa.</p>
         </div>
