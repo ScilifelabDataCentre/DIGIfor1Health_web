@@ -83,11 +83,9 @@ bootstrap: true
             <a href="https://www.scilifelab.se">Science for Life Laboratory - SciLifeLab</a>
           </h4>
           <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS. <br>
-           Kontaktperson:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</p>
+           Kontaktperson:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</a> </p>
         </div>
-
-
-        
+       
       </div>
     </div>
   </div>
