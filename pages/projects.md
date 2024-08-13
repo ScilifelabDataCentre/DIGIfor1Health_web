@@ -45,7 +45,8 @@ bootstrap: true
           <h4 class="card-title">
             <a href="https://www.healthdatasweden.eu/">Health Data Sweden – HDS</a>
           </h4>
-          <p class="card-text">bidrar till att säkra, tillgängliggöra och utveckla framtidens digitala hälsotjänster, med fokus på hälsodata och högkvalitativa, tillgängliga, hälsofrämjande och hållbara hälso- och sjukvårds- samt välfärdstjänster för europeiska medborgare. Projektet fokuserar på att öka kontakten med regionala och nationella nätverk och erbjuda och stödja utvecklingen av nya produkter och tjänster, implementering och utbildning. EDIH HDS fungerar som en one-stop-shop som hjälper företag att dynamiskt svara på de digitala utmaningarna och bli mer konkurrenskraftiga. <br>
+          <p class="card-text">bidrar till att säkra, tillgängliggöra och utveckla framtidens digitala hälsotjänster, med fokus på hälsodata och högkvalitativa, tillgängliga, hälsofrämjande och hållbara hälso- och sjukvårds- samt välfärdstjänster för europeiska medborgare. Projektet fokuserar på att öka kontakten med regionala och nationella nätverk och erbjuda och stödja utvecklingen av nya produkter och tjänster, implementering och utbildning. HDS är en European Digital
+Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag att dynamiskt svara på de digitala utmaningarna och bli mer konkurrenskraftiga. <br>
            Kontaktperson:     <a href="mailto:smeijer@kth.se">Sebastiaan Meijer</a> </p>
         </div>
       </div>
@@ -57,7 +58,7 @@ bootstrap: true
           <h4 class="card-title">
             <a href="https://tef-health.se/">Testing and Experimentation facilities – TEF-Health</a>
           </h4>
-          <p class="card-text">inrättar test- och experimentanläggningar för artificiell intelligens och robotik, inom hälso- och sjukvård. Målet med projektet är att öka implementeringen av AI-drivna lösningar inom hälso- och sjukvården genom att tillhandahålla tjänster och verktyg för validering och certifiering av den senaste tekniken samtidigt som man säkerställer överensstämmelse med relevanta lagliga, etiska, kvalitets- och interoperabilitetsstandarder och krav. En kombination av fysiska och virtuella anläggningar samt konsultjänster kommer att erbjudas där teknikleverantörer kan få stöd för att testa och utveckla sina senaste AI-baserade mjuk-/hårdvarutekniker i verkliga miljöer. <br>
+          <p class="card-text">inrättar europeiska test- och experimentanläggningar för artificiell intelligens och robotik, inom hälso- och sjukvård. Målet med projektet är att öka implementeringen av AI-drivna lösningar inom hälso- och sjukvården genom att tillhandahålla tjänster och verktyg för validering och certifiering av den senaste tekniken samtidigt som man säkerställer överensstämmelse med relevanta lagliga, etiska, kvalitets- och interoperabilitetsstandarder och krav. En kombination av fysiska och virtuella anläggningar samt konsultjänster kommer att erbjudas där teknikleverantörer kan få stöd för att testa och utveckla sina senaste AI-baserade mjuk-/hårdvarutekniker i verkliga miljöer. <br>
            Kontaktperson:     <a href="mailto:daniel.lundqvist@ki.se">Daniel Lundqvist</a> </p>
         </div>
      </div>
@@ -82,7 +83,8 @@ bootstrap: true
           <h4 class="card-title">
             <a href="https://www.scilifelab.se">Science for Life Laboratory - SciLifeLab</a>
           </h4>
-          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS. <br>
+          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. Infrastruktur och expertis inom SciLifeLab delas upp i tre kapabiliteter: Planitär
+biologi, Precisionsmedicin och Pandemisk laboratorieberedskap. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS. <br>
            Kontaktperson:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</a> </p>
         </div>
        
