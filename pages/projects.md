@@ -20,7 +20,7 @@ bootstrap: true
         <div class="card-body">
           <h4 class="card-title">
             <img src="assets/img/EGDI logo_2.png" />
-            <br>
+            <br><BR>
             <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
           </h4>
           <p class="card-text">syftar till att implementera en europeisk infrastruktur för genomikdata och är grunden till att möjliggöra det europeiska 1+MG-initiativet, där 27 länder skrivit under en deklaration för att tillgängliggöra genomdata med tillhörande basala kliniska fenotypiska data, för möjliggörande av individanpassade behandlingar och förbättrad forskning och innovation. Målet är  att minst 15 länder i Europa skall ha nationella 1+MG-noder i full verksamhet vid projektets slut. Totalt är över 20 länder involverade. <br><br>
@@ -33,7 +33,7 @@ bootstrap: true
       
         <div class="card-body">
           <h4 class="card-title">
-            <img src="assets/img/LOGO_EUCAI.png" /><br>
+            <img src="assets/img/LOGO_EUCAI.png" /><br><BR>
             <a href="https://cancerimage.eu/">Cancer Image Europe – EUCAIM</a>
           </h4>
           <p class="card-text">bygger på det befintliga big data-initiativet för medicinsk avbildning "AI for Health Imaging" AI4HI där 86 institutioner från 20 länder involverade i 5 olika EU-finansierade projekt som genererar information om 91 000 cancerpatienter. Inom dessa pågår utvecklingen av en omfattande och avancerad arkitektur för urskiljning, insamling, lagring, integration och användning av all medicinsk avbildning. EUCAIM bygger infrastruktur för datadelning, AI-utveckling, testning och validering där såväl central som federerad lösning ska levereras. EUCAIM är en viktig insats för samordning av cancerdata och spelar en avgörande roll för accelerationen av informationsdriven cancervård såväl nationellt som i Europa. <br><br>
@@ -73,7 +73,7 @@ Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag at
       
       <div class="card-body">
           <h4 class="card-title">
-            <img src="assets/img/gms logo.png" /><br>
+            <img src="assets/img/gms logo.png" /><br><BR>
             <a href="https://genomicmedicine.se/">Genomic Medicine Sweden – GMS</a>
           </h4>
           <p class="card-text">är ett nationellt initiativ som syftar till att patienter i Sverige på ett jämlikt och kostnadseffektivt sätt ska få tillgång till bred gensekvensering för att möjliggöra bättre diagnostik och mer individanpassad vård, behandling och prevention. Fokusområden är sällsynta diagnoser, cancer, infektionssjukdomar och komplexa sjukdomar. GMS leds av de sju regionerna med universitetssjukvård tillsammans med de sju universiteten med medicinska fakulteter. I samverkan ingår också de 14 övriga regionerna, näringslivet, patientorganisationer och SciLifeLab. GMS har även etablerat den Nationella Genomikplattformen för gemensam datadelning. <br><br>
@@ -87,7 +87,7 @@ Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag at
         
       <div class="card-body">
           <h4 class="card-title">
-            <img src="assets/img/SciLifeLab_full.jpg" /><br>
+            <img src="assets/img/SciLifeLab_full.jpg" /><br><BR>
             <a href="https://www.scilifelab.se">Science for Life Laboratory - SciLifeLab</a>
           </h4>
           <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. Infrastruktur och expertis inom SciLifeLab delas upp i tre kapabiliteter: Planitär
