@@ -1,0 +1,122 @@
+The repository DIGIfor1Health_web is a customized version of the Type-on-Strap Jekyll theme. Below is a detailed comparison highlighting the modifications made to the original Type-on-Strap repository to develop the DIGIfor1Health_web project.
+
+1. Content Modifications:
+
+    Posts and Pages:
+        The _posts directory in DIGIfor1Health_web contains articles specific to the DIGIfor1Health project, replacing the placeholder content from Type-on-Strap.
+        New static pages such as about, contact, and projects have been added or customized to reflect the project's information.
+
+2. Configuration Changes:
+
+    Site Settings (_config.yml):
+        Title and Description: Updated to "DIGIfor1Health" with a description pertinent to the project's mission.
+        URL and Base URL: Configured to match the deployment environment of DIGIfor1Health.
+        Social Media Links: Links to platforms like Twitter, LinkedIn, and GitHub have been added or updated to reflect the project's official accounts.
+        Language Settings: Set to support multiple languages, including English and Swedish, to cater to a broader audience.
+        Plugins: Additional Jekyll plugins have been included to enhance functionality, such as SEO optimization and sitemap generation.
+
+    Navigation:
+        The navigation menu has been customized to include links to sections like "About," "Projects," "Outputs," and "Contact," aligning with the project's structure.
+
+3. Design and Layout Adjustments:
+
+    Branding:
+        Logos, color schemes, and fonts have been modified to align with DIGIfor1Health's branding guidelines.
+        Custom CSS files have been added or adjusted to implement the desired visual aesthetics.
+
+    Layouts:
+        Modifications in the _layouts directory have been made to adjust the structure and appearance of pages, ensuring consistency with the project's design aesthetics.
+
+4. Data and Collections:
+
+    Data Files (_data):
+        YAML files containing structured data specific to DIGIfor1Health, such as team members, partners, and project details, have been added.
+
+    Collections:
+        Custom collections have been introduced to manage content types unique to the project, facilitating organized content management.
+
+5. Assets and Media:
+
+    Images:
+        The assets/img directory has been populated with images, logos, and graphics relevant to DIGIfor1Health.
+
+    Scripts and Styles:
+        Custom JavaScript and CSS files have been added or modified to enhance functionality and styling specific to the project's needs.
+
+6. Plugins and Dependencies:
+
+    Gemfile:
+        The Gemfile has been updated to include Jekyll plugins and dependencies required for additional functionalities, such as SEO optimization and sitemap generation.
+
+7. Localization:
+
+    Language Support:
+        The repository includes directories like en to support multiple languages, indicating efforts to make the website accessible to a broader audience.
+
+These modifications transform the generic Type-on-Strap theme into a customized website that effectively represents the DIGIfor1Health project's objectives and branding.
+
+Full list of modified files (A = Added, M = Modified, D = Deleted):
+A	.github/ISSUE_TEMPLATE/question.md
+M	.github/hooks/pre-commit
+M	.github/labeler.yml
+R100	.github/workflows/ruby-2.7.4/Gemfile	.github/workflows/Gemfile
+R098	.github/workflows/ruby-2.7.4/Gemfile.lock	.github/workflows/Gemfile.lock
+D	.github/workflows/build.yml
+M	.github/workflows/gem-build.yml
+D	.github/workflows/gem-github-page.yml
+R070	.github/workflows/docker-build.yml	.github/workflows/jekyll-build.yml
+M	.github/workflows/labeler.yml
+M	.github/workflows/publish-build.yml
+A	.github/workflows/workflow-test.yml
+M	Gemfile
+M	LICENSE
+M	README.md
+M	_config.yml
+M	_data/menu.yml
+M	_data/social.yml
+M	_includes/aligner.html
+R092	_includes/default/search_json.liquid	_includes/default/search_input.liquid
+M	_layouts/categories.liquid
+M	_layouts/default.html
+M	_layouts/home.liquid
+M	_layouts/page.liquid
+D	_posts/2013-10-18-blogging-with-title.md
+D	_posts/2014-08-08-Markup-Syntax-Highlighting.md
+D	_posts/2014-11-26-lorem-ipsum.md
+D	_posts/2014-11-27-whats-your-title.md
+D	_posts/2014-11-28-markdown-and-html.md
+D	_posts/2016-12-03-Mermaid.md
+D	_posts/2017-09-17-Use-Bootstrap.md
+M	_posts/2018-10-29-feature-images.md
+D	_posts/2019-05-18-color-post.md
+D	_posts/2019-06-30-sample-post.md
+D	_posts/2019-11-02-Tech-stuff-example.md
+D	_posts/2021-04-27-dark-mode.md
+A	_posts/2024-04-16-project-update.md
+A	_sass/_custom.scss
+M	_sass/base/_global.scss
+M	_sass/external/_katex.scss
+D	_sass/includes/_aligner.scss
+M	_sass/layouts/_page.scss
+M	_sass/type-on-strap.scss
+M	assets/Dockerfile
+M	assets/data/search.liquid
+A	assets/img/SciLifeLab.jpg
+A	assets/img/feature-img/DIGIfor1Health_collab.png
+A	assets/img/feature-img/lab_desk.jpeg
+A	assets/img/header/human_D.jpeg
+A	assets/img/pexels/connect_D_c1.jpeg
+A	assets/img/pexels/digi_D_o.jpeg
+A	assets/img/pexels/globe_R.jpeg
+A	assets/img/pexels/project_R_p.jpeg
+A	assets/img/thumbnails/feature-img/lab_desk.jpeg
+M	index.html
+M	pages/about.md
+M	pages/categories.md
+A	pages/contact.md
+M	pages/gallery.md
+A	pages/outputs.md
+M	pages/portfolio.md
+A	pages/projects.md
+M	pages/tags.md
+M	type-on-strap.gemspec
