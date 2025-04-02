@@ -77,7 +77,21 @@ Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag at
             <a href="https://genomicmedicine.se/">Genomic Medicine Sweden – GMS</a>
           </h4>
           <p class="card-text">är ett nationellt initiativ som syftar till att patienter i Sverige på ett jämlikt och kostnadseffektivt sätt ska få tillgång till bred gensekvensering för att möjliggöra bättre diagnostik och mer individanpassad vård, behandling och prevention. Fokusområden är sällsynta diagnoser, cancer, infektionssjukdomar och komplexa sjukdomar. GMS leds av de sju regionerna med universitetssjukvård tillsammans med de sju universiteten med medicinska fakulteter. I samverkan ingår också de 14 övriga regionerna, näringslivet, patientorganisationer och SciLifeLab. GMS har även etablerat den Nationella Genomikplattformen för gemensam datadelning. <br><br>
-           Kontaktperson:     <a href="mailto:richard.rosenquist@ki.se">Richard Rosenquist Brandell</a> </p>
+           Kontaktperson:      <a href="mailto:per.sikora@gu.se">Per Sikora</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+
+
+      <div class="card-body">
+          <h4 class="card-title">
+            <img src="assets/img/GOE_logo_flat.jpg" />
+            <a href="https://digital-strategy.ec.europa.eu/en/news/genome-europe-project-launched-first-step-towards-european-reference-genome/">Genome of Europe - GOE</a>
+          </h4>
+          <p class="card-text">syftar till att skapa en pan-europeisk referensdatabas med helgenomdata, för användning inom framtida forskning och sjukvård. Kliniker och forskare kan få svar om den genetiska variationen i Sverige, samt kopplingar till sjukdom, genom att jämföra arvsmassan hos patienter eller forskningspersoner med de kontrollindivider som ingår i GoE. Målsättningen med Sveriges deltagande i GoE är inte enbart att skapa ett referensdataset, men även är att lansera ett flaggskeppsprojekt inom genomik som ökar Sveriges konkurrenskraft inom forskning och innovation, ger synergier med andra satsningar inom hälsodataområdet, och i slutändan bidrar till en förbättrad sjukvård där forskning och utveckling är en integrerad del.  <br>
+           Kontaktperson:     <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a> </p>
         </div>
       </div>
     </div>
