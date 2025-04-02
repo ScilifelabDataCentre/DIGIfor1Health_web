@@ -57,4 +57,59 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
 
 </div>
 <!-- /.container --> 
+<p style="text-align: center;">
+Projektledare Sevim Barbasso Helmers, Data Centre, SciLifeLab<br>
+Samverkansledare Natalia Kotova, Operations Office, SciLifeLab
+</p>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        
+        <div class="card-body">
+          <h4 class="card-title">
+            Arbetsgrupp: <br> Processer för hantering och delning av hälsodata
+          </h4>
+          <p class="card-text">
+
+Sevim Barbasso Helmers, projektledare<br>
+Adam Ameur (GoE)<br>
+Adam Darwich (HDS)
+Anna-Lena Ellasdotter (GDI & GoE)<br>
+Igori Comarovschii (TEF-Health)<br>
+Johan Viklund (GDI)<br>
+Johanna Furuhjelm (TEF-Health)<br>
+Per Fahlberg (GMS)<br>
+Rikard Lövström (TEF-Health)<br>
+Rikard Fred (SciLifeLab, precisionsmedicin)<br>
+Simon Nilsson (EUCAIM)</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        
+        <div class="card-body">
+          <h4 class="card-title">
+            Arbetsgrupp: <br> Legala aspekter
+          </h4>
+          <p class="card-text">
+Sevim Barbasso Helmers, projektledare<br>
+Elisabeth Mach (EUCAIM), gruppansvarig<br>
+Jöran Lindeberg (HDS)<br>
+Katarina Nyström (GMS) <br>
+Manolis Nymark (GDI) <br>
+Rebecka Rosenberg (TEF-Health)<br>
+Rikard Lövström (TEF-Health)<br>
+Sandra Bergstrand (GMS)</p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  <!-- /.row -->
+
+</div>
 
