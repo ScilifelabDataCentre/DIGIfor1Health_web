@@ -26,7 +26,7 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
     Daniel Lundqvist (TEF-Health, Karolinska Institutet) <br>
     Katrine Riklund (EUCAIM, Umeå Universitet) <br>
     Sebastiaan Meijer (HDS, Kungliga Tekniska Högkolan KTH) <br>
-    Richard Rosenquist Brandell (GMS, Karolinska Institutet) <br>
+    Per Sikora (GMS, Västra Götalandsregionen) <br>
     Johan Rung (SciLifeLab/UU) <br> 
     Sandra Falck (SciLifeLab/KTH), ordförande <br>
     Päivi Östling (SciLifeLab/KI), adjungerad </p>
@@ -58,8 +58,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-Projektledare Sevim Barbasso Helmers, Data Centre, SciLifeLab<br>
-Samverkansledare Natalia Kotova, Operations Office, SciLifeLab
+Sevim Barbasso Helmers, projektledare, SciLifeLab Data Centre, SciLifeLab<br>
+Natalia Kotova, samverkansledare, Operations Office, SciLifeLab
 </p>
 
 <div class="container">
