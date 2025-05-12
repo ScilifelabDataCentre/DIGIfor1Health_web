@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl:
+baseurl: ""
 url: "https://digifor1health.se/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -13,9 +13,8 @@ header_text: Välkommen till DIGIfor1healthSE          # Change Blog header text
 header_feature_image: assets/img/header/human_D.jpeg
 header_feature_image_responsive: true
 footer_text: >
-   <hr>
-    <img src="assets/img/Logo2025_C.png" alt="Projektparter: SciLifeLab, GMS, KI, KTH, UU, UmU.  Finansiär: Vinnova"  align="right">     
- 
+    <hr>
+     <img src="assets/img/Logo2025_C.png" alt="Projektparter: SciLifeLab, GMS, KI, KTH, UU, UmU.  Finansiär: Vinnova"  align="right">     
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -29,9 +28,9 @@ katex: true                                             # Enable if using math m
 mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
 google_analytics:                                       # Measurement ID, e.g. "G-00000"
 cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
+color_theme: light                                     # light or dark
 
-# Comments options
+# Comments
 comments:
   disqus_shortname:                                     # Your discus shortname for comments
   cusdis_app_id:                                        # Your cusdis data-app-id

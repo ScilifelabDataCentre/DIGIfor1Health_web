@@ -1,0 +1,39 @@
+.cookie-notice {
+  padding: 0.8em 1em;
+  display: none;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  color: rgba(255,255,255,0.8);
+  
+  &.is-visible {
+    display: block;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: underline;
+    
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.cookie-notice-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  color: #222;
+  border: 0;
+  border-radius: 3px;
+  
+  &:hover {
+    background: #f2f2f2;
+  }
+} 

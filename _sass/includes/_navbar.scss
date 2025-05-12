@@ -1,3 +1,16 @@
+.language-selector {
+  padding: 0.5em !important;
+  
+  i {
+    font-size: 1.3em !important;
+    margin: 0 !important;
+  }
+  
+  &:hover {
+    color: #337ab7;
+  }
+}
+
 // To clear things when we float the element inside nav and ul
 .clear {
   *zoom: 1;
@@ -15,91 +28,224 @@
 
 .site-header {
   padding: 2% 2% 1% 2%;
-  background: var(--background);
+  background: #ffffff;
   display: inline-block;
   float: left;
   width: 100%;
+  position: relative;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
 
-  .separator {
-    user-select: none;
-    opacity: 0;
+  .branding {
+    float: left;
 
-    &:first-child {
-      display: none;
+    .site-title {
+      font-size: 1.5em;
+      margin-left: 10px;
+      display: inline-block;
+      color: #262626;
+      font-weight: bold;
+    }
+
+    .avatar {
+      height: 3em;
+      width: 3em;
+      margin-top: -13px;
+      border-radius: 0.2em;
+      margin-right: 1em;
+      vertical-align: middle;
     }
   }
 
-  a {
-    color: var(--header-link);
-  }
+  nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 
-  .avatar {
-    height: 3em;
-    width: 3em;
-    float: left;
-    margin-top: -13px;
-    border-radius: 0.2em;
-    margin-right: 0.5em;
-    padding: 10px 10px;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
 
-  }
+      &.hide {
+        @media (max-width: $break) {
+          display: none;
+        }
+      }
+    }
 
-  .site-title {
-    float: left;
-    font-weight: bold;
-    font-family: $font-family-logo;
-    font-size: 1.3em;
+    li {
+      display: inline-block;
+      margin-right: 0.4em;
+
+      a {
+        color: #262626;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5em 0.6em;
+
+        &:hover {
+          color: #337ab7;
+        }
+
+        &.language-selector {
+          padding: 0.5em;
+          i {
+            font-size: 1.2em;
+          }
+        }
+      }
+    }
+
+    .separator {
+      color: #262626;
+      opacity: 0.7;
+    }
+
+    .toggle {
+      display: none;
+      
+      @media (max-width: $break) {
+        display: block;
+        float: right;
+        padding: 0.5em;
+        color: #262626;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+        &:hover {
+          color: #337ab7;
+        }
+      }
+    }
+
+    @media (max-width: $break) {
+      float: none;
+      width: 100%;
+
+      ul {
+        display: none;
+        width: 100%;
+        text-align: left;
+        background: #ffffff;
+        padding: 1em;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        &.hide {
+          display: none;
+        }
+
+        &:not(.hide) {
+          display: block;
+        }
+      }
+
+      li {
+        display: block;
+        margin: 0.5em 0;
+        width: 100%;
+
+        a {
+          display: flex;
+          padding: 0.5em 0;
+          color: #262626;
+
+          .navbar-label {
+            display: inline-block;
+            color: #262626;
+            margin-left: 10px;
+          }
+
+          &:hover {
+            color: #337ab7;
+            .navbar-label {
+              color: #337ab7;
+            }
+          }
+        }
+      }
+
+      .separator {
+        display: none;
+      }
+    }
   }
 }
 
-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar-icon {
+  color: #262626;
+  margin-right: 5px;
+}
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 1.5;
-    float: right;
-    text-align: right;
-    display: block;
+.navbar-label {
+  color: #262626;
+  display: inline-block;
+  vertical-align: middle;
+  
+  &.navbar-label-with-icon {
+    margin-left: 5px;
   }
+}
 
-  li {
-    display: inline;
-    float: left;
-    margin-right: 0.4em;
-  }
+/* Responsive nav */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 1em 2em;
 
-  a {
-    &:hover {
-      color: var(--link);
+    .branding {
+      display: inline-block;
+      width: 100%;
+
+      .site-title {
+        margin-left: 0;
+      }
     }
 
-    &#pull {
-      i {
-        margin-top: 22px;
-        margin-right: 18px;
-        float: right;
+    nav {
+      .separator {
+        display: none !important;
+      }
+
+      ul {
+        width: 100%;
+        text-align: left;
+        float: left;
+        padding: 1em 0;
+        background: var(--background);
+        position: absolute;
+        left: 0;
+        top: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        li {
+          display: block;
+          float: none;
+          margin: 0;
+          padding: 0.5em 2em;
+          border-top: 1px solid var(--border);
+
+          &:first-child {
+            border-top: none;
+          }
+
+          a {
+            display: block;
+            width: 100%;
+          }
+        }
       }
     }
   }
 }
 
 /* ---- Responsive ---- */
-
-@media (min-width: $break) {
-  a#pull {
-    display: none;
-  }
-
-  .navbar-label-with-icon {
-    display: none;
-  }
-}
-
 @media screen and (max-width: $break) {
   .site-header {
     img.avatar {
@@ -121,37 +267,27 @@ nav {
     ul {
       width: 100%;
       overflow: hidden;
-
-      /* fade out, then shrink */
-      transition: opacity .25s 0s, font-size .25s 0s;
-      transition-delay: 0s;
+      transition: all 0.3s ease;
 
       &.hide {
-        font-size: 0;
-        margin: 0;
         opacity: 0;
-        padding: 0;
-      }
-    }
-
-    li {
-      width: 100%;
-      text-align: center;
-      font-size: 1em;
-      position: relative;
-      background-color: var(--background);
-      backdrop-filter: brightness(0.98);
-
-      &:nth-of-type(4n) {
-        background-color: var(--background);
+        visibility: hidden;
+        transform: translateY(-10px);
       }
 
-      a {
+      li {
         width: 100%;
-        margin: 0;
-        display: block;
-      }
+        text-align: left;
+        font-size: 1em;
+        position: relative;
+        background-color: var(--background);
+        backdrop-filter: brightness(0.98);
 
+        a {
+          padding: 0.5em 0;
+          transition: color 0.3s ease;
+        }
+      }
     }
   }
 }
