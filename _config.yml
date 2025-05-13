@@ -13,8 +13,22 @@ header_text: Välkommen till DIGIfor1healthSE          # Change Blog header text
 header_feature_image: assets/img/header/human_D.jpeg
 header_feature_image_responsive: true
 footer_text: >
-    <hr>
-     <img src="assets/img/Logo2025_C.png" alt="Projektparter: SciLifeLab, GMS, KI, KTH, UU, UmU.  Finansiär: Vinnova"  align="right">     
+  <hr>
+  <div style="text-align: center; padding: 2vw; width: 70%; margin: 0 auto;">
+    <p style="font-size: clamp(18px, 1.8vw, 22px); margin-bottom: 1.5vw; font-weight: bold;">Projektpartner</p>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 0.5vw; width: 100%; margin: 0 auto;">
+      <img src="/assets/img/scilifelab_logo.png" style="height: clamp(25px, 3vw, 35px); width: auto;">
+      <img src="/assets/img/gms_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+      <img src="/assets/img/kth_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+      <img src="/assets/img/ki_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+      <img src="/assets/img/uu_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+      <img src="/assets/img/umu_logo.png" style="height: clamp(35px, 4vw, 45px); width: auto;">
+    </div>
+    <p style="font-size: clamp(18px, 1.8vw, 22px); margin: 1.5vw 0; font-weight: bold;">Finansiär</p>
+    <div>
+      <img src="/assets/img/vinnova_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+    </div>
+  </div>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
