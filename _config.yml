@@ -14,9 +14,9 @@ header_feature_image: assets/img/header/human_D.jpeg
 header_feature_image_responsive: true
 footer_text: >
   <hr>
-  <div style="text-align: center; padding: 2vw; width: 90%; margin: 0 auto;">
+  <div style="text-align: center; padding: 2vw; width: 80%; margin: 0 auto;">
     <p style="font-size: clamp(18px, 1.8vw, 22px); margin-bottom: 1.5vw; font-weight: bold;">Projektpartner</p>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 1vw; width: 100%; margin: 0 auto;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 0.5vw; width: 100%; margin: 0 auto;">
       <img src="/assets/img/scilifelab_logo.png" style="height: clamp(25px, 3vw, 35px); width: auto;">
       <img src="/assets/img/gms_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
       <img src="/assets/img/kth_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
@@ -26,7 +26,7 @@ footer_text: >
     </div>
     <p style="font-size: clamp(18px, 1.8vw, 22px); margin: 1.5vw 0; font-weight: bold;">Finansiär</p>
     <div>
-      <img src="/assets/img/vinnova_logo.png" style="height: clamp(30px, 3.5vw, 4px); width: auto;">
+      <img src="/assets/img/vinnova_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
     </div>
   </div>
 
