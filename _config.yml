@@ -15,18 +15,18 @@ header_feature_image_responsive: true
 footer_text: >
   <hr>
   <div style="text-align: center; font-family: 'Lato', sans-serif; padding: 20px 10px;">
-    <p style="margin-bottom: 25px; font-size: 18px; color: #333;">Projektpartner</p>
-    <div class="partner-logos" style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 20px; margin-bottom: 40px; overflow-x: auto; padding: 10px 0;">
-      <img src="assets/img/scilifelab_logo.png" alt="SciLifeLab" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
-      <img src="assets/img/gms_logo.png" alt="GMS" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
-      <img src="assets/img/kth_logo.png" alt="KTH" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
-      <img src="assets/img/ki_logo.png" alt="Karolinska Institutet" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
-      <img src="assets/img/uu_logo.png" alt="Uppsala Universitet" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
-      <img src="assets/img/umu_logo.png" alt="Umeå Universitet" style="height: clamp(30px, 4vw, 45px); width: auto; object-fit: contain;">
+    <p style="margin-bottom: 25px; font-size: 20px; color: #333;">Projektpartner</p>
+    <div class="partner-logos" style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 40px; width: 100%; max-width: 1200px; margin-left: auto; margin-right: auto;">
+      <img src="assets/img/scilifelab_logo.png" alt="SciLifeLab" style="max-width: 15%; height: auto; object-fit: contain;">
+      <img src="assets/img/gms_logo.png" alt="GMS" style="max-width: 15%; height: auto; object-fit: contain;">
+      <img src="assets/img/kth_logo.png" alt="KTH" style="max-width: 15%; height: auto; object-fit: contain;">
+      <img src="assets/img/ki_logo.png" alt="Karolinska Institutet" style="max-width: 15%; height: auto; object-fit: contain;">
+      <img src="assets/img/uu_logo.png" alt="Uppsala Universitet" style="max-width: 15%; height: auto; object-fit: contain;">
+      <img src="assets/img/umu_logo.png" alt="Umeå Universitet" style="max-width: 15%; height: auto; object-fit: contain;">
     </div>
-    <p style="margin: 30px 0; font-size: 18px; color: #333;">Finansiär</p>
+    <p style="margin: 30px 0; font-size: 20px; color: #333;">Finansiär</p>
     <div style="margin-bottom: 20px;">
-      <img src="assets/img/vinnova_logo.png" alt="Vinnova" style="height: clamp(35px, 5vw, 50px); width: auto; object-fit: contain;">
+      <img src="assets/img/vinnova_logo.png" alt="Vinnova" style="height: 50px; width: auto; object-fit: contain;">
     </div>
   </div>
 
