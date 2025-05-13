@@ -14,7 +14,7 @@ header_feature_image: assets/img/header/human_D.jpeg
 header_feature_image_responsive: true
 footer_text: >
   <hr>
-  <div style="text-align: center; padding: 20px; margin-left: 50px; margin-right: 50px;">
+  <div style="text-align: center; padding: 20px; margin-left: 60px; margin-right: 60px;">
     <p style="font-size: 22px; margin-bottom: 20px; font-weight: bold;">Projektpartner</p>
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px; max-width: 800px; margin: 0 auto;">
       <img src="/assets/img/scilifelab_logo.png" style="height: 35px;">
