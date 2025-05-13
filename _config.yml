@@ -22,11 +22,11 @@ footer_text: >
       <img src="/assets/img/kth_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
       <img src="/assets/img/ki_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
       <img src="/assets/img/uu_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
-      <img src="/assets/img/umu_logo.png" style="height: clamp(30px, 3.5vw, 40px); width: auto;">
+      <img src="/assets/img/umu_logo.png" style="height: clamp(35px, 4vw, 45px); width: auto;">
     </div>
     <p style="font-size: clamp(18px, 1.8vw, 22px); margin: 1.5vw 0; font-weight: bold;">Finansiär</p>
     <div>
-      <img src="/assets/img/vinnova_logo.png" style="height: clamp(35px, 4vw, 45px); width: auto;">
+      <img src="/assets/img/vinnova_logo.png" style="height: clamp(30px, 3.5vw, 4px); width: auto;">
     </div>
   </div>
 
