@@ -15,18 +15,18 @@ header_feature_image_responsive: true
 footer_text: >
   <hr>
   <div style="text-align: center; padding: 20px;">
-    <p style="font-size: 22px; margin-bottom: 20px;">Projektpartner</p>
+    <p style="font-size: 22px; margin-bottom: 20px; font-weight: bold;">Projektpartner</p>
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px; max-width: 800px; margin: 0 auto;">
       <img src="/assets/img/scilifelab_logo.png" style="height: 35px;">
       <img src="/assets/img/gms_logo.png" style="height: 40px;">
       <img src="/assets/img/kth_logo.png" style="height: 40px;">
       <img src="/assets/img/ki_logo.png" style="height: 40px;">
       <img src="/assets/img/uu_logo.png" style="height: 40px;">
-      <img src="/assets/img/umu_logo.png" style="height: 40px;">
+      <img src="/assets/img/umu_logo.png" style="height: 45px;">
     </div>
-    <p style="font-size: 22px; margin: 20px 0;">Finansiär</p>
+    <p style="font-size: 22px; margin: 20px 0; font-weight: bold;">Finansiär</p>
     <div>
-      <img src="/assets/img/vinnova_logo.png" style="height: 45px;">
+      <img src="/assets/img/vinnova_logo.png" style="height: 40px;">
     </div>
   </div>
 
