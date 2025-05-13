@@ -14,6 +14,7 @@ The repository DIGIfor1Health_web is a customized version of the Type-on-Strap J
         Social Media Links: Links to platforms like Twitter, LinkedIn, and GitHub have been added or updated to reflect the project's official accounts.
         Language Settings: Set to support multiple languages, including English and Swedish, to cater to a broader audience.
         Plugins: Additional Jekyll plugins have been included to enhance functionality, such as SEO optimization and sitemap generation.
+        Footer: added logos and text and formatting that allows it to be flexible for different media and browser window size
 
     Navigation:
         The navigation menu has been customized to include links to sections like "About," "Projects," "Outputs," and "Contact," aligning with the project's structure.
