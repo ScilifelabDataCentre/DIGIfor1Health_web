@@ -12,5 +12,17 @@
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    min-height: 300px;
+    min-height: 50vh !important;  /* increased from 300px to be responsive to screen size */
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 0 auto !important;
+    background-color: white !important; /* or any color that matches your design */
+}
+
+/* Add media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .call-out {
+        min-height: 30vh !important;  /* slightly smaller on mobile but still visible */
+        margin: 10px auto !important;
+    }
 }
