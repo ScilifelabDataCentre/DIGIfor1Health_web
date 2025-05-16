@@ -165,6 +165,16 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     padding: 20px;
     text-align: left;
     overflow: visible;
+    font-size: 1.1em;
+}
+
+/* Add specific styling for box 5 title text */
+.box-5::before {
+    content: "HDS exempel på kundresetjänster:";
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
 }
 
 .box-5 a {
@@ -282,7 +292,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
         <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024):</a>
     </div>
     <div class="mind-map-box box-5">
-        HDS exempel på kundresetjänster:
+   
         <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
         <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
         <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
