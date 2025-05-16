@@ -170,20 +170,25 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 }
 
 <style>
-/* ... keep all previous styles the same until box positions ... */
 
 /* Updated center box position - moved higher */
 .center-box {
     background-color: #f8f9fa;
     font-weight: bold;
     color: #491F53;
-    font-size: 2em;
-    width: 220px;
-    height: 120px;
+    font-size: 4em;  /* Doubled from 2em to 4em */
+    width: 400px;    /* Increased from 220px to 400px */
+    height: 200px;   /* Increased from 120px to 200px */
     left: 50%;
-    top: 100px;  /* Moved higher */
+    top: 100px;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
+
 
 /* Repositioned outer boxes */
 .box-1 {
@@ -268,7 +273,6 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 }
 </style>
 
-<!-- The HTML structure remains exactly the same -->
 <div class="mind-map-container">
     <!-- Center box -->
     <div class="mind-map-box center-box">
