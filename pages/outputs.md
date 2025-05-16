@@ -64,7 +64,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Ingående projekt</h2>
 
 </p>
 
@@ -105,5 +105,110 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
   </div>
   <!-- /.row -->
+// ... existing containers ...
+
+<style>
+.mind-map-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mind-map-box {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid #491F53;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.mind-map-box a {
+    color: #045C64;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mind-map-box a:hover {
+    color: #491F53;
+}
+
+.center-box {
+    position: relative;
+    z-index: 2;
+}
+
+.top-left {
+    top: 0;
+    left: 20%;
+}
+
+.top-right {
+    top: 0;
+    right: 20%;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 20%;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 20%;
+}
+
+/* Lines connecting boxes */
+.mind-map-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #045C64;
+    z-index: 1;
+}
+
+.mind-map-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 2px solid #045C64;
+    z-index: 1;
+}
+</style>
+
+<div class="mind-map-container">
+    <div class="mind-map-box center-box">
+        <a href="#">Central Topic</a>
+    </div>
+    <div class="mind-map-box top-left">
+        <a href="#">Topic 1</a>
+    </div>
+    <div class="mind-map-box top-right">
+        <a href="#">Topic 2</a>
+    </div>
+    <div class="mind-map-box bottom-left">
+        <a href="#">Topic 3</a>
+    </div>
+    <div class="mind-map-box bottom-right">
+        <a href="#">Topic 4</a>
+    </div>
+</div>
 
 </div>
