@@ -6,7 +6,7 @@ position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
 bootstrap: true
 ---
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Evenemang:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Evenemang:</h2>
 
 
   <!-- Page Content -->
@@ -64,7 +64,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
 
 </p>
 
@@ -121,8 +121,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 .mind-map-box {
     position: absolute;
-    width: 220px;
-    height: 120px;
+    width: 250px;
+    height: 150px;
     background-color: white;
     border: 2px solid #491F53;
     border-radius: 8px;
@@ -138,7 +138,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .center-box {
     width: 400px !important;    /* Increased width */
     height: 200px !important;   /* Increased height */
-    background-color: #C0D6D8;
+    background-color: white;
     font-weight: bold;
     color: #491F53;
     font-size: 3em !important;  /* Doubled font size */
