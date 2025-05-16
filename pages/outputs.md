@@ -138,9 +138,9 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .center-box {
     width: 400px !important;    /* Increased width */
     height: 200px !important;   /* Increased height */
-    background-color: #f8f9fa;
+    background-color: #C0D6D8;
     font-weight: bold;
-    color: ##D2E5E7;
+    color: #491F53;
     font-size: 3em !important;  /* Doubled font size */
     left: 50%;
     top: 100px;
