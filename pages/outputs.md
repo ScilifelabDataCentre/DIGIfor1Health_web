@@ -141,7 +141,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     background-color: #f8f9fa;
     font-weight: bold;
     color: #491F53;
-    font-size: 4em !important;  /* Doubled font size */
+    font-size: 2em !important;  /* Doubled font size */
     left: 50%;
     top: 100px;
     transform: translateX(-50%);
