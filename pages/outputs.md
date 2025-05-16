@@ -6,7 +6,7 @@ position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
 bootstrap: true
 ---
-Evenemang:
+<h2 style="text-align: center; font-weight: bold; font-size: larger;">Evenemang:</h2>
 
   <!-- Page Content -->
 <div class="container">
@@ -56,7 +56,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-Rapporter:
+<h2 style="text-align: center; font-weight: bold; font-size: larger;">Rapporter:</h2>
 </p>
 
 <div class="container">
