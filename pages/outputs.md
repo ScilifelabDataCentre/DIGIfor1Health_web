@@ -121,8 +121,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 .mind-map-box {
     position: absolute;
-    width: 200px;
-    height: 100px;
+    width: 220px;
+    height: 120px;
     background-color: white;
     border: 2px solid #491F53;
     border-radius: 8px;
@@ -179,7 +179,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     color: #045C64;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.1em;
     line-height: 1.3;
 }
 
