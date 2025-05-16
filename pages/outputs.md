@@ -166,5 +166,5 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 <!-- Rest of the HTML remains the same -->
 
-
+</div>
 </div>
