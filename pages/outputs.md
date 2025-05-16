@@ -64,7 +64,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Ingående projekt</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
 
 </p>
 
@@ -105,6 +105,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
   </div>
   <!-- /.row -->
+
+
 <style>
 .mind-map-container {
     position: relative;
