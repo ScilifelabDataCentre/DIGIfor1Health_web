@@ -105,13 +105,11 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
   </div>
   <!-- /.row -->
-// ... existing containers ...
-
 <style>
 .mind-map-container {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -120,8 +118,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 .mind-map-box {
     position: absolute;
-    width: 150px;
-    height: 80px;
+    width: 160px;
+    height: 70px;
     background-color: white;
     border: 2px solid #491F53;
     border-radius: 8px;
@@ -130,6 +128,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     align-items: center;
     text-align: center;
     padding: 10px;
+    z-index: 2;
 }
 
 .mind-map-box a {
@@ -143,72 +142,61 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 }
 
 .center-box {
-    position: relative;
-    z-index: 2;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #491F53;
 }
 
-.top-left {
-    top: 0;
-    left: 20%;
-}
-
-.top-right {
-    top: 0;
-    right: 20%;
-}
-
-.bottom-left {
-    bottom: 0;
-    left: 20%;
-}
-
-.bottom-right {
-    bottom: 0;
-    right: 20%;
-}
+.box-1 { top: 0; left: 50%; transform: translateX(-50%); }
+.box-2 { top: 30%; right: 10%; }
+.box-3 { bottom: 30%; right: 10%; }
+.box-4 { bottom: 30%; left: 10%; }
+.box-5 { top: 30%; left: 10%; }
 
 /* Lines connecting boxes */
-.mind-map-container::before {
-    content: '';
+.connecting-line {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    height: 60%;
-    transform: translate(-50%, -50%);
-    border: 2px solid #045C64;
+    background-color: #045C64;
+    height: 2px;
+    transform-origin: left center;
     z-index: 1;
 }
 
-.mind-map-container::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    height: 60%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    border: 2px solid #045C64;
-    z-index: 1;
-}
+.line-1 { width: 120px; top: 35%; left: 50%; transform: translateX(-50%) rotate(-90deg); }
+.line-2 { width: 180px; top: 50%; left: 55%; transform: rotate(20deg); }
+.line-3 { width: 180px; top: 50%; left: 55%; transform: rotate(160deg); }
+.line-4 { width: 180px; top: 50%; left: 45%; transform: rotate(-160deg); }
+.line-5 { width: 180px; top: 50%; left: 45%; transform: rotate(-20deg); }
 </style>
 
 <div class="mind-map-container">
+    <!-- Center box -->
     <div class="mind-map-box center-box">
-        <a href="#">Central Topic</a>
+        Central Title
     </div>
-    <div class="mind-map-box top-left">
-        <a href="#">Topic 1</a>
+
+    <!-- Connecting lines -->
+    <div class="connecting-line line-1"></div>
+    <div class="connecting-line line-2"></div>
+    <div class="connecting-line line-3"></div>
+    <div class="connecting-line line-4"></div>
+    <div class="connecting-line line-5"></div>
+
+    <!-- Outer boxes with links -->
+    <div class="mind-map-box box-1">
+        <a href="#">Link 1</a>
     </div>
-    <div class="mind-map-box top-right">
-        <a href="#">Topic 2</a>
+    <div class="mind-map-box box-2">
+        <a href="#">Link 2</a>
     </div>
-    <div class="mind-map-box bottom-left">
-        <a href="#">Topic 3</a>
+    <div class="mind-map-box box-3">
+        <a href="#">Link 3</a>
     </div>
-    <div class="mind-map-box bottom-right">
-        <a href="#">Topic 4</a>
+    <div class="mind-map-box box-4">
+        <a href="#">Link 4</a>
+    </div>
+    <div class="mind-map-box box-5">
+        <a href="#">Link 5</a>
     </div>
 </div>
-
 </div>
