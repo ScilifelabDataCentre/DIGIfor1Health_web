@@ -17,7 +17,7 @@ bootstrap: true
       <div class="card h-100">
         
         <div class="card-body">
-          <h4 class="card-title">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             DIGIfor1healthSE - en hållbar tillgång till hälsodata
           </h4>
           <p class="card-text">
@@ -35,7 +35,7 @@ att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsik
       <div class="card h-100">
         
         <div class="card-body">
-          <h4 class="card-title">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             Vägen mot EHDS- Hur möta behov för hållbar tillgång och nyttiggörande av hälsodata i Sverige?
           </h4>
           <p class="card-text">
@@ -57,7 +57,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
 
 </p>
 
@@ -68,7 +68,7 @@ h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 6pt); fon
       <div class="card h-100">
         
         <div class="card-body">
-          <h4 class="card-title">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             Lägesanalys april 2025
           </h4>
           <p class="card-text">
@@ -85,7 +85,7 @@ Lägesanalysen visar att det finns flera statliga utredningar och regeringsuppdr
       <div class="card h-100">
         
         <div class="card-body">
-          <h4 class="card-title">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             Förstudie september 2023
           </h4>
           <p class="card-text">
