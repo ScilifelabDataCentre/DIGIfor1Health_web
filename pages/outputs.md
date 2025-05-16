@@ -136,8 +136,9 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 /* Special styling for box 5 */
 .box-5 {
-    width: 300px;  /* Increased width */
-    height: 200px; /* Increased height */
+    width: 300px;
+    height: auto;  /* Changed from fixed height to auto */
+    min-height: 250px;  /* Added minimum height to ensure enough space */
     left: 5%;
     top: 200px;
     display: flex;
@@ -145,13 +146,15 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     justify-content: flex-start;
     padding: 20px;
     text-align: left;
+    overflow: visible;  /* Ensures content is visible */
 }
 
 .box-5 a {
     display: block;
     margin-top: 10px;
     font-size: 0.85em;
-    line-height: 1.2;
+    line-height: 1.4;  /* Slightly increased line height */
+    margin-bottom: 5px;  /* Added space between links */
 }
 
 .mind-map-box a {
