@@ -244,19 +244,23 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <!-- Outer boxes with links -->
     <div class="mind-map-box box-1">
-        <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
+        <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)</a>
     </div>
     <div class="mind-map-box box-2">
-        <a href="#">Link 2</a>
+        
+        <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">HDS rapport (augusti 2024): Hur hanterar Sveriges regioner sin hälsodata?</a>
     </div>
     <div class="mind-map-box box-3">
-        <a href="#">Link 3</a>
+        <a href="https://cancerimage.eu/achievements/">EUCAIM:s senaste produktsammanställning</a>
     </div>
     <div class="mind-map-box box-4">
-        <a href="#">Link 4</a>
+        <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024):</a>
     </div>
     <div class="mind-map-box box-5">
-        <a href="#">Link 5</a>
+        HDS exempel på kundresetjänster:
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
     </div>
 </div>
 </div>
