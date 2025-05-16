@@ -115,8 +115,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     margin: 50px auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;  /* Changed from center to flex-start */
-    padding-top: 50px;  /* Added padding at top */
+    align-items: flex-start;
+    padding-top: 50px;
 }
 
 .mind-map-box {
@@ -132,6 +132,26 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     text-align: center;
     padding: 15px;
     z-index: 2;
+}
+
+/* Special styling for box 5 */
+.box-5 {
+    width: 300px;  /* Increased width */
+    height: 200px; /* Increased height */
+    left: 5%;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: left;
+}
+
+.box-5 a {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85em;
+    line-height: 1.2;
 }
 
 .mind-map-box a {
@@ -154,35 +174,31 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     width: 220px;
     height: 120px;
     left: 50%;
-    top: 150px;  /* Fixed position from top */
+    top: 150px;
     transform: translateX(-50%);
 }
 
 /* Fixed positions for all boxes */
 .box-1 {
     left: 50%;
-    top: 20px;  /* Fixed position from top */
+    top: 20px;
     transform: translateX(-50%);
 }
 
 .box-2 {
     right: 5%;
-    top: 200px;  /* Fixed position from top */
+    top: 150px;
 }
 
 .box-3 {
     right: 5%;
-    top: 400px;  /* Fixed position from top */
+    top: 300px;
 }
 
 .box-4 {
-    left: 5%;
-    top: 400px;  /* Fixed position from top */
-}
-
-.box-5 {
-    left: 5%;
-    top: 200px;  /* Fixed position from top */
+    left: 50%;
+    top: 350px;
+    transform: translateX(-50%);
 }
 
 .connecting-line {
@@ -217,12 +233,12 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .line-4 {
     width: 200px;
     top: 210px;
-    left: 45%;
-    transform: rotate(-160deg);
+    left: 50%;
+    transform: rotate(90deg);
 }
 
 .line-5 {
-    width: 200px;
+    width: 250px;
     top: 210px;
     left: 45%;
     transform: rotate(-20deg);
@@ -247,7 +263,6 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
         <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)</a>
     </div>
     <div class="mind-map-box box-2">
-        
         <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">HDS rapport (augusti 2024): Hur hanterar Sveriges regioner sin hälsodata?</a>
     </div>
     <div class="mind-map-box box-3">
