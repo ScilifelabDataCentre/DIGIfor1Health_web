@@ -172,7 +172,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 <div class="mind-map-container">
     <!-- Center box -->
     <div class="mind-map-box center-box">
-        Central Title
+        Ingående projekt
     </div>
 
     <!-- Connecting lines -->
@@ -184,7 +184,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <!-- Outer boxes with links -->
     <div class="mind-map-box box-1">
-        <a href="#">Link 1</a>
+    GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)
+        <a href="#">https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure.</a>
     </div>
     <div class="mind-map-box box-2">
         <a href="#">Link 2</a>
