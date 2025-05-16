@@ -169,6 +169,10 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     color: #491F53;
 }
 
+<style>
+/* ... keep all previous styles the same until box positions ... */
+
+/* Updated center box position - moved higher */
 .center-box {
     background-color: #f8f9fa;
     font-weight: bold;
@@ -177,33 +181,49 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     width: 220px;
     height: 120px;
     left: 50%;
-    top: 150px;
+    top: 100px;  /* Moved higher */
     transform: translateX(-50%);
 }
 
-/* Fixed positions for all boxes */
+/* Repositioned outer boxes */
 .box-1 {
-    left: 50%;
-    top: 20px;
-    transform: translateX(-50%);
+    right: 5%;
+    top: 50px;  /* Position to the right */
+    transform: none;  /* Remove previous transform */
 }
 
 .box-2 {
     right: 5%;
-    top: 150px;
+    top: 200px;
 }
 
 .box-3 {
     right: 5%;
-    top: 300px;
+    top: 350px;
 }
 
 .box-4 {
     left: 50%;
-    top: 350px;
+    top: 300px;
     transform: translateX(-50%);
 }
 
+/* Box 5 stays the same */
+.box-5 {
+    width: 300px;
+    height: auto;
+    min-height: 250px;
+    left: 5%;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: left;
+    overflow: visible;
+}
+
+/* Updated connecting lines to match new positions */
 .connecting-line {
     position: absolute;
     background-color: #045C64;
@@ -213,41 +233,42 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 }
 
 .line-1 {
-    width: 120px;
-    top: 210px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-90deg);
-}
-
-.line-2 {
     width: 200px;
-    top: 210px;
+    top: 160px;
     left: 55%;
     transform: rotate(20deg);
 }
 
+.line-2 {
+    width: 200px;
+    top: 160px;
+    left: 55%;
+    transform: rotate(45deg);
+}
+
 .line-3 {
     width: 200px;
-    top: 210px;
+    top: 160px;
     left: 55%;
-    transform: rotate(160deg);
+    transform: rotate(70deg);
 }
 
 .line-4 {
     width: 200px;
-    top: 210px;
+    top: 160px;
     left: 50%;
     transform: rotate(90deg);
 }
 
 .line-5 {
     width: 250px;
-    top: 210px;
+    top: 160px;
     left: 45%;
     transform: rotate(-20deg);
 }
 </style>
 
+<!-- The HTML structure remains exactly the same -->
 <div class="mind-map-container">
     <!-- Center box -->
     <div class="mind-map-box center-box">
