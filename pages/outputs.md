@@ -140,8 +140,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     height: 200px !important;   /* Increased height */
     background-color: #f8f9fa;
     font-weight: bold;
-    color: #491F53;
-    font-size: 2em !important;  /* Doubled font size */
+    color: ##D2E5E7;
+    font-size: 3em !important;  /* Doubled font size */
     left: 50%;
     top: 100px;
     transform: translateX(-50%);
