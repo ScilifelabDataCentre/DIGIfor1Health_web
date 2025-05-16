@@ -118,8 +118,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 .mind-map-box {
     position: absolute;
-    width: 160px;
-    height: 70px;
+    width: 200px;  /* Increased from 160px */
+    height: 100px; /* Increased from 70px */
     background-color: white;
     border: 2px solid #491F53;
     border-radius: 8px;
@@ -127,7 +127,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 15px;  /* Increased padding */
     z-index: 2;
 }
 
@@ -135,6 +135,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     color: #045C64;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.9em; /* Slightly smaller font for links to fit better */
+    line-height: 1.3; /* Better line spacing */
 }
 
 .mind-map-box a:hover {
@@ -145,15 +147,18 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     background-color: #f8f9fa;
     font-weight: bold;
     color: #491F53;
+    font-size: 2em; /* Doubled the font size */
+    width: 220px; /* Slightly larger for central box */
+    height: 120px; /* Slightly larger for central box */
 }
 
 .box-1 { top: 0; left: 50%; transform: translateX(-50%); }
-.box-2 { top: 30%; right: 10%; }
-.box-3 { bottom: 30%; right: 10%; }
-.box-4 { bottom: 30%; left: 10%; }
-.box-5 { top: 30%; left: 10%; }
+.box-2 { top: 30%; right: 5%; } /* Adjusted position slightly */
+.box-3 { bottom: 30%; right: 5%; }
+.box-4 { bottom: 30%; left: 5%; }
+.box-5 { top: 30%; left: 5%; }
 
-/* Lines connecting boxes */
+/* Lines connecting boxes - adjusted for new box positions */
 .connecting-line {
     position: absolute;
     background-color: #045C64;
@@ -162,11 +167,11 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     z-index: 1;
 }
 
-.line-1 { width: 120px; top: 35%; left: 50%; transform: translateX(-50%) rotate(-90deg); }
-.line-2 { width: 180px; top: 50%; left: 55%; transform: rotate(20deg); }
-.line-3 { width: 180px; top: 50%; left: 55%; transform: rotate(160deg); }
-.line-4 { width: 180px; top: 50%; left: 45%; transform: rotate(-160deg); }
-.line-5 { width: 180px; top: 50%; left: 45%; transform: rotate(-20deg); }
+.line-1 { width: 140px; top: 35%; left: 50%; transform: translateX(-50%) rotate(-90deg); }
+.line-2 { width: 200px; top: 50%; left: 55%; transform: rotate(20deg); }
+.line-3 { width: 200px; top: 50%; left: 55%; transform: rotate(160deg); }
+.line-4 { width: 200px; top: 50%; left: 45%; transform: rotate(-160deg); }
+.line-5 { width: 200px; top: 50%; left: 45%; transform: rotate(-20deg); }
 </style>
 
 <div class="mind-map-container">
@@ -184,8 +189,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <!-- Outer boxes with links -->
     <div class="mind-map-box box-1">
-    GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)
-        <a href="#">https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure.</a>
+        <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
     </div>
     <div class="mind-map-box box-2">
         <a href="#">Link 2</a>
@@ -200,4 +204,6 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
         <a href="#">Link 5</a>
     </div>
 </div>
+
+
 </div>
