@@ -111,18 +111,18 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .mind-map-container {
     position: relative;
     width: 100%;
-    height: 700px;  /* Increased height */
+    height: 600px;
     margin: 50px auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-top: 50px;
+    align-items: flex-start;  /* Changed from center to flex-start */
+    padding-top: 50px;  /* Added padding at top */
 }
 
 .mind-map-box {
     position: absolute;
-    width: 250px;    /* Increased width */
-    height: 80px;    /* Adjusted height */
+    width: 200px;
+    height: 100px;
     background-color: white;
     border: 2px solid #491F53;
     border-radius: 8px;
@@ -151,39 +151,38 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     font-weight: bold;
     color: #491F53;
     font-size: 2em;
-    width: 250px;
-    height: 100px;
+    width: 220px;
+    height: 120px;
     left: 50%;
-    top: 150px;
+    top: 150px;  /* Fixed position from top */
     transform: translateX(-50%);
 }
 
-/* Repositioned boxes */
+/* Fixed positions for all boxes */
 .box-1 {
     left: 50%;
-    top: 20px;
+    top: 20px;  /* Fixed position from top */
     transform: translateX(-50%);
 }
 
 .box-2 {
-    right: 10%;
-    top: 130px;  /* Aligned with center box */
+    right: 5%;
+    top: 200px;  /* Fixed position from top */
 }
 
 .box-3 {
-    right: 10%;
-    top: 250px;  /* Below center box level */
+    right: 5%;
+    top: 400px;  /* Fixed position from top */
 }
 
 .box-4 {
-    left: 10%;
-    top: 250px;  /* Below center box level */
+    left: 5%;
+    top: 400px;  /* Fixed position from top */
 }
 
 .box-5 {
-    left: 50%;
-    top: 350px;  /* Below center box */
-    transform: translateX(-50%);
+    left: 5%;
+    top: 200px;  /* Fixed position from top */
 }
 
 .connecting-line {
@@ -194,7 +193,6 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     z-index: 1;
 }
 
-/* Adjusted connecting lines for new layout */
 .line-1 {
     width: 120px;
     top: 210px;
@@ -203,31 +201,31 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 }
 
 .line-2 {
-    width: 180px;
-    top: 200px;
-    left: 60%;
-    transform: rotate(0deg);
+    width: 200px;
+    top: 210px;
+    left: 55%;
+    transform: rotate(20deg);
 }
 
 .line-3 {
-    width: 180px;
-    top: 250px;
-    left: 60%;
-    transform: rotate(45deg);
+    width: 200px;
+    top: 210px;
+    left: 55%;
+    transform: rotate(160deg);
 }
 
 .line-4 {
-    width: 180px;
-    top: 250px;
-    left: 40%;
-    transform: rotate(-45deg);
+    width: 200px;
+    top: 210px;
+    left: 45%;
+    transform: rotate(-160deg);
 }
 
 .line-5 {
-    width: 120px;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%) rotate(90deg);
+    width: 200px;
+    top: 210px;
+    left: 45%;
+    transform: rotate(-20deg);
 }
 </style>
 
@@ -246,19 +244,23 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <!-- Outer boxes with links -->
     <div class="mind-map-box box-1">
-        <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
+        <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)</a>
     </div>
     <div class="mind-map-box box-2">
-        <a href="#">Link 2</a>
+        
+        <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">HDS rapport (augusti 2024): Hur hanterar Sveriges regioner sin hälsodata?</a>
     </div>
     <div class="mind-map-box box-3">
-        <a href="#">Link 3</a>
+        <a href="https://cancerimage.eu/achievements/">EUCAIM:s senaste produktsammanställning</a>
     </div>
     <div class="mind-map-box box-4">
-        <a href="#">Link 4</a>
+        <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024):</a>
     </div>
     <div class="mind-map-box box-5">
-        <a href="#">Link 5</a>
+        HDS exempel på kundresetjänster:
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
     </div>
 </div>
 </div>
