@@ -22,7 +22,7 @@ bootstrap: true
           </h4>
           <p class="card-text">
 
-    26 maj 2025; Life City; Stockholm <br>
+   Date: 26 maj 2025 <br> Place: Life City; Stockholm <br>
 
 Eventet kommer att handla om DIGIfor1healthSE, dess samarbete och aktörerna bakom. <br>
 
@@ -40,7 +40,7 @@ att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsik
           </h4>
           <p class="card-text">
    Save-the-date: 
-3 september 2025; Life City; Stockholm  <br>
+3 september 2025 <br>Place: Life City; Stockholm  <br>
 
 Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS. <br>
 
@@ -73,7 +73,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
           </h4>
           <p class="card-text">
 
-   DIGIfor1healthSE - ett samarbete för hållbar tillgång och nyttjande av hälsodata: https://doi.org/10.17044/scilifelab.28882028 <br>
+   DIGIfor1healthSE - ett samarbete för hållbar tillgång och nyttjande av hälsodata: <a href="https://doi.org/10.17044/scilifelab.28882028" target="_blank">https://doi.org/10.17044/scilifelab.28882028</a> <br> <br>
 
 Denna rapport syftar till att identifiera insatser för att stärka dialogen och samarbeten inom hälsodataområdet i Sverige. Lägesanalysen baseras på material från nationella, regionala och lokala aktörer samt DIGIfor1healthSE från juni 2024 till och med april 2025. <br>
 
@@ -89,7 +89,7 @@ Lägesanalysen visar att det finns flera statliga utredningar och regeringsuppdr
             Förstudie september 2023
           </h4>
           <p class="card-text">
-    För effektivt och hållbart nyttjande av hälsodata genom integrering av DIGITAL-projekten i Sverige: https://doi.org/10.17044/scilifelab.24199164 <br>
+    För effektivt och hållbart nyttjande av hälsodata genom integrering av DIGITAL-projekten i Sverige: <a href="https://doi.org/10.17044/scilifelab.24199164" target="_blank">https://doi.org/10.17044/scilifelab.24199164</a> <br><br>
 
 Rapporten var framtagen som ett underlag för redovisning till finansiären samt vägledning vid planeringen och genomförandet av aktuella samarbeten inom hälsodata framöver. Den innehåller sammanställning kring våra gemensamma expertisområden inom rättsfrågor, semantiskt interoperabilitet, teknisk infrastruktur och datasäkerhet. Den innehåller även riskanalyser och diskussion kring design av lösningar för datadelning och förslag på fortsatt arbete med hälsodata inför införandet av det europeiska hälsodataområdet EHDS.</p>
         </div>
