@@ -111,14 +111,40 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .mind-map-container {
     position: relative;
     width: 100%;
-    height: 600px;  /* Increased height to accommodate higher positioning */
+    height: 600px;
     margin: 50px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;  /* Changed from center to flex-start */
+    padding-top: 50px;  /* Added padding at top */
 }
 
-/* ... other styles remain the same ... */
+.mind-map-box {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #491F53;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    z-index: 2;
+}
+
+.mind-map-box a {
+    color: #045C64;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+.mind-map-box a:hover {
+    color: #491F53;
+}
 
 .center-box {
     background-color: #f8f9fa;
@@ -127,23 +153,38 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     font-size: 2em;
     width: 220px;
     height: 120px;
-    top: 25%;  /* Moved up from center */
-    transform: translateX(-50%);
     left: 50%;
+    top: 150px;  /* Fixed position from top */
+    transform: translateX(-50%);
 }
 
-/* Adjusted box positions */
-.box-1 { 
-    top: 5%;  /* Moved higher up */
-    left: 50%; 
-    transform: translateX(-50%); 
+/* Fixed positions for all boxes */
+.box-1 {
+    left: 50%;
+    top: 20px;  /* Fixed position from top */
+    transform: translateX(-50%);
 }
-.box-2 { top: 35%; right: 5%; }  /* Adjusted to align with new center */
-.box-3 { bottom: 20%; right: 5%; }
-.box-4 { bottom: 20%; left: 5%; }
-.box-5 { top: 35%; left: 5%; }  /* Adjusted to align with new center */
 
-/* Adjusted connecting lines for new positions */
+.box-2 {
+    right: 5%;
+    top: 200px;  /* Fixed position from top */
+}
+
+.box-3 {
+    right: 5%;
+    top: 400px;  /* Fixed position from top */
+}
+
+.box-4 {
+    left: 5%;
+    top: 400px;  /* Fixed position from top */
+}
+
+.box-5 {
+    left: 5%;
+    top: 200px;  /* Fixed position from top */
+}
+
 .connecting-line {
     position: absolute;
     background-color: #045C64;
@@ -152,19 +193,70 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     z-index: 1;
 }
 
-.line-1 { 
-    width: 120px; 
-    top: 30%; 
-    left: 50%; 
-    transform: translateX(-50%) rotate(-90deg); 
+.line-1 {
+    width: 120px;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
 }
-.line-2 { width: 200px; top: 45%; left: 55%; transform: rotate(20deg); }
-.line-3 { width: 200px; top: 45%; left: 55%; transform: rotate(160deg); }
-.line-4 { width: 200px; top: 45%; left: 45%; transform: rotate(-160deg); }
-.line-5 { width: 200px; top: 45%; left: 45%; transform: rotate(-20deg); }
+
+.line-2 {
+    width: 200px;
+    top: 210px;
+    left: 55%;
+    transform: rotate(20deg);
+}
+
+.line-3 {
+    width: 200px;
+    top: 210px;
+    left: 55%;
+    transform: rotate(160deg);
+}
+
+.line-4 {
+    width: 200px;
+    top: 210px;
+    left: 45%;
+    transform: rotate(-160deg);
+}
+
+.line-5 {
+    width: 200px;
+    top: 210px;
+    left: 45%;
+    transform: rotate(-20deg);
+}
 </style>
 
-<!-- Rest of the HTML remains the same -->
+<div class="mind-map-container">
+    <!-- Center box -->
+    <div class="mind-map-box center-box">
+        Ingående projekt
+    </div>
 
+    <!-- Connecting lines -->
+    <div class="connecting-line line-1"></div>
+    <div class="connecting-line line-2"></div>
+    <div class="connecting-line line-3"></div>
+    <div class="connecting-line line-4"></div>
+    <div class="connecting-line line-5"></div>
+
+    <!-- Outer boxes with links -->
+    <div class="mind-map-box box-1">
+        <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
+    </div>
+    <div class="mind-map-box box-2">
+        <a href="#">Link 2</a>
+    </div>
+    <div class="mind-map-box box-3">
+        <a href="#">Link 3</a>
+    </div>
+    <div class="mind-map-box box-4">
+        <a href="#">Link 4</a>
+    </div>
+    <div class="mind-map-box box-5">
+        <a href="#">Link 5</a>
+    </div>
 </div>
 </div>
