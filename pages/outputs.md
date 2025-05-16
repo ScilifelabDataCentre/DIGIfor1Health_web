@@ -22,7 +22,11 @@ bootstrap: true
           </h4>
           <p class="card-text">
 
-   Date: 26 maj 2025 <br> Place: Life City; Stockholm <br>
+  <p style="font-size: calc(1em + 2pt);">
+    Date: 26 maj 2025<br>
+    Place: Life City; Stockholm
+    </p>
+    <br>
 
 Eventet kommer att handla om DIGIfor1healthSE, dess samarbete och aktörerna bakom. <br>
 
@@ -39,8 +43,11 @@ att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsik
             Vägen mot EHDS- Hur möta behov för hållbar tillgång och nyttiggörande av hälsodata i Sverige?
           </h4>
           <p class="card-text">
-   Save-the-date: 
-3 september 2025 <br>Place: Life City; Stockholm  <br>
+   <p style="font-size: calc(1em + 2pt);">
+    Save the Date: 3 september 2025<br>
+    Place: Life City; Stockholm
+    </p>
+    <br>
 
 Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS. <br>
 
