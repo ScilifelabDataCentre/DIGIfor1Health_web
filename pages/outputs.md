@@ -111,7 +111,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 .mind-map-container {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 800px;  /* Increased height to accommodate larger center box */
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -134,51 +134,14 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     z-index: 2;
 }
 
-/* Special styling for box 5 */
-.box-5 {
-    width: 300px;
-    height: auto;  /* Changed from fixed height to auto */
-    min-height: 250px;  /* Added minimum height to ensure enough space */
-    left: 5%;
-    top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 20px;
-    text-align: left;
-    overflow: visible;  /* Ensures content is visible */
-}
-
-.box-5 a {
-    display: block;
-    margin-top: 10px;
-    font-size: 0.85em;
-    line-height: 1.4;  /* Slightly increased line height */
-    margin-bottom: 5px;  /* Added space between links */
-}
-
-.mind-map-box a {
-    color: #045C64;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9em;
-    line-height: 1.3;
-}
-
-.mind-map-box a:hover {
-    color: #491F53;
-}
-
-<style>
-
-/* Updated center box position - moved higher */
+/* Special styling for center box */
 .center-box {
+    width: 400px !important;    /* Increased width */
+    height: 200px !important;   /* Increased height */
     background-color: #f8f9fa;
     font-weight: bold;
     color: #491F53;
-    font-size: 4em;  /* Doubled from 2em to 4em */
-    width: 400px;    /* Increased from 220px to 400px */
-    height: 200px;   /* Increased from 120px to 200px */
+    font-size: 4em !important;  /* Doubled font size */
     left: 50%;
     top: 100px;
     transform: translateX(-50%);
@@ -189,31 +152,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     padding: 20px;
 }
 
-
-/* Repositioned outer boxes */
-.box-1 {
-    right: 5%;
-    top: 50px;  /* Position to the right */
-    transform: none;  /* Remove previous transform */
-}
-
-.box-2 {
-    right: 5%;
-    top: 200px;
-}
-
-.box-3 {
-    right: 5%;
-    top: 350px;
-}
-
-.box-4 {
-    left: 50%;
-    top: 300px;
-    transform: translateX(-50%);
-}
-
-/* Box 5 stays the same */
+/* Special styling for box 5 */
 .box-5 {
     width: 300px;
     height: auto;
@@ -228,7 +167,50 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     overflow: visible;
 }
 
-/* Updated connecting lines to match new positions */
+.box-5 a {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85em;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.mind-map-box a {
+    color: #045C64;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+.mind-map-box a:hover {
+    color: #491F53;
+}
+
+/* Repositioned outer boxes */
+.box-1 {
+    right: 5%;
+    top: 50px;
+    transform: none;
+}
+
+.box-2 {
+    right: 5%;
+    top: 200px;
+}
+
+.box-3 {
+    right: 5%;
+    top: 350px;
+}
+
+.box-4 {
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+}
+
+/* Connecting lines */
 .connecting-line {
     position: absolute;
     background-color: #045C64;
@@ -239,35 +221,35 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 .line-1 {
     width: 200px;
-    top: 160px;
+    top: 200px;  /* Adjusted for larger center box */
     left: 55%;
     transform: rotate(20deg);
 }
 
 .line-2 {
     width: 200px;
-    top: 160px;
+    top: 200px;  /* Adjusted for larger center box */
     left: 55%;
     transform: rotate(45deg);
 }
 
 .line-3 {
     width: 200px;
-    top: 160px;
+    top: 200px;  /* Adjusted for larger center box */
     left: 55%;
     transform: rotate(70deg);
 }
 
 .line-4 {
     width: 200px;
-    top: 160px;
+    top: 200px;  /* Adjusted for larger center box */
     left: 50%;
     transform: rotate(90deg);
 }
 
 .line-5 {
     width: 250px;
-    top: 160px;
+    top: 200px;  /* Adjusted for larger center box */
     left: 45%;
     transform: rotate(-20deg);
 }
