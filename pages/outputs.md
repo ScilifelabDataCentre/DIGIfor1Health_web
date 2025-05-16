@@ -6,7 +6,7 @@ position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
 bootstrap: true
 ---
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Evenemang:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1.2em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Evenemang:</h2>
 
 
   <!-- Page Content -->
@@ -64,7 +64,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 </div>
 <!-- /.container --> 
 <p style="text-align: center;">
-<h2 style="text-align: center; font-weight: bold; font-size: calc(1em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
+<h2 style="text-align: center; font-weight: bold; font-size: calc(1.2em + 8pt); font-family: 'Lato', sans-serif; color: #491F53;">Rapporter:</h2>
 
 </p>
 
@@ -141,7 +141,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     background-color: white;
     font-weight: bold;
     color: #491F53;
-    font-size: 3em !important;  /* Doubled font size */
+    font-size: 2.5em !important;  /* Doubled font size */
     left: 50%;
     top: 100px;
     transform: translateX(-50%);
