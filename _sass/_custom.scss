@@ -13,14 +13,41 @@
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    min-height: clamp(150px, 45vw, 800px) !important;
-    transition: min-height 0.3s ease-in-out;
+    min-height: clamp(100px, 50vw, 1000px) !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .call-out h1 {
-    transition: font-size 0.3s ease-in-out;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .call-out h1 {
+        font-size: clamp(12px, 8vw, 24px) !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .call-out h1 {
+        font-size: clamp(20px, 10vw, 40px) !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .call-out h1 {
+        font-size: clamp(30px, 12vw, 80px) !important;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .call-out h1 {
+        font-size: clamp(40px, 15vw, 150px) !important;
+    }
 }
