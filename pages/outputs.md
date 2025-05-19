@@ -187,6 +187,42 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
 
   <!-- /.row -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
+            GDI
+          </h4>
+          <p class="card-text">
+            <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure"">Video</a><br><br>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
+            EUCAIM
+          </h4>
+          <p class="card-text">
+            <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a><br>
+            <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM Webinar March 14 2024</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -196,12 +232,15 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            HDS exempel på kundresetjänster:
+            HDS
           </h4>
           <p class="card-text">
+           HDS exempel på kundresetjänster:
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a><br><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a><br><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
+            HDS rapport (augusti 2024):
+            <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
           </p>
         </div>
       </div>
