@@ -82,7 +82,7 @@ Igori Comarovschii (TEF-Health)<br>
 Johan Viklund (GDI)<br>
 Johanna Furuhjelm (TEF-Health)<br>
 Per Fahlberg (GMS)<br>
-Rikard Lövström (TEF-Health)<br>
+Rikard Lövström (TEF-Health, SciLifeLab)<br>
 Rikard Fred (SciLifeLab, precisionsmedicin)<br>
 Simon Nilsson (EUCAIM)</p>
         </div>
