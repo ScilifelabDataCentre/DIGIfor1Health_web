@@ -117,7 +117,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        
+       <img src="/assets/img/EGDIvideos.png" class="card-img-top" alt="GDI videos" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)
