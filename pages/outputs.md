@@ -130,7 +130,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     </div>
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        
+       <img src="/assets/img/HDSrapport.png" class="card-img-top" alt="HDS rapport" style="padding: 15px; max-height: 200px; object-fit: contain;">  
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             HDS rapport (augusti 2024)
@@ -151,6 +151,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
+        <img src="/assets/img/EUCAIMproject.png" class="card-img-top" alt="EUCAIM:s senaste produktsammanställning" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s senaste produktsammanställning
@@ -164,6 +165,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
+      <img src="/assets/img/EUCAIMvideo.png" class="card-img-top" alt="EUCAIM:s webinar" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024)
