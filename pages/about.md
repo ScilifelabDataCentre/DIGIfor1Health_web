@@ -102,7 +102,7 @@ Jöran Lindeberg (HDS)<br>
 Katarina Nyström (GMS) <br>
 Manolis Nymark (GDI) <br>
 Rebecka Rosenberg (TEF-Health)<br>
-Rikard Lövström (TEF-Health)<br>
+Rikard Lövström (TEF-Health, SciLifeLab)<br>
 Sandra Bergstrand (GMS)</p>
         </div>
       </div>
