@@ -123,7 +123,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
         <div class="card-body">
-          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1em + 2.5pt);">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
             GDI
           </h4>
           <p class="card-text">
@@ -142,7 +142,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
         <div class="card-body">
-          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1em + 2.5pt);">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
             EUCAIM
           </h4>
           <p class="card-text">
@@ -162,17 +162,17 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
         <div class="card-body">
-          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1em + 2.5pt);">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
             HDS
           </h4>
           <p class="card-text">
-            <h4 class="card-title" style="font-weight: 900; text-align: left; color: black; font-size: calc(1em + 0.5pt);">
+            <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS exempel på kundresetjänster:
           </h4> <br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology</a><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics</a><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare</a><br><br>
-             <h4 class="card-title" style="font-weight: 900; text-align: left; color: black; font-size: calc(1em +0.5pt);">
+             <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS rapport (augusti 2024):
           </h4><br>
             <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
