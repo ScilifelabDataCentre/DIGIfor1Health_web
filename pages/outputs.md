@@ -196,7 +196,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
             GDI
           </h4>
           <p class="card-text">
-            <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure"">Video</a><br><br>
+           <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">Demonstration av 1+MG tekniska infrastruktur (våren 2025)</a><br>
            
           </p>
         </div>
@@ -215,8 +215,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
             EUCAIM
           </h4>
           <p class="card-text">
-            <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a><br>
-            <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM Webinar March 14 2024</a>
+            <a href="https://cancerimage.eu/achievements/">EUCAIM:s senaste produktsammanställning</a><br>
+            <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024)</a>
           </p>
         </div>
       </div>
@@ -235,11 +235,11 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
             HDS
           </h4>
           <p class="card-text">
-           HDS exempel på kundresetjänster:
-            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a><br><br>
-            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a><br><br>
-            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
-            HDS rapport (augusti 2024):
+           HDS exempel på kundresetjänster: <br>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology</a><br><br>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics</a><br><br>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare</a><br>
+            HDS rapport (augusti 2024):<br>
             <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
           </p>
         </div>
