@@ -29,7 +29,8 @@ bootstrap: true
     <br>
 
 Eventet kommer att handla om DIGIfor1healthSE, dess samarbete och aktörerna bakom. <br>
-
+<br>
+<br>
 Eventet är endast för inbjudna aktörer
 att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. </p>
         </div>
@@ -155,7 +156,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
           <p class="card-text">
     <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a><br>
 
-Rapporten var framtagen som ett underlag för redovisning till finansiären samt vägledning vid planeringen och genomförandet av aktuella samarbeten inom hälsodata framöver. Den innehåller sammanställning kring våra gemensamma expertisområden inom rättsfrågor, semantiskt interoperabilitet, teknisk infrastruktur och datasäkerhet. Den innehåller även riskanalyser och diskussion kring design av lösningar för datadelning och förslag på fortsatt arbete med hälsodata inför införandet av det europeiska hälsodataområdet EHDS.</p>
+</p>
         </div>
       </div>
     </div>
@@ -175,17 +176,32 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
       </div>
     </div>
    
-  </div>
+
   <!-- /.row -->
 
 
-
+  
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
+            HDS exempel på kundresetjänster
+          </h4>
+          <p class="card-text">
+    <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
+        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
+</p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
 
   
    
-        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
-        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
-        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
-    </div>
+        
+    
 </div>
 </div>
