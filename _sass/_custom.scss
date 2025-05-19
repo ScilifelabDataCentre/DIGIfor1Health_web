@@ -1,14 +1,16 @@
 /* --- Aligner --- */
 /* within page/posts */
 
+// Main content text styling
 .home_text {
   max-width: 1171px;
   margin: 30px auto;
   padding: 0 5px;
   text-align: left;
-  color:#00394d;
+  color: #00394d;
 }
 
+// Header and call-out section styling
 .call-out {
     background-size: contain !important;
     background-position: center !important;
@@ -22,12 +24,15 @@
 
 .call-out h1 {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5),   /* stronger primary shadow */
+                 1px 1px 4px rgba(0, 0, 0, 0.4),   /* darker medium layer */
+                 0 0 10px rgba(0, 0, 0, 0.3);      /* stronger outer glow */
     width: 100%;
     max-width: 90vw;
     margin: 0 auto;
 }
 
+// Responsive text sizing
 @media screen and (max-width: 480px) {
     .call-out h1 {
         font-size: clamp(9px, 6vw, 18px) !important;
