@@ -145,36 +145,39 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
   </div>
 
-  
+
+
+<div class="container">
+  <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s senaste produktsammanställning
           </h4>
           <p class="card-text">
-    <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a><br>
-
-</p>
+            <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a>
+          </p>
         </div>
       </div>
     </div>
-   
-  </div>
 
-   <div class="col-lg-6 mb-4">
+    <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024)
           </h4>
           <p class="card-text">
-    <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM Webinar March 14 2024</a></p>
+            <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM Webinar March 14 2024</a>
+          </p>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+
    
 
   <!-- /.row -->
