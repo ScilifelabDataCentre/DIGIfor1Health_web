@@ -23,8 +23,8 @@ bootstrap: true
           <p class="card-text">
 
   <p style="font-size: calc(1em + 2pt);">
-    Date: 26 maj 2025<br>
-    Place: Life City; Stockholm
+    Datum: 26 maj 2025<br>
+    Plats: Life City; Stockholm
     </p>
     <br>
 
@@ -45,8 +45,8 @@ att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsik
           </h4>
           <p class="card-text">
    <p style="font-size: calc(1em + 2pt);">
-    Save the Date: 3 september 2025<br>
-    Place: Life City; Stockholm
+    Save-the-date: 3 september 2025<br>
+    Plats: Life City; Stockholm
     </p>
     <br>
 
@@ -117,11 +117,12 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-       <img src="/assets/img/EGDIvideos.png" class="card-img-top" alt="GDI videos" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
+       
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             GDI:s demonstration av 1+MG tekniska infrastruktur (våren 2025)
           </h4>
+          <img src="/assets/img/EGDIvideos.png" class="card-img-top" alt="GDI videos" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
           <p class="card-text">
 
    <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">GDI technical infrastructure videos</a>.</p>
@@ -130,11 +131,12 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     </div>
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-       <img src="/assets/img/HDSrapport.png" class="card-img-top" alt="HDS rapport" style="padding: 15px; max-height: 200px; object-fit: contain;">  
+       
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             HDS rapport (augusti 2024)
           </h4>
+          <img src="/assets/img/HDSrapport.png" class="card-img-top" alt="HDS rapport" style="padding: 15px; max-height: 200px; object-fit: contain;">  
           <p class="card-text">
     <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
 
@@ -151,11 +153,12 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <img src="/assets/img/EUCAIMproject.png" class="card-img-top" alt="EUCAIM:s senaste produktsammanställning" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
+        
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s senaste produktsammanställning
           </h4>
+          <img src="/assets/img/EUCAIMproject.png" class="card-img-top" alt="EUCAIM:s senaste produktsammanställning" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
           <p class="card-text">
             <a href="https://cancerimage.eu/achievements/">Project Achievements And Resources</a>
           </p>
@@ -165,11 +168,12 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-      <img src="/assets/img/EUCAIMvideo.png" class="card-img-top" alt="EUCAIM:s webinar" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
+      
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             EUCAIM:s webinarium om EUCAIM och användarfall (mars 2024)
           </h4>
+          <img src="/assets/img/EUCAIMvideo.png" class="card-img-top" alt="EUCAIM:s webinar" style="padding: 15px; max-height: 200px; object-fit: contain;"> 
           <p class="card-text">
             <a href="https://www.youtube.com/watch?v=bH_NiEWFMAA">EUCAIM Webinar March 14 2024</a>
           </p>
