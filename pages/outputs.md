@@ -180,13 +180,11 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <!-- /.row -->
 
 
-  
-  // ... previous content ...
 
 <div class="container">
-  <div class="row">
-    <div class="col-lg-6 mb-4">
-      <div class="card h-100">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             HDS exempel på kundresetjänster:
