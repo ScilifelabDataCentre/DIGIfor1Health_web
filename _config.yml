@@ -10,7 +10,7 @@ favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 
 # Header and footer text
 header_text: Välkommen till DIGIfor1healthSE          # Change Blog header text
-header_feature_image: assets/img/header/human_D.jpeg
+header_feature_image: assets/img/header/Bubblor_2.jpg
 header_feature_image_responsive: true
 footer_text: >
   <hr>
