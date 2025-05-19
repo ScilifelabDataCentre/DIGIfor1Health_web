@@ -8,10 +8,15 @@ description: "Website for DIGIfor1healthSE project"      # used by search engine
 avatar:                                             # Empty for no avatar in navbar
 favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 
+
 # Header and footer text
-header_text: Välkommen till DIGIfor1healthSE          # Change Blog header text
-header_feature_image: assets/img/header/human_D.jpeg
+header_text: >
+  <div style="text-align: center;">
+    <h1 style="font-size: clamp(10px, calc(0.75rem + 7.5vw), 112px); line-height: 1.2; margin: 0; padding: clamp(5px, 4vw, 50px) 0; font-weight: 600; transform-origin: center; transform: scale(calc(0.7 + 0.15 * (100vw - 300px) / 1000));">Välkommen till DIGIfor1healthSE</h1>
+  </div>
+header_feature_image: assets/img/header/Bubblor_2.jpg
 header_feature_image_responsive: true
+
 footer_text: >
   <hr>
   <div style="text-align: center; padding: 2vw; width: 70%; margin: 0 auto;">
