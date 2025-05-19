@@ -17,6 +17,9 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
     min-height: clamp(75px, 50vw, 750px) !important;
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 0 auto !important;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
@@ -38,11 +41,18 @@
     .call-out h1 {
         font-size: clamp(9px, 6vw, 18px) !important;
     }
+    .call-out {
+        min-height: 30vh !important;  /* slightly smaller on mobile but still visible */
+        margin: 10px auto !important;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .call-out h1 {
         font-size: clamp(15px, 7.5vw, 30px) !important;
+    }
+    .call-out {
+        min-height: 30vh !important;
     }
 }
 
