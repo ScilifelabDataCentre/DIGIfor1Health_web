@@ -8,3 +8,19 @@
   text-align: left;
   color:#00394d;
 }
+
+.call-out {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: clamp(150px, 45vw, 800px) !important;
+    transition: min-height 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-out h1 {
+    transition: font-size 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
