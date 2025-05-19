@@ -181,27 +181,23 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
 
 
   
+  // ... previous content ...
+
+<div class="container">
+  <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            HDS exempel på kundresetjänster
+            HDS exempel på kundresetjänster:
           </h4>
           <p class="card-text">
-    <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a>
-        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a>
-        <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
-</p>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">Guidance city improvement through demand acceleration methodology</a><br><br>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">New era blood sampling transforming future diagnostics</a><br><br>
+            <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">Field testing methodology in healthcare</a>
+          </p>
         </div>
       </div>
     </div>
-   
   </div>
-
-  
-   
-        
-    
-</div>
 </div>
