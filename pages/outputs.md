@@ -168,13 +168,13 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
           <p class="card-text">
             <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS exempel på kundresetjänster:
-          </h4> <br>
+          </h4>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/guidance-city-improvement-through-demand-acceleration-methodology</a><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/new-era-blood-sampling-transforming-future-diagnostics</a><br>
             <a href="https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare">https://european-digital-innovation-hubs.ec.europa.eu/knowledge-hub/success-stories/field-testing-methodology-healthcare</a><br><br>
              <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS rapport (augusti 2024):
-          </h4><br>
+          </h4>
             <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
           </p>
         </div>
