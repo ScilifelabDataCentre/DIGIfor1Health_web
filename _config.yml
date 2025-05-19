@@ -9,7 +9,10 @@ avatar:                                             # Empty for no avatar in nav
 favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 
 # Header and footer text
-header_text: Välkommen till DIGIfor1healthSE          # Change Blog header text
+header_text: >
+  <div style="text-align: center;">
+    <h1 style="font-size: clamp(24px, 4vw, 48px); margin: 0; padding: 20px 0;">Välkommen till DIGIfor1healthSE</h1>
+  </div>
 header_feature_image: assets/img/header/Bubblor_2.jpg
 header_feature_image_responsive: true
 footer_text: >
