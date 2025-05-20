@@ -83,7 +83,7 @@ Program och Registreringsinformation kommer i början av juni. </p>
 
    DIGIfor1healthSE - ett samarbete för hållbar tillgång och nyttjande av hälsodata: <a href="https://doi.org/10.17044/scilifelab.28882028" target="_blank">https://doi.org/10.17044/scilifelab.28882028</a> <br> <br>
 
-Lägesanalysen lyfter fram att det är av stor vikt att Sverige utvecklar en nationell digital infrastruktur för hälsodata med helhetssyn kring primär- och sekundäranvändning, i samarbete med berörda aktörer. För att möjliggöra en integritetssäker och effektiv tillgång till hälsodata måste data frigöras från de olika systemen i Sverige och ändamålsenliga samt harmoniserade lösningar tas fram. Detta för att uppnå interoperabilitet inom alla områden; semantisk, teknisk, organisatorisk och juridisk där även etiska och sociala aspekter integreras.</p>
+Lägesanalysen lyfter fram att det är av stor vikt att Sverige utvecklar en nationell digital infrastruktur för hälsodata med helhetssyn kring primär- och sekundäranvändning inför implementeringen av det europeiska hälsodataområdet EHDS, i samarbete med berörda aktörer. För att möjliggöra en integritetssäker och effektiv tillgång till hälsodata måste data frigöras från de olika systemen i Sverige och ändamålsenliga samt harmoniserade lösningar tas fram. Detta för att uppnå interoperabilitet inom alla områden; semantisk, teknisk, organisatorisk och juridisk där även etiska och sociala aspekter integreras.</p>
         </div>
       </div>
     </div>
