@@ -12,8 +12,8 @@
 
 // Header and call-out section styling
 .call-out {
-    background-color: white !important;  /* Added white background */
-    background-size: contain !important;
+    background-color: white !important;
+    background-size: 100% auto !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     min-height: clamp(75px, 50vw, 750px) !important;
@@ -24,13 +24,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden !important;
 }
 
 .call-out h1 {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5),   /* stronger primary shadow */
-                 1px 1px 4px rgba(0, 0, 0, 0.4),   /* darker medium layer */
-                 0 0 10px rgba(0, 0, 0, 0.3);      /* stronger outer glow */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6),
+                 1px 1px 4px rgba(0, 0, 0, 0.5),
+                 0 0 10px rgba(0, 0, 0, 0.4);
     width: 100%;
     max-width: 90vw;
     margin: 0 auto;
@@ -42,8 +43,10 @@
         font-size: clamp(9px, 6vw, 18px) !important;
     }
     .call-out {
-        min-height: 30vh !important;  /* slightly smaller on mobile but still visible */
+        min-height: 30vh !important;
         margin: 10px auto !important;
+        background-size: 100% auto !important;
+        padding: 10px !important;
     }
 }
 
@@ -53,6 +56,7 @@
     }
     .call-out {
         min-height: 30vh !important;
+        background-size: 100% auto !important;
     }
 }
 
@@ -60,10 +64,16 @@
     .call-out h1 {
         font-size: clamp(22px, 9vw, 60px) !important;
     }
+    .call-out {
+        background-size: 100% auto !important;
+    }
 }
 
 @media screen and (min-width: 1025px) {
     .call-out h1 {
         font-size: clamp(30px, 11.25vw, 112px) !important;
+    }
+    .call-out {
+        background-size: 100% auto !important;
     }
 }
