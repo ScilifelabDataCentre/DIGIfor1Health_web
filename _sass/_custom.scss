@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .call-out h1 {
-        font-size: clamp(22px, 9vw, 60px) !important;
+        font-size: clamp(20px, 8vw, 48px) !important;
     }
     .call-out {
         background-size: 100% auto !important;
@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 1025px) {
     .call-out h1 {
-        font-size: clamp(30px, 11.25vw, 112px) !important;
+        font-size: clamp(24px, 9vw, 90px) !important;
     }
     .call-out {
         background-size: 100% auto !important;
