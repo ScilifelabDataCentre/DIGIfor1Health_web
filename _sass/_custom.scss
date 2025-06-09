@@ -106,6 +106,7 @@
     }
 }
 
+// Header feature image styling
 .feature-image {
     .post-link {
         color: var(--header);
@@ -120,11 +121,12 @@
     .header-feature-image {
         width: 100%;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
     }
 }
 
+// Mobile-specific adjustments
 @media screen and (max-width: 768px) {
     .feature-image {
         header {
@@ -132,12 +134,14 @@
         }
         
         .header-feature-image {
-            width: 100%;
+            width: auto;
+            max-width: 100%;
             height: auto;
             max-height: 30vh;
-            object-fit: contain;
-            object-position: center;
+            display: block;
             margin: 0 auto;
+            object-fit: scale-down;
+            object-position: center;
         }
     }
 }
