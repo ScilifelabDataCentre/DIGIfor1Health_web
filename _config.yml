@@ -12,7 +12,9 @@ favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 # Header and footer text
 header_text: Välkommen till DIGIfor1healthSE
 header_feature_image: assets/img/header/header_bubblor_T.jpg
-header_feature_image_responsive: true  # Set this to true to enable responsive header images
+header_feature_image_responsive: true
+header_feature_image_small: assets/img/header/header_bubblor_T-small.jpg
+header_feature_image_medium: assets/img/header/header_bubblor_T-medium.jpg
 
 footer_text: >
   <hr>
