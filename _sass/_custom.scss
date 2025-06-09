@@ -131,6 +131,20 @@
 
 // Mobile-specific adjustments
 @media screen and (max-width: 768px) {
+    .call-out {
+        min-height: 30vh !important;
+        background-size: contain !important;
+        background-position: center !important;
+        margin: 10px auto !important;
+        padding: 10px !important;
+    }
+    
+    .call-out_img {
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    
     .feature-image {
         overflow: visible;
         
