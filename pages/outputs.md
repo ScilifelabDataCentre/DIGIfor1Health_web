@@ -18,6 +18,28 @@ bootstrap: true
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
+            Vägen mot EHDS- Hur möta behov för hållbar tillgång och nyttiggörande av hälsodata i Sverige?
+          </h4>
+          <p class="card-text">
+   <p style="font-size: calc(1em + 2pt);">
+    Save-the-date: 3 september 2025<br>
+    Plats: Life City; Stockholm
+    </p>
+    <br>
+
+Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS.
+
+Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
+
+Program och Registreringsinformation kommer i början av juni. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
             DIGIfor1healthSE - en hållbar tillgång till hälsodata
           </h4>
           <p class="card-text">
@@ -33,28 +55,6 @@ Eventet kommer att handla om DIGIfor1healthSE, dess samarbete och aktörerna bak
 <br>
 Eventet är endast för inbjudna aktörer
 att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 mb-4">
-      <div class="card h-100">
-        
-        <div class="card-body">
-          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            Vägen mot EHDS- Hur möta behov för hållbar tillgång och nyttiggörande av hälsodata i Sverige?
-          </h4>
-          <p class="card-text">
-   <p style="font-size: calc(1em + 2pt);">
-    Save-the-date: 3 september 2025<br>
-    Plats: Life City; Stockholm
-    </p>
-    <br>
-
-Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS.
-
-Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
-
-Program och Registreringsinformation kommer i början av juni. </p>
         </div>
       </div>
     </div>

@@ -10,6 +10,16 @@
   color: #00394d;
 }
 
+// Restore subpage title styling
+h1.title {
+  color: var(--header-text) !important;
+  font-size: 2.3em;
+  padding: 0.5em 0;
+  text-shadow: 1px 1px 2px var(--text-shadow),
+               2px 2px 3px rgba(0, 0, 0, 0.3),
+               0 0 5px rgba(0, 0, 0, 0.2);
+}
+
 // Header and call-out section styling
 .call-out {
     background-color: white !important;
@@ -48,7 +58,11 @@
 // Responsive text sizing
 @media screen and (max-width: 480px) {
     .call-out {
-        background-size: 300% auto !important;
+        min-height: 15vh !important;
+        max-height: 20vh !important;
+        background-size: contain !important;
+        margin: 5px auto !important;
+        padding: 5px !important;
     }
     .call-out h1 {
         font-size: clamp(23px, 5vw, 31px) !important;
@@ -99,70 +113,5 @@
     }
     .call-out {
         background-size: 100% auto !important;
-    }
-}
-
-// Header feature image styling
-.feature-image {
-    overflow: visible;
-    
-    .post-link {
-        color: var(--header);
-    }
-
-    header {
-        color: var(--header);
-        margin-bottom: 0;
-        padding: 8% 0;
-        overflow: visible;
-    }
-
-    .header-feature-image {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        object-position: center;
-    }
-}
-
-// Mobile-specific adjustments
-@media screen and (max-width: 768px) {
-    .call-out {
-        min-height: 30vh !important;
-        margin: 10px auto !important;
-        padding: 10px !important;
-    }
-    
-    .call-out_img {
-        background-size: contain !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-    }
-    
-    .feature-image {
-        overflow: visible;
-        
-        header {
-            padding: 4% 0;
-            overflow: visible;
-        }
-        
-        .header-feature-image {
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100vw;
-            max-width: none;
-            height: auto;
-            max-height: 30vh;
-            object-fit: contain;
-            margin: 0;
-        }
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .call-out {
-        background-size: 250% auto !important;
     }
 }
