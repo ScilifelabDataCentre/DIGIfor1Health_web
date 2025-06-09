@@ -181,3 +181,57 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     </div>
   </div>
 </div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
+            TEF-Health
+          </h4>
+          <p class="card-text">
+           <a href="https://tef-health.se/">TEF-Health Sweden</a><br>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
+            GENOME OF EUROPE
+          </h4>
+          <p class="card-text">
+           <a href="https://digital-strategy.ec.europa.eu/en/news/genome-europe-project-launched-first-step-towards-european-reference-genome">Genome of Europe project </a><br>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 mb-4">  <!-- Changed from col-lg-6 to col-lg-12 for full width -->
+      <div class="card h-100" style="max-width: 800px; margin: 0 auto;">  <!-- Added max-width and margin auto for centering -->
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64; font-size: calc(1.5em + 1pt);">
+            GMS
+          </h4>
+          <p class="card-text">
+           <a href="https://genomicmedicine.se">Genomic Medicine Sweden</a><br>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
