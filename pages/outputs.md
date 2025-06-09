@@ -28,9 +28,11 @@ bootstrap: true
     <br>
 
 Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS.
+<br>
+<br>
 
 Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
-
+<br>
 Program och Registreringsinformation kommer i början av juni. </p>
         </div>
       </div>
