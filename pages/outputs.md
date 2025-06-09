@@ -22,7 +22,7 @@ bootstrap: true
           </h4>
           <p class="card-text">
    <p style="font-size: calc(1em + 2pt);">
-    Save-the-date: 3 september 2025<br>
+    Datum: 3 september 2025<br>
     Plats: Life City; Stockholm
     </p>
     <br>
@@ -50,11 +50,10 @@ Program och Registreringsinformation kommer i början av juni. </p>
     </p>
     <br>
 
-Eventet kommer att handla om DIGIfor1healthSE, dess samarbete och aktörerna bakom. <br>
+Eventet syftade till att öka deltagarnas kunskaper om DIGIfor1healthSE, dess samarbete och aktörerna bakom. Eventet gav möjlighet att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. <br>
 <br>
 <br>
-Eventet är endast för inbjudna aktörer
-att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. </p>
+Inbjudna aktörer var projekt som DIGIfor1healthSE haft dialog med, referensgruppens medlemmar, berörda myndigheter inom hälso- och sjukvård och digitalisering, samt representanter från olika departement vid Regeringskansliet i Sverige. </p>
         </div>
       </div>
     </div>
