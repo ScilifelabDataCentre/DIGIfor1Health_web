@@ -108,6 +108,8 @@
 
 // Header feature image styling
 .feature-image {
+    overflow: visible;
+    
     .post-link {
         color: var(--header);
     }
@@ -116,6 +118,7 @@
         color: var(--header);
         margin-bottom: 0;
         padding: 8% 0;
+        overflow: visible;
     }
 
     .header-feature-image {
@@ -129,19 +132,23 @@
 // Mobile-specific adjustments
 @media screen and (max-width: 768px) {
     .feature-image {
+        overflow: visible;
+        
         header {
             padding: 4% 0;
+            overflow: visible;
         }
         
         .header-feature-image {
-            width: auto;
-            max-width: 100%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100vw;
+            max-width: none;
             height: auto;
             max-height: 30vh;
-            display: block;
-            margin: 0 auto;
-            object-fit: scale-down;
-            object-position: center;
+            object-fit: contain;
+            margin: 0;
         }
     }
 }
