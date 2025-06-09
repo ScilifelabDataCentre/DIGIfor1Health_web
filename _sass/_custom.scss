@@ -47,6 +47,13 @@
 
 // Responsive text sizing
 @media screen and (max-width: 480px) {
+    .call-out {
+        min-height: 30vh !important;
+        margin: 10px auto !important;
+        background-size: contain !important;
+        background-position: center center !important;
+        padding: 10px !important;
+    }
     .call-out h1 {
         font-size: clamp(23px, 5vw, 31px) !important;
         padding: 0 5px;
@@ -58,15 +65,14 @@
         letter-spacing: -0.02em;
         font-stretch: condensed;
     }
-    .call-out {
-        min-height: 30vh !important;
-        margin: 10px auto !important;
-        background-size: 100% auto !important;
-        padding: 10px !important;
-    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .call-out {
+        min-height: 30vh !important;
+        background-size: contain !important;
+        background-position: center center !important;
+    }
     .call-out h1 {
         font-size: clamp(27px, 6vw, 35px) !important;
         padding: 0 10px;
@@ -77,10 +83,6 @@
         transform-origin: center;
         letter-spacing: -0.02em;
         font-stretch: condensed;
-    }
-    .call-out {
-        min-height: 30vh !important;
-        background-size: 100% auto !important;
     }
 }
 
