@@ -48,11 +48,7 @@
 // Responsive text sizing
 @media screen and (max-width: 480px) {
     .call-out {
-        min-height: 30vh !important;
-        margin: 10px auto !important;
-        background-size: contain !important;
-        background-position: center center !important;
-        padding: 10px !important;
+        background-size: 300% auto !important;
     }
     .call-out h1 {
         font-size: clamp(23px, 5vw, 31px) !important;
@@ -133,7 +129,7 @@
 @media screen and (max-width: 768px) {
     .call-out {
         min-height: 30vh !important;
-        background-size: contain !important;
+        background-size: 200% auto !important;
         background-position: center !important;
         margin: 10px auto !important;
         padding: 10px !important;
@@ -164,5 +160,11 @@
             object-fit: contain;
             margin: 0;
         }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .call-out {
+        background-size: 250% auto !important;
     }
 }
