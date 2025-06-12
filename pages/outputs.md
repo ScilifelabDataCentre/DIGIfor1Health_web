@@ -28,12 +28,14 @@ bootstrap: true
     <br>
 
 Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS.
-<br>
-<br>
 
-Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
 <br>
-Program och Registreringsinformation kommer i början av juni. </p>
+<br>
+Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
+
+<br>
+<br>
+<a href="https://www.lyyti.in/The_road_to_EHDS__How_to_meet_the_need_for_sustainable_access_and_utilization_of_health_data_in_Sweden_1297">Klicka här</a> för program och registrering. </p>
         </div>
       </div>
     </div>
