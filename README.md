@@ -1,6 +1,6 @@
 The repository DIGIfor1Health_web is a customized version of the Type-on-Strap Jekyll theme. <br>
 The website resulting from this repository is available on digifor1health.se and it is serving this project for higlighting their work, reporting, events etc.<br>
-Below is a detailed comparison highlighting the modifications made to the original Type-on-Strap repository <br>
+Below is a comparison highlighting the main modifications made to the original Type-on-Strap repository <br>
 to develop the DIGIfor1Health_web project.
 
 1. Content Modifications:
@@ -61,70 +61,82 @@ to develop the DIGIfor1Health_web project.
     Language Support:<br>
         The repository includes directories like en to support multiple languages. However, this feature was not yet utilised. Instead, language icon leads to the static page announcing future English version.<br>
 
-These modifications transform the generic Type-on-Strap theme into a customized website that effectively represents the DIGIfor1Health project's objectives and branding.<br>
 
-Full list of modified files (A = Added, M = Modified, D = Deleted):<br>
-A	.github/ISSUE_TEMPLATE/question.md<br>
-M	.github/hooks/pre-commit<br>
-M	.github/labeler.yml<br>
-R100	.github/workflows/ruby-2.7.4/Gemfile	.github/workflows/Gemfile<br>
-R098	.github/workflows/ruby-2.7.4/Gemfile.lock	.github/workflows/Gemfile.lock<br>
-D	.github/workflows/build.yml
-M	.github/workflows/gem-build.yml
-D	.github/workflows/gem-github-page.yml
-R070	.github/workflows/docker-build.yml	.github/workflows/jekyll-build.yml
-M	.github/workflows/labeler.yml
-M	.github/workflows/publish-build.yml
-A	.github/workflows/workflow-test.yml
-M	Gemfile
-M	LICENSE
-M	README.md
-M	_config.yml
-M	_data/menu.yml
-M	_data/social.yml
-M	_includes/aligner.html
-R092	_includes/default/search_json.liquid	_includes/default/search_input.liquid
-M	_layouts/categories.liquid
-M	_layouts/default.html
-M	_layouts/home.liquid
-M	_layouts/page.liquid
-D	_posts/2013-10-18-blogging-with-title.md
-D	_posts/2014-08-08-Markup-Syntax-Highlighting.md
-D	_posts/2014-11-26-lorem-ipsum.md
-D	_posts/2014-11-27-whats-your-title.md
-D	_posts/2014-11-28-markdown-and-html.md
-D	_posts/2016-12-03-Mermaid.md
-D	_posts/2017-09-17-Use-Bootstrap.md
-M	_posts/2018-10-29-feature-images.md
-D	_posts/2019-05-18-color-post.md
-D	_posts/2019-06-30-sample-post.md
-D	_posts/2019-11-02-Tech-stuff-example.md
-D	_posts/2021-04-27-dark-mode.md
-A	_posts/2024-04-16-project-update.md
-A	_sass/_custom.scss
-M	_sass/base/_global.scss
-M	_sass/external/_katex.scss
-D	_sass/includes/_aligner.scss
-M	_sass/layouts/_page.scss
-M	_sass/type-on-strap.scss
-M	assets/Dockerfile
-M	assets/data/search.liquid
-A	assets/img/SciLifeLab.jpg
-A	assets/img/feature-img/DIGIfor1Health_collab.png
-A	assets/img/feature-img/lab_desk.jpeg
-A	assets/img/header/human_D.jpeg
-A	assets/img/pexels/connect_D_c1.jpeg
-A	assets/img/pexels/digi_D_o.jpeg
-A	assets/img/pexels/globe_R.jpeg
-A	assets/img/pexels/project_R_p.jpeg
-A	assets/img/thumbnails/feature-img/lab_desk.jpeg
-M	index.html
-M	pages/about.md
-M	pages/categories.md
-A	pages/contact.md
-M	pages/gallery.md
-A	pages/outputs.md
-M	pages/portfolio.md
-A	pages/projects.md
-M	pages/tags.md
-M	type-on-strap.gemspec
+List of modified files (A = Added, M = Modified, D = Deleted):<br>
+
+A pages/projects.md<br>
+A pages/contact.md<br>
+A _data/language.yml<br>
+A _sass/_custom.scss<br>
+A assets/img/footer_logo_combined.png<br>
+A assets/img/homepage_section1.jpg<br>
+A assets/img/homepage_section2.jpg<br>
+A assets/img/homepage_section3.jpg<br>
+A assets/img/homepage_section4.jpg<br>
+A assets/img/Digifor1Health_NyaBubblor20240408_2.jpg<br>
+A assets/img/Digifor1Health_NyaBubblor20240408_3.jpg<br>
+A assets/img/Picture_Om_Oss.jpg<br>
+A assets/img/SciLifeLab.ico<br>
+A assets/img/connections.jpeg<br>
+A assets/img/Vinnova.png<br>
+A assets/img/gms_logo.png<br>
+A assets/img/ki_logo.png<br>
+A assets/img/kth_logo.png<br>
+A assets/img/scilifelab_logo.png<br>
+A assets/img/umu_logo.png<br>
+A assets/img/uu_logo.png<br>
+A assets/img/vinnova_logo.png<br>
+A assets/img/logo1.png<br>
+A assets/img/logo2.png<br>
+A assets/img/logo3.png<br>
+A assets/img/logo4.png<br>
+A assets/img/logo5.png<br>
+A assets/img/logo6.png<br>
+A assets/img/logoB.png<br>
+A assets/img/SciLifeLab.jpg<br>
+A assets/img/DIGIfor1Health_footers.png<br>
+A assets/img/pexels/connect_D_c1.jpeg<br>
+A assets/img/pexels/digi_D_o.jpeg<br>
+A assets/img/pexels/dots.jpeg<br>
+A assets/img/pexels/project_R_p.jpeg<br>
+A assets/img/pexels/globe_R.jpeg<br>
+A assets/img/contact-logos/EGDI logo_2.png<br>
+A assets/img/contact-logos/GOE_logo_flat.jpg<br>
+A assets/img/contact-logos/HDS logotype_landscape.jpg<br>
+A assets/img/contact-logos/LOGO_EUCAI.png<br>
+A assets/img/contact-logos/gms logo.png<br>
+A assets/img/contact-logos/tefs-maybefinals_tef-image-black-horizontal.png<br>
+A assets/img/feature-img/DIGIfor1Health_collab.png<br>
+A assets/img/feature-img/Inhand_D1.jpeg<br>
+A assets/img/feature-img/Inhand_Da.jpeg<br>
+A assets/img/feature-img/Labview_Da.jpeg<br>
+A assets/img/feature-img/skeleton_D.jpeg<br>
+A assets/img/feature-img/tablet_Da.jpeg<br>
+A assets/img/header/Bubblor_2-medium.jpg<br>
+A assets/img/header/Bubblor_2-small.jpg<br>
+A assets/img/header/Bubblor_2.jpg<br>
+A assets/img/header/header_bubblor.jpg<br>
+A assets/img/header/header_bubblor_T-medium.jpg<br>
+A assets/img/header/header_bubblor_T-small.jpg<br>
+A assets/img/header/header_bubblor_T.jpg<br>
+A assets/img/header/human_D-medium.jpeg<br>
+A assets/img/header/human_D-small.jpeg<br>
+A assets/img/header/human_D.jpeg<br>
+M _config.yml<br>
+M index.html<br>
+M _includes/default/footer.liquid<br>
+M _includes/header.html<br>
+M _layouts/home.liquid<br>
+M _sass/includes/_footer.scss<br>
+M _sass/includes/_layout.scss<br>
+M _sass/includes/_navigation.scss<br>
+M _sass/includes/_variables.scss<br>
+M README.md<br>
+D pages/gallery.md<br>
+D pages/portfolio.md<br>
+D pages/search.md<br>
+D pages/tags.md<br>
+D _data/authors.yml<br>
+D _data/biblio.yml<br>
+D _data/icons.yml<br>
+D _data/social.yml<br>
