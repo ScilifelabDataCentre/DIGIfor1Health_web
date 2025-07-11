@@ -1,42 +1,42 @@
-The repository DIGIfor1Health_web is a customized version of the Type-on-Strap Jekyll theme. Below is a detailed comparison highlighting the modifications made to the original Type-on-Strap repository to develop the DIGIfor1Health_web project.
+The repository DIGIfor1Health_web is a customized version of the Type-on-Strap Jekyll theme. 
+The website resulting from this repository is available on digifor1health.se and it is serving this project for higlighting their work, reporting, events etc.
+Below is a detailed comparison highlighting the modifications made to the original Type-on-Strap repository 
+to develop the DIGIfor1Health_web project.
 
 1. Content Modifications:
 
-    Posts and Pages:
-        The _posts directory in DIGIfor1Health_web contains articles specific to the DIGIfor1Health project, replacing the placeholder content from Type-on-Strap.
-        New static pages such as about, contact, and projects have been added or customized to reflect the project's information.
+    * Main (Hem) Page:
+       in _config.yml - updated title, description and feature photo; replaced footer with a collection of icons of the flexible size adapting to page size (e.g. mobile)
+       index.html - contains the home page content devided in containers to alternate images and text.
 
-2. Configuration Changes:
+   * Posts and Pages:
+        The _pages directory in DIGIfor1Health_web contains items specific to the DIGIfor1Health project, replacing the placeholder content from Type-on-Strap.
+        _includes/header.html : Added new static pages such as about (Aktuellt), contact (Kontakt), and projects (Projekt) have been added or customized to reflect the project's information.
+        Removed all the other pages and tabs
 
-    Site Settings (_config.yml):
-        Title and Description: Updated to "DIGIfor1Health" with a description pertinent to the project's mission.
+3. Configuration Changes:
+
+    * Site Settings (_config.yml):
+        Title and Description: Updated to "DIGIfor1Health" with a description provided by project leader.
         URL and Base URL: Configured to match the deployment environment of DIGIfor1Health.
-        Social Media Links: Links to platforms like Twitter, LinkedIn, and GitHub have been added or updated to reflect the project's official accounts.
-        Language Settings: Set to support multiple languages, including English and Swedish, to cater to a broader audience.
-        Plugins: Additional Jekyll plugins have been included to enhance functionality, such as SEO optimization and sitemap generation.
-        Footer: added logos and text and formatting that allows it to be flexible for different media and browser window size
+        Social Media Links: temporary removed.
 
-    Navigation:
-        The navigation menu has been customized to include links to sections like "About," "Projects," "Outputs," and "Contact," aligning with the project's structure.
+   * Adaptation to mobile devices:
+       CSS flexbox added in _scss/_custom.scss, _layout.scss, index.html and _footer.scss, including flex-wrap (directing to column for narrow screen and side-by-side on wider screens)
+       in: _navigation.scss and _sass/includes - added flex display and fixed hamburger menu for smaller screens
 
-3. Design and Layout Adjustments:
+5. Design and Layout Adjustments:
 
-    Branding:
-        Logos, color schemes, and fonts have been modified to align with DIGIfor1Health's branding guidelines.
-        Custom CSS files have been added or adjusted to implement the desired visual aesthetics.
+    * Branding:
+        Logos, color schemes, and fonts have been modified to align with DIGIfor1Health's (SciLifeLab) graphical guidelines.
+      favicon was changed to SciLifeLab icon (_config.yml)
 
-    Layouts:
-        Modifications in the _layouts directory have been made to adjust the structure and appearance of pages, ensuring consistency with the project's design aesthetics.
+    * Layouts:
 
-4. Data and Collections:
+   Modifications in the _layouts directory have been made to adjust the structure and appearance of pages, ensuring consistency with the project's design aesthetics.
 
-    Data Files (_data):
-        YAML files containing structured data specific to DIGIfor1Health, such as team members, partners, and project details, have been added.
 
-    Collections:
-        Custom collections have been introduced to manage content types unique to the project, facilitating organized content management.
-
-5. Assets and Media:
+6. Assets and Media:
 
     Images:
         The assets/img directory has been populated with images, logos, and graphics relevant to DIGIfor1Health.
@@ -44,15 +44,15 @@ The repository DIGIfor1Health_web is a customized version of the Type-on-Strap J
     Scripts and Styles:
         Custom JavaScript and CSS files have been added or modified to enhance functionality and styling specific to the project's needs.
 
-6. Plugins and Dependencies:
+7. Plugins and Dependencies:
 
     Gemfile:
         The Gemfile has been updated to include Jekyll plugins and dependencies required for additional functionalities, such as SEO optimization and sitemap generation.
 
-7. Localization:
+8. Localization:
 
     Language Support:
-        The repository includes directories like en to support multiple languages, indicating efforts to make the website accessible to a broader audience.
+        The repository includes directories like en to support multiple languages. However, this feature was not yet utilised. Instead, language icon leads to the static page announcing future English version.
 
 These modifications transform the generic Type-on-Strap theme into a customized website that effectively represents the DIGIfor1Health project's objectives and branding.
 
