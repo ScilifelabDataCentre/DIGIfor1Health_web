@@ -21,7 +21,7 @@ bootstrap: true
             Vägen mot EHDS- Hur möta behov för hållbar tillgång och nyttiggörande av hälsodata i Sverige?
           </h4>
           <p class="card-text">
-   <p style="font-size: calc(1em + 2pt);">
+  <p style="font-size: calc(1em + 2pt);">
     Datum: 3 september 2025<br>
     Plats: Life City; Stockholm
     </p>
@@ -48,7 +48,7 @@ Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling a
           </h4>
           <p class="card-text">
 
-  <p style="font-size: calc(1em + 2pt);">
+   <p style="font-size: calc(1em + 2pt);">
     Datum: 26 maj 2025<br>
     Plats: Life City; Stockholm
     </p>
