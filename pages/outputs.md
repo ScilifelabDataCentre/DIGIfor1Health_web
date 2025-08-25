@@ -35,7 +35,7 @@ Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling a
 
 <br>
 <br>
-<a href="https://www.lyyti.in/The_road_to_EHDS__How_to_meet_the_need_for_sustainable_access_and_utilization_of_health_data_in_Sweden_1297">Klicka här</a> för program och registrering. </p>
+<a href="https://www.scilifelab.se/event/the-road-to-ehds-how-to-meet-the-need-for-sustainable-access-and-utilization-of-health-data-in-sweden/">Klicka här</a> för för mer information. </p>
         </div>
       </div>
     </div>
@@ -57,7 +57,14 @@ Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling a
 Eventet syftade till att öka deltagarnas kunskaper om DIGIfor1healthSE, dess samarbete och aktörerna bakom. Eventet gav möjlighet att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. <br>
 <br>
 <br>
-Inbjudna aktörer var projekt som DIGIfor1healthSE haft dialog med, referensgruppens medlemmar, berörda myndigheter inom hälso- och sjukvård och digitalisering, samt representanter från olika departement vid Regeringskansliet i Sverige. </p>
+
+Inbjudna aktörer var projekt som DIGIfor1healthSE haft dialog med, referensgruppens medlemmar, berörda myndigheter inom hälso- och sjukvård och digitalisering, samt representanter från olika departement vid Regeringskansliet i Sverige. 
+
+<br>
+<br>
+<a href="https://www.scilifelab.se/news/digifor1healthse-highlights-need-for-coordinated-health-data-infrastructure-in-sweden/">Klicka här</a> för för mer information.
+
+</p>
         </div>
       </div>
     </div>
