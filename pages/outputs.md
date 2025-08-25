@@ -55,6 +55,7 @@ Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling a
     <br>
 
 Eventet syftade till att öka deltagarnas kunskaper om DIGIfor1healthSE, dess samarbete och aktörerna bakom. Eventet gav möjlighet att lyssna in, träffas och bidra till tankar kring hur vi kan skapa en långsiktig tillgång av hälsodata för Sverige och Europa. <br>
+
 <br>
 <br>
 
