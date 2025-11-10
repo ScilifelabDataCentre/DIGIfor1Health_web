@@ -23,4 +23,38 @@ document.addEventListener("DOMContentLoaded", function (event) {
       main.style.backgroundPosition = '100% ' + (offset - 50) + 'px' + ', 0%, center top';
     }
   });
+
+  /*
+   * Fix browser translation: Replace "Both" with "Home" when "Hem" is incorrectly translated
+   */
+  function fixTranslation() {
+    const siteTitle = document.querySelector('.site-title');
+    if (siteTitle && siteTitle.textContent.trim() === 'Both') {
+      siteTitle.textContent = 'Home';
+    }
+  }
+
+  // Check immediately and periodically
+  fixTranslation();
+  setInterval(fixTranslation, 500);
+
+  // Use MutationObserver to watch for changes made by browser translators
+  const siteTitle = document.querySelector('.site-title');
+  if (siteTitle) {
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' || mutation.type === 'characterData') {
+          if (siteTitle.textContent.trim() === 'Both') {
+            siteTitle.textContent = 'Home';
+          }
+        }
+      });
+    });
+
+    observer.observe(siteTitle, {
+      childList: true,
+      characterData: true,
+      subtree: true
+    });
+  }
 });
