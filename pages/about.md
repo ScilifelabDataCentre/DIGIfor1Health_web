@@ -23,7 +23,7 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
           <p class="card-text">
 
     Bengt Persson (GDI, Uppsala Universitet) <br>
-    Daniel Lundqvist (TEF-Health, Karolinska Institutet) <br>
+    Johanna Furuhjelm (TEF-Health, Karolinska Institutet) <br>
     Katrine Riklund (EUCAIM, Umeå Universitet) <br>
     Sebastiaan Meijer (HDS, Kungliga Tekniska Högkolan KTH) <br>
     Per Sikora (GMS, Västra Götalandsregionen) <br>
@@ -41,7 +41,6 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
             Referensgrupp:
           </h4>
           <p class="card-text">
-    Annemieke Ålenius (E-hälsomyndigheten) <br>
     Heléne Spjuth (Region Stockholm) <br>
     Magnus Kjellberg (Västra Götalandsregionen) <br>
     Markus Lingman (Region Halland) <br>
@@ -77,10 +76,9 @@ Natalia Kotova, samverkansledare, Operations Office, SciLifeLab
 Sevim Barbasso Helmers, projektledare<br>
 Adam Ameur (GoE)<br>
 Adam Darwich (HDS)
-Anna-Lena Ellasdotter (GDI & GoE)<br>
+David Herthnek (GDI & GoE)<br>
 Igori Comarovschii (TEF-Health)<br>
 Johan Viklund (GDI)<br>
-Johanna Furuhjelm (TEF-Health)<br>
 Per Fahlberg (GMS)<br>
 Rikard Lövström (TEF-Health, SciLifeLab)<br>
 Rikard Fred (SciLifeLab, precisionsmedicin)<br>
@@ -102,8 +100,7 @@ Jöran Lindeberg (HDS)<br>
 Katarina Nyström (GMS) <br>
 Manolis Nymark (GDI) <br>
 Rebecka Rosenberg (TEF-Health)<br>
-Rikard Lövström (TEF-Health, SciLifeLab)<br>
-Sandra Bergstrand (GMS)</p>
+Rikard Lövström (TEF-Health, SciLifeLab)</p>
         </div>
       </div>
     </div>
