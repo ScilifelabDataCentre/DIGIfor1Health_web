@@ -27,15 +27,16 @@ bootstrap: true
     </p>
     <br>
 
-Välkommen att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS.
+Eventet syftade till att tillsammans diskutera lösningar för hur vi kan möta behoven för en hållbar tillgång och nyttiggörande av hälsodata i Sverige för utveckling av en nationell digital infrastruktur inför implementeringen av EHDS, utifrån helhetsbilden för
+primär- och sekundäranvändning. Under eventet genomfördes även tre patientfallsbaserade workshops för att komma vidare kring interoperabilitetsaspekter och datasäkerhet samt etiska och sociala frågeställningar.
 
 <br>
 <br>
-Målgrupper är hälsodataprojekt och andra relevanta insatser för utveckling av nationell digital infrastruktur och implementering av EHDS inklusive aktörer såsom regering, berörda myndigheter, regioner, kommuner, akademin och industrin i Sverige.
+Deltagande aktörer var regering, myndigheter, institutioner, regioner/klinik, patientorganisationer, nationella kvalitetsregister, industri/systemleverantörer, akademi/forskare, innovatörer och hälsodataprojekt.
 
 <br>
 <br>
-<a href="https://www.scilifelab.se/event/the-road-to-ehds-how-to-meet-the-need-for-sustainable-access-and-utilization-of-health-data-in-sweden/">Klicka här</a> för för mer information. </p>
+<a href="https://www.scilifelab.se/news/on-the-path-to-the-european-health-data-space-ehds/">Klicka här</a> för för mer information. </p>
         </div>
       </div>
     </div>
