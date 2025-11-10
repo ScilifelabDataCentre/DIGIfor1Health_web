@@ -7,8 +7,8 @@
 			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
 		</a>
         {% endif %}
-        <a class="site-title notranslate" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}" lang="sv" title="Home" data-english="Home" translate="no">
-        <span class="swedish-text">{{ site.title }}</span><span class="english-text" style="display: none;">Home</span>
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}" lang="sv" title="Home" data-english="Home">
+        {{ site.title }}
 		</a>
 	</div>
 
