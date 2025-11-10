@@ -30,35 +30,48 @@ document.addEventListener("DOMContentLoaded", function (event) {
   function fixTranslation() {
     const siteTitle = document.querySelector('.site-title');
     if (siteTitle) {
-      const currentText = siteTitle.textContent || siteTitle.innerText || '';
+      let currentText = siteTitle.textContent || siteTitle.innerText || '';
       const trimmed = currentText.trim();
       
-      // If the text is "Both" (incorrect translation), replace it with "Home"
-      if (trimmed === 'Both' || trimmed.includes('Both')) {
+      // Check for "Both" in any case or as part of the text
+      if (trimmed.toLowerCase() === 'both' || trimmed.includes('Both') || trimmed.includes('both') || trimmed.includes('BOTH')) {
+        // Force replace with "Home"
         siteTitle.textContent = 'Home';
+        siteTitle.innerText = 'Home';
+        
         // Also check and replace in innerHTML if needed
-        if (siteTitle.innerHTML && siteTitle.innerHTML.includes('Both')) {
-          siteTitle.innerHTML = siteTitle.innerHTML.replace(/Both/g, 'Home');
+        if (siteTitle.innerHTML) {
+          siteTitle.innerHTML = siteTitle.innerHTML.replace(/Both/gi, 'Home');
+        }
+        
+        // Force update all child nodes
+        if (siteTitle.firstChild) {
+          siteTitle.firstChild.textContent = 'Home';
         }
       }
     }
   }
 
-  // Check immediately, after a delay, and periodically
+  // Check immediately, after a delay, and very frequently
   fixTranslation();
+  setTimeout(fixTranslation, 50);
   setTimeout(fixTranslation, 100);
+  setTimeout(fixTranslation, 200);
   setTimeout(fixTranslation, 500);
   setTimeout(fixTranslation, 1000);
   setTimeout(fixTranslation, 2000);
-  setInterval(fixTranslation, 200);
+  setInterval(fixTranslation, 50); // Check every 50ms
 
   // Use MutationObserver to watch for changes made by browser translators
   const siteTitle = document.querySelector('.site-title');
   if (siteTitle) {
     const observer = new MutationObserver(function(mutations) {
-      // Use requestAnimationFrame to ensure we check after DOM updates
+      // Check immediately and also after animation frame
+      fixTranslation();
       requestAnimationFrame(function() {
         fixTranslation();
+        // Double check after a tiny delay
+        setTimeout(fixTranslation, 10);
       });
     });
 
@@ -86,9 +99,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // Watch for changes in the document body
   const bodyObserver = new MutationObserver(function(mutations) {
-    requestAnimationFrame(function() {
-      fixTranslation();
+    // Check if any mutation affects the site title
+    let shouldCheck = false;
+    mutations.forEach(function(mutation) {
+      if (mutation.target && (mutation.target.classList && mutation.target.classList.contains('site-title') || 
+          mutation.target.closest && mutation.target.closest('.site-title'))) {
+        shouldCheck = true;
+      }
     });
+    if (shouldCheck) {
+      fixTranslation();
+      requestAnimationFrame(function() {
+        fixTranslation();
+        setTimeout(fixTranslation, 10);
+      });
+    }
   });
 
   bodyObserver.observe(document.body, {
