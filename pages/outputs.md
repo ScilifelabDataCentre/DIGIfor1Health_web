@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aktuellt
+title: Resultat
 permalink: /outputs/
 position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
