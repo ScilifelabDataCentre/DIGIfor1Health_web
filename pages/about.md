@@ -46,7 +46,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
     Markus Lingman (Region Halland) <br>
     Anna Sandström (AstraZeneca) <br>
     Michel Silvestri (E-hälsomyndigheten) <br>
-    Göran Larsson (Region Västerbotten) </p>
+    Göran Larsson (Region Västerbotten) <br>
+    Jonas Dahlqvist (Statistikmyndigheten SCB) </p>
         </div>
       </div>
     </div>
@@ -75,7 +76,7 @@ Natalia Kotova, samverkansledare, Operations Office, SciLifeLab
 
 Sevim Barbasso Helmers, projektledare<br>
 Adam Ameur (GoE)<br>
-Adam Darwich (HDS)
+Adam Darwich (HDS)<br>
 David Herthnek (GDI & GoE)<br>
 Igori Comarovschii (TEF-Health)<br>
 Johan Viklund (GDI)<br>
