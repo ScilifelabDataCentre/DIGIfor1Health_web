@@ -61,10 +61,10 @@ Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag at
         <div class="card-body">
           <h4 class="card-title">
             <img src="assets/img/tefs-maybefinals_tef-image-black-horizontal.png" /><br>
-            <a href="https://tef-health.se/">Testing and Experimentation facilities – TEF-Health</a>
+            <a href="https://tefhealth.se/">Testing and Experimentation facilities – TEF-Health</a>
           </h4>
           <p class="card-text">inrättar europeiska test- och experimentanläggningar för artificiell intelligens och robotik, inom hälso- och sjukvård. Målet med projektet är att öka implementeringen av AI-drivna lösningar inom hälso- och sjukvården genom att tillhandahålla tjänster och verktyg för validering och certifiering av den senaste tekniken samtidigt som man säkerställer överensstämmelse med relevanta lagliga, etiska, kvalitets- och interoperabilitetsstandarder och krav. En kombination av fysiska och virtuella anläggningar samt konsultjänster kommer att erbjudas där teknikleverantörer kan få stöd för att testa och utveckla sina senaste AI-baserade mjuk-/hårdvarutekniker i verkliga miljöer. <br><br>
-           Kontaktperson:     <a href="mailto:daniel.lundqvist@ki.se">Daniel Lundqvist</a> </p>
+           Kontaktperson:     <a href="mailto:johanna.furuhjelm@ki.se">Johanna Furuhjelm</a> </p>
         </div>
      </div>
     </div>

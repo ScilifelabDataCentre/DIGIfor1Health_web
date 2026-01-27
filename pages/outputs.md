@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aktuellt
+title: Resultat
 permalink: /outputs/
 position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
@@ -139,6 +139,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
           </h4>
           <p class="card-text">
            <a href="https://gdi.onemilliongenomes.eu/news/gdi-technical-infrastructure">Demonstration av 1+MG tekniska infrastruktur (våren 2025)</a><br>
+           <a href="https://www.youtube.com/watch?v=YDCvy6ixUdw&t=46s">GDI Technical Demonstrator: Distributed analysis and federated learning</a><br>
+           <a href="https://www.youtube.com/watch?v=uCjlFXSvFAs">1+ Million Genomes infrastructure - the benefits of federated analysis</a><br>
            
           </p>
         </div>
@@ -203,7 +205,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
             TEF-Health
           </h4>
           <p class="card-text">
-           <a href="https://tef-health.se/">TEF-Health Sweden</a><br>
+           <a href="https://tefhealth.se/">TEF-Health Sweden</a><br>
            
           </p>
         </div>
