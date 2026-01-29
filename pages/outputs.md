@@ -22,40 +22,61 @@ bootstrap: true
   </a>
 </div>
 
-<!-- Four text boxes with centered image layout -->
+<!-- Puzzle image (clickable pieces) -->
 <div class="outputs-top-layout">
-  <!-- Left column: Two text boxes stacked -->
-  <div class="outputs-text-box-column">
-    <div class="outputs-text-box">
-      <div>Overarching goals and strategic approach are needed for managing health data in Sweden, even towards the European Health Data Space (EHDS)</div>
-    </div>
-    <div class="outputs-text-box">
-      <div>Practical steps and structures required to build a functional and unified health data system</div>
-    </div>
-  </div>
-  
-  <!-- Center: Image -->
   <div class="outputs-image-container">
-    <img src="{{ '/outputs/assets/img/Puzzles_eng.png' | relative_url }}" alt="DIGIfor1Health Puzzle Pieces">
-  </div>
-  
-  <!-- Right column: Two text boxes stacked -->
-  <div class="outputs-text-box-column">
-    <div class="outputs-text-box">
-      <div>Need for collaboration, clear leadership, and stakeholder involvement</div>
-    </div>
-    <div class="outputs-text-box">
-      <div>Resources and mindset shifts needed for the transformation of the health data landscape</div>
+    <div class="outputs-puzzle-image-wrap">
+      <img src="{{ '/outputs/assets/img/Puzzles_eng.png' | relative_url }}" alt="DIGIfor1Health Puzzle Pieces">
+      <div class="outputs-puzzle-piece outputs-puzzle-piece--tl" onclick="showPopup('popup1')" title="Vision & Strategy" aria-label="Vision & Strategy"></div>
+      <div class="outputs-puzzle-piece outputs-puzzle-piece--bl" onclick="showPopup('popup2')" title="Implementation & Infrastructure" aria-label="Implementation & Infrastructure"></div>
+      <div class="outputs-puzzle-piece outputs-puzzle-piece--tr" onclick="showPopup('popup3')" title="Collaboration & Governance" aria-label="Collaboration & Governance"></div>
+      <div class="outputs-puzzle-piece outputs-puzzle-piece--br" onclick="showPopup('popup4')" title="Systemic Change & Resources" aria-label="Systemic Change & Resources"></div>
     </div>
   </div>
 </div>
+
+<!-- Popup Modal (shown when clicking a puzzle piece) -->
+<div id="outputs-popup-overlay" class="outputs-popup-overlay" onclick="closePopup()">
+  <div class="outputs-popup-content" onclick="event.stopPropagation()">
+    <span class="outputs-popup-close" onclick="closePopup()">&times;</span>
+    <div id="outputs-popup-text"></div>
+  </div>
+</div>
+
+<script>
+function showPopup(id) {
+  var popup = document.getElementById('outputs-popup-overlay');
+  var popupText = document.getElementById('outputs-popup-text');
+  var content = {
+    'popup1': '<p style="margin: 0;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p>',
+    'popup2': '<p style="margin: 0;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p>',
+    'popup3': '<p style="margin: 0;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p>',
+    'popup4': '<p style="margin: 0;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p>'
+  };
+  var popupContent = document.querySelector('.outputs-popup-content');
+  popupContent.classList.remove('outputs-popup-content--vision', 'outputs-popup-content--impl', 'outputs-popup-content--collab', 'outputs-popup-content--systemic');
+  if (id === 'popup1') popupContent.classList.add('outputs-popup-content--vision');
+  else if (id === 'popup2') popupContent.classList.add('outputs-popup-content--impl');
+  else if (id === 'popup3') popupContent.classList.add('outputs-popup-content--collab');
+  else if (id === 'popup4') popupContent.classList.add('outputs-popup-content--systemic');
+  popupText.innerHTML = content[id] || '';
+  popup.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closePopup() {
+  var popup = document.getElementById('outputs-popup-overlay');
+  popup.classList.remove('active');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closePopup(); });
+</script>
 
 <!-- Puzzle themes: full text below in 2x2 layout (same as puzzle: left col 1,2 / right col 3,4) -->
 <div class="outputs-puzzle-detail">
   <div class="outputs-puzzle-detail-row">
     <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--vision">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & Strategy</h3>
-      <p style="margin-bottom: 15px;">The overarching goals and strategic approach for managing health data in Sweden towards the European Health Data Space (EHDS).</p>
+      <p style="margin-bottom: 15px;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">There is an urgent need for a coherent system that enables the use of health data to drive real-world evidence generation, foster innovation, and support the development of novel as well as advanced analytic methodologies. Such a system must also encourage national and international collaboration.</li>
         <li style="margin-bottom: 10px;">A proactive and coordinated approach, grounded in a shared vision across all stakeholders, is needed rather than a reactive one.</li>
@@ -65,7 +86,7 @@ bootstrap: true
     </div>
     <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Collaboration & Governance</h3>
-      <p style="margin-bottom: 15px;">Need for collaboration, clear leadership, and stakeholder involvement.</p>
+      <p style="margin-bottom: 15px;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">A clear government directive is recommended to ensure that all relevant authorities take a holistic view of data use, beyond the boundaries of their individual mandates.</li>
         <li style="margin-bottom: 10px;">True collaboration requires designated forums and cross-sectoral structures that bring together stakeholders from healthcare, research, policy, and technology to jointly drive development forward.</li>
@@ -77,7 +98,7 @@ bootstrap: true
   <div class="outputs-puzzle-detail-row">
     <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--impl">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Implementation & Infrastructure</h3>
-      <p style="margin-bottom: 15px;">Practical steps and structures required to build a functional and unified health data system.</p>
+      <p style="margin-bottom: 15px;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">To develop a national digital infrastructure that serves Sweden's needs while aligning with EHDS principles and the holistic view of primary and secondary data use, stakeholders must work together.</li>
         <li style="margin-bottom: 10px;">To achieve sustainable access and utilization of health data, unified standards are essential. This standardization includes not only terminologies and concepts, but also metadata down to the variable level. Working methods, processes, and documentation routines must be adapted accordingly.</li>
@@ -87,7 +108,7 @@ bootstrap: true
     </div>
     <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--systemic">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Systemic Change & Resources</h3>
-      <p style="margin-bottom: 15px;">Resources and mindset shifts needed for the transformation of the health data landscape.</p>
+      <p style="margin-bottom: 15px;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">Transforming the Swedish health data ecosystem requires a clear overview of ongoing initiatives and the actors driving them. Systemic change depends on dedicated funding, new skills, and updated organizational structures, including targeted training for existing staff in new workflows and digital processes.</li>
         <li style="margin-bottom: 10px;">Because healthcare and research are evolving in parallel, primary and secondary use of health data are increasingly intertwined and are not relevant to differentiate. Data circulates in a continuous loop, serving multiple purposes — for example, research data feeding into clinical decision support in precision medicine, or clinical data being reused for research and quality improvement.</li>

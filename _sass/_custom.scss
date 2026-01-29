@@ -221,10 +221,29 @@ h1.title {
     height: 100%;
 }
 
+.outputs-puzzle-image-wrap {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+}
+
+.outputs-puzzle-piece {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.outputs-puzzle-piece--tl { top: 0; left: 0; }
+.outputs-puzzle-piece--bl { top: 50%; left: 0; }
+.outputs-puzzle-piece--tr { top: 0; left: 50%; }
+.outputs-puzzle-piece--br { top: 50%; left: 50%; }
+
 .outputs-image-container img {
     width: auto;
     height: auto;
-    max-width: clamp(300px, 35.71vw, 500px); // Scale image size with viewport
+    max-width: clamp(360px, 42vw, 580px); // Slightly larger puzzle image
     max-height: none; // Maintain aspect ratio
     object-fit: contain;
     border-radius: 0;
@@ -310,6 +329,23 @@ h1.title {
     overflow-y: auto;
     position: relative;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border: 4px solid transparent;
+}
+
+.outputs-popup-content--vision {
+    border-color: #045C64;
+}
+
+.outputs-popup-content--impl {
+    border-color: #4C979F;
+}
+
+.outputs-popup-content--collab {
+    border-color: #491F53;
+}
+
+.outputs-popup-content--systemic {
+    border-color: #A48FA9;
 }
 
 .outputs-popup-close {
