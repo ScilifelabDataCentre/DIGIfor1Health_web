@@ -196,8 +196,6 @@ h1.title {
     border: none;
     border-radius: 0;
     padding: clamp(10px, 1.43vw, 20px); // Scale padding with viewport
-    cursor: pointer;
-    transition: all 0.3s ease;
     text-align: center;
     min-width: clamp(180px, 17.86vw, 250px); // Scale width with viewport
     max-width: clamp(200px, 21.43vw, 300px); // Scale width with viewport
@@ -213,10 +211,6 @@ h1.title {
     line-height: 1.4;
 }
 
-.outputs-text-box:hover {
-    color: #045C64;
-    text-decoration: underline;
-}
 
 .outputs-image-container {
     flex: 0 0 auto;
@@ -236,6 +230,57 @@ h1.title {
     border-radius: 0;
     box-shadow: none;
     display: block; // Remove any inline spacing
+}
+
+// Outputs page: Full puzzle theme text below in 2x2 layout (same as puzzle)
+.outputs-puzzle-detail {
+    max-width: 1140px;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.outputs-puzzle-detail-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.outputs-puzzle-detail-row:last-child {
+    margin-bottom: 0;
+}
+
+.outputs-puzzle-detail-box {
+    flex: 1 1 calc(50% - 12px);
+    min-width: 280px;
+    background-color: #fff;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.outputs-puzzle-detail-box--vision {
+    border-color: #045C64;
+    h3 { color: #045C64; }
+}
+
+.outputs-puzzle-detail-box--collab {
+    border-color: #491F53;
+    h3 { color: #491F53; }
+}
+
+.outputs-puzzle-detail-box--impl {
+    border-color: #4C979F;
+    h3 { color: #4C979F; }
+}
+
+.outputs-puzzle-detail-box--systemic {
+    border-color: #A48FA9;
+    h3 { color: #A48FA9; }
 }
 
 // Popup modal styles
