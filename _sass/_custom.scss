@@ -115,3 +115,188 @@ h1.title {
         background-size: 100% auto !important;
     }
 }
+
+// Outputs page: Top navigation boxes (Evenemang, Rapporter, Ingående projekt)
+// Match content width (same as .container: 1140px) and increase gap between boxes
+.outputs-nav-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    flex-wrap: wrap;
+    margin: 20px auto 30px;
+    padding: 0 15px;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+
+.outputs-nav-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background-color: #fff;
+    border: 2px solid #491F53;
+    border-radius: 12px;
+    color: #491F53;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    max-width: 280px;
+    box-sizing: border-box;
+}
+
+.outputs-nav-box:hover {
+    box-shadow: 0 4px 12px rgba(73, 31, 83, 0.25);
+    border-color: #491F53;
+}
+
+.outputs-nav-box-title {
+    font-size: calc(1em + 2pt);
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #491F53;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.outputs-nav-box-img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+// Outputs page: Four text boxes with centered image layout
+.outputs-top-layout {
+    display: flex;
+    align-items: stretch; // Stretch all items to same height
+    justify-content: center;
+    gap: clamp(10px, 1.43vw, 20px); // Scale gap with viewport
+    margin: 30px auto;
+    max-width: 1400px;
+    width: min(100%, 1400px);
+    padding: 0 clamp(10px, 1.43vw, 20px); // Scale padding with viewport
+    flex-wrap: nowrap; // Prevent wrapping - keep layout together
+    box-sizing: border-box;
+}
+
+.outputs-text-box-column {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(10px, 1.43vw, 20px); // Scale gap with viewport
+    flex: 0 0 auto;
+    // Match the height of the image container
+    height: 100%;
+}
+
+.outputs-text-box {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: clamp(10px, 1.43vw, 20px); // Scale padding with viewport
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: clamp(180px, 17.86vw, 250px); // Scale width with viewport
+    max-width: clamp(200px, 21.43vw, 300px); // Scale width with viewport
+    flex: 1 1 0; // Equal height boxes - each takes 50% of column height
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #045C64;
+    font-weight: normal;
+    font-size: clamp(0.75em, 0.9vw, calc(0.9em + 1pt)); // Scale font with viewport
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+}
+
+.outputs-text-box:hover {
+    color: #045C64;
+    text-decoration: underline;
+}
+
+.outputs-image-container {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // Match the height of the text box columns
+    height: 100%;
+}
+
+.outputs-image-container img {
+    width: auto;
+    height: auto;
+    max-width: clamp(300px, 35.71vw, 500px); // Scale image size with viewport
+    max-height: none; // Maintain aspect ratio
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+    display: block; // Remove any inline spacing
+}
+
+// Popup modal styles
+.outputs-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputs-popup-overlay.active {
+    display: flex;
+}
+
+.outputs-popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.outputs-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #045C64;
+    line-height: 1;
+}
+
+.outputs-popup-close:hover {
+    color: #000;
+}
+
+// Responsive design - ensure layout stays together on very small screens
+@media screen and (max-width: 800px) {
+    .outputs-top-layout {
+        // On very small screens, still try to keep layout together
+        // but allow minimal wrapping if absolutely necessary
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .outputs-text-box-column {
+        flex: 0 0 auto;
+    }
+    
+    .outputs-image-container {
+        flex: 0 0 auto;
+        order: 0; // Keep image in center
+    }
+}

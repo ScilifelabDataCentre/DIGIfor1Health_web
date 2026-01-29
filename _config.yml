@@ -74,5 +74,5 @@ sass:
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", "README_Type-on-Stripe.md"]
 
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+theme: type-on-strap                                    # local serve (switch back to remote_theme for GitHub Pages)
+# remote_theme: sylhare/Type-on-Strap                   # If using as a remote_theme in github
