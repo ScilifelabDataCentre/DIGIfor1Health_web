@@ -22,6 +22,15 @@ bootstrap: true
   </a>
 </div>
 
+<div class="outputs-intro-text">
+  <h2 class="outputs-intro-title">How to achieve sustainable access and utilization of health data in Sweden</h2>
+  <p><strong>DIGIfor1healthSE</strong> presents the following <strong>four categories</strong> with <strong>key messages</strong> that captures the <strong>work needed</strong> in order to achieve sustainable access and utilization of health data in Sweden. These key messages have been <strong>summarized</strong> from the event arranged and report published by <strong>DIGIfor1healthSE</strong>:</p>
+  <ul>
+    <li><strong>Event</strong> (September 3rd 2025): <em>“The road to EHDS – How to meet the need for sustainable access and utilization of health data in Sweden?”</em>, and</li>
+    <li><strong>Report</strong> <em>“Situation Analysis (April 2025): DIGIfor1healthSE – a collaboration for sustainable access and use of health data.”</em></li>
+  </ul>
+</div>
+
 <!-- Puzzle image (clickable pieces) -->
 <div class="outputs-top-layout">
   <div class="outputs-image-container">
@@ -48,10 +57,10 @@ function showPopup(id) {
   var popup = document.getElementById('outputs-popup-overlay');
   var popupText = document.getElementById('outputs-popup-text');
   var content = {
-    'popup1': '<p style="margin: 0;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p>',
-    'popup2': '<p style="margin: 0;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p>',
-    'popup3': '<p style="margin: 0;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p>',
-    'popup4': '<p style="margin: 0;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p>'
+    'popup1': '<p style="margin: 0;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup2': '<p style="margin: 0;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-impl" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup3': '<p style="margin: 0;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup4': '<p style="margin: 0;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-systemic" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>'
   };
   var popupContent = document.querySelector('.outputs-popup-content');
   popupContent.classList.remove('outputs-popup-content--vision', 'outputs-popup-content--impl', 'outputs-popup-content--collab', 'outputs-popup-content--systemic');
@@ -71,10 +80,10 @@ function closePopup() {
 document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closePopup(); });
 </script>
 
-<!-- Puzzle themes: full text below in 2x2 layout (same as puzzle: left col 1,2 / right col 3,4) -->
+<!-- Puzzle themes: full text below in 2x2 layout (same as puzzle: Vision top-left, Impl bottom-left, Collab top-right, Systemic bottom-right) -->
 <div class="outputs-puzzle-detail">
   <div class="outputs-puzzle-detail-row">
-    <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--vision">
+    <div id="outputs-detail-vision" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--vision">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & Strategy</h3>
       <p style="margin-bottom: 15px;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p>
       <ul style="text-align: left; padding-left: 20px;">
@@ -84,7 +93,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
         <li style="margin-bottom: 10px;">Driving development based on national goals while actively engaging in European implementation work is therefore crucial. Achieving sustainable change will take time and requires patience, persistence, and a shared understanding of the long-term vision.</li>
       </ul>
     </div>
-    <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
+    <div id="outputs-detail-collab" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Collaboration & Governance</h3>
       <p style="margin-bottom: 15px;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p>
       <ul style="text-align: left; padding-left: 20px;">
@@ -96,7 +105,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
     </div>
   </div>
   <div class="outputs-puzzle-detail-row">
-    <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--impl">
+    <div id="outputs-detail-impl" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--impl">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Implementation & Infrastructure</h3>
       <p style="margin-bottom: 15px;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p>
       <ul style="text-align: left; padding-left: 20px;">
@@ -106,7 +115,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
         <li style="margin-bottom: 10px;">In a European context, the health data ecosystem should enable cutting-edge research through federated analysis and machine learning, allowing knowledge generation from distributed real-world data sources across Europe while keeping sensitive data secure at its source.</li>
       </ul>
     </div>
-    <div class="outputs-puzzle-detail-box outputs-puzzle-detail-box--systemic">
+    <div id="outputs-detail-systemic" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--systemic">
       <h3 style="margin-top: 0; margin-bottom: 15px;">Systemic Change & Resources</h3>
       <p style="margin-bottom: 15px;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p>
       <ul style="text-align: left; padding-left: 20px;">

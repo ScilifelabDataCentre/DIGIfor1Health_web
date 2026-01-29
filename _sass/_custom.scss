@@ -168,7 +168,39 @@ h1.title {
     display: block;
 }
 
-// Outputs page: Four text boxes with centered image layout
+// Outputs page: Intro text between nav boxes and puzzle
+.outputs-intro-text {
+    max-width: 1140px;
+    margin: 0 auto 30px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.outputs-intro-title {
+    font-size: calc(1.2em + 6pt);
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #491F53;
+    margin: 0 0 15px 0;
+    line-height: 1.3;
+}
+
+.outputs-intro-text p {
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+}
+
+.outputs-intro-text ul {
+    margin: 0 0 0 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.outputs-intro-text li {
+    margin-bottom: 8px;
+}
+
+// Outputs page: Puzzle image layout
 .outputs-top-layout {
     display: flex;
     align-items: stretch; // Stretch all items to same height
@@ -346,6 +378,15 @@ h1.title {
 
 .outputs-popup-content--systemic {
     border-color: #A48FA9;
+}
+
+.outputs-popup-readmore {
+    color: #045C64;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.outputs-popup-readmore:hover {
+    color: #491F53;
 }
 
 .outputs-popup-close {
