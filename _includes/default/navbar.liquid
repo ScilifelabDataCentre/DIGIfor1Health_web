@@ -15,7 +15,7 @@
     <!-- Menu -->
     <nav class="clear">
         <!-- Toggle menu -->
-        <a aria-label="menu" class="toggle" href="#">
+        <a id="pull" aria-label="menu" class="toggle" href="#" role="button" onclick="event.preventDefault(); var m=document.querySelector('nav ul'); if(m) m.classList.toggle('hide'); return false;">
             <i class="fas fa-bars fa-lg"></i>
         </a>
 

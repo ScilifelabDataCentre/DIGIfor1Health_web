@@ -23,19 +23,15 @@ bootstrap: true
 </div>
 
 <div class="outputs-intro-text">
-  <h2 class="outputs-intro-title">How to achieve sustainable access and utilization of health data in Sweden</h2>
-  <p><strong>DIGIfor1healthSE</strong> presents the following <strong>four categories</strong> with <strong>key messages</strong> that captures the <strong>work needed</strong> in order to achieve sustainable access and utilization of health data in Sweden. These key messages have been <strong>summarized</strong> from the event arranged and report published by <strong>DIGIfor1healthSE</strong>:</p>
-  <ul>
-    <li><strong>Event</strong> (September 3rd 2025): <em>“The road to EHDS – How to meet the need for sustainable access and utilization of health data in Sweden?”</em>, and</li>
-    <li><strong>Report</strong> <em>“Situation Analysis (April 2025): DIGIfor1healthSE – a collaboration for sustainable access and use of health data.”</em></li>
-  </ul>
+  <h2 class="outputs-intro-title">Hur uppnår vi en hållbar tillgång och nyttiggörande av hälsodata i Sverige?</h2>
+  <p>DIGIfor1healthSE presenterar följande fyra kategorier med huvudbudskap som fångar det arbete som krävs för att uppnå en hållbar tillgång och nyttiggörande hälsodata i Sverige. Dessa budskap har sammanställts från det nationella evenemanget och rapporten som genomfördes 2025 av DIGIfor1healthSE.</p>
 </div>
 
 <!-- Puzzle image (clickable pieces) -->
 <div class="outputs-top-layout">
   <div class="outputs-image-container">
     <div class="outputs-puzzle-image-wrap">
-      <img src="{{ '/outputs/assets/img/Puzzles_eng.png' | relative_url }}" alt="DIGIfor1Health Puzzle Pieces">
+      <img src="{{ '/outputs/assets/img/Puzzles_SE.png' | relative_url }}" alt="Pussel: Vision & strategi, Samarbete & styrning, Implementering & infrastruktur, Systemförändring & resurser">
       <div class="outputs-puzzle-piece outputs-puzzle-piece--tl" onclick="showPopup('popup1')" title="Vision & Strategy" aria-label="Vision & Strategy"></div>
       <div class="outputs-puzzle-piece outputs-puzzle-piece--bl" onclick="showPopup('popup2')" title="Implementation & Infrastructure" aria-label="Implementation & Infrastructure"></div>
       <div class="outputs-puzzle-piece outputs-puzzle-piece--tr" onclick="showPopup('popup3')" title="Collaboration & Governance" aria-label="Collaboration & Governance"></div>
@@ -57,10 +53,10 @@ function showPopup(id) {
   var popup = document.getElementById('outputs-popup-overlay');
   var popupText = document.getElementById('outputs-popup-text');
   var content = {
-    'popup1': '<p style="margin: 0;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
-    'popup2': '<p style="margin: 0;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-impl" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
-    'popup3': '<p style="margin: 0;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
-    'popup4': '<p style="margin: 0;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-systemic" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>'
+    'popup1': '<p style="margin: 0;"><em>De övergripande målen och det strategiska tillvägagångsättet för hantering av hälsodata i Sverige inför det europeiska hälsodataområdet (<strong>EHDS</strong>).</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup2': '<p style="margin: 0;"><em>Praktiska steg och strukturer som krävs för att bygga ett fungerande och enhetligt system för hälsodata.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-impl" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup3': '<p style="margin: 0;"><em>Behov av samarbete, tydligt ledarskap och involvering av intressenter.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup4': '<p style="margin: 0;"><em>Resurser och attitydförändringar som krävs för transformationen av hälsodatalandskapet.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-systemic" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>'
   };
   var popupContent = document.querySelector('.outputs-popup-content');
   popupContent.classList.remove('outputs-popup-content--vision', 'outputs-popup-content--impl', 'outputs-popup-content--collab', 'outputs-popup-content--systemic');
@@ -84,45 +80,45 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
 <div class="outputs-puzzle-detail">
   <div class="outputs-puzzle-detail-row">
     <div id="outputs-detail-vision" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--vision">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & Strategy</h3>
-      <p style="margin-bottom: 15px;">Overarching <strong>goals</strong> and <strong>strategic approach</strong> are needed for managing health data in Sweden, even towards the European Health Data Space (<strong>EHDS</strong>).</p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & Strategi</h3>
+      <p style="margin-bottom: 15px;"><em>De övergripande målen och det strategiska tillvägagångsättet för hantering av hälsodata i Sverige inför det europeiska hälsodataområdet (<strong>EHDS</strong>).</em></p>
       <ul style="text-align: left; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">There is an urgent need for a <strong>coherent system</strong> that enables the use of health data to drive real-world evidence generation, foster innovation, and support the development of novel as well as advanced analytic methodologies. Such a system must also encourage national and international collaboration.</li>
-        <li style="margin-bottom: 10px;">A <strong>proactive</strong> and <strong>coordinated approach</strong>, grounded in a shared vision across all stakeholders, is needed <strong>rather than a reactive one</strong>.</li>
-        <li style="margin-bottom: 10px;">While <strong>EHDS</strong> provides a framework for harmonizing access to and use of health data, it <strong>does not yet cover all requirements for full utilization</strong>, especially concerning precision medicine, data harmonization, and integration of research and care. With <strong>implementing acts</strong> undergoing development opportunities occur to shape <strong>EHDS nationally</strong>.</li>
-        <li style="margin-bottom: 10px;">Driving <strong>development</strong> based on <strong>national goals</strong> while actively engaging in European implementation work is therefore crucial. Achieving sustainable change will <strong>take time</strong> and requires patience, persistence, and a <strong>shared understanding of the long-term vision</strong>.</li>
+        <li style="margin-bottom: 10px;">Det finns ett brådskande behov av ett <strong>sammanhängande system</strong> som möjliggör användning av hälsodata för att generera verklighetsbaserad evidens, främja innovation och stödja utvecklingen av både nya och avancerade analysmetoder. Ett sådant system måste också uppmuntra till nationell och internationell samverkan.</li>
+        <li style="margin-bottom: 10px;">Ett <strong>proaktivt</strong> och <strong>samordnat tillvägagångssätt</strong>, förankrat i en gemensam vision hos alla intressenter, krävs <strong>snarare än ett reaktivt</strong>.</li>
+        <li style="margin-bottom: 10px;">Även om <strong>EHDS</strong> utgör ett ramverk för att harmonisera tillgång till och användning av hälsodata, <strong>täcker det ännu inte alla krav för fullt utnyttjande</strong> – särskilt gällande precisionsmedicin, dataharmonisering samt integrering av forskning och vård. I takt med att <strong>genomförandeakter</strong> utvecklas, uppstår möjligheter att forma <strong>EHDS nationellt</strong>.</li>
+        <li style="margin-bottom: 10px;">Att driva <strong>utvecklingen</strong> baserat på <strong>nationella mål</strong> samtidigt som man aktivt engagerar sig i det europeiska implementeringsarbetet är därför avgörande. Att uppnå hållbar förändring <strong>tar tid</strong> och kräver tålamod, uthållighet och en <strong>gemensam förståelse för den långsiktiga visionen</strong>.</li>
       </ul>
     </div>
     <div id="outputs-detail-collab" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Collaboration & Governance</h3>
-      <p style="margin-bottom: 15px;">Need for <strong>collaboration</strong>, <strong>clear leadership</strong>, and <strong>stakeholder involvement</strong>.</p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Samarbete & Styrning</h3>
+      <p style="margin-bottom: 15px;"><em>Behov av samarbete, tydligt ledarskap och involvering av intressenter.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">A <strong>clear government directive</strong> is recommended to ensure that all relevant <strong>authorities take a holistic view of data use</strong>, beyond the boundaries of their individual mandates.</li>
-        <li style="margin-bottom: 10px;">True <strong>collaboration requires designated forums</strong> and cross-sectoral structures that bring together stakeholders from healthcare, research, policy, and technology to jointly drive development forward.</li>
-        <li style="margin-bottom: 10px;">Building <strong>trust is essential</strong>. This demands transparent handling of ethical and social issues, as well as the active <strong>inclusion of patient and user perspectives in all processes</strong>.</li>
-        <li style="margin-bottom: 10px;">Today, fragmented legislation and varying interpretations pose major challenges. A <strong>unified national approach to legal, ethical, and governance frameworks</strong> — consistent with European developments — is therefore urgently needed. Sweden can play a leading role in shaping these models through pilot projects, regulatory sandboxes and participation in standardization initiatives, both within the Nordics and EU.</li>
+        <li style="margin-bottom: 10px;">Ett <strong>tydligt statligt direktiv</strong> rekommenderas för att säkerställa att alla relevanta <strong>myndigheter antar ett helhetsperspektiv på dataanvändning</strong>, bortom gränserna för deras enskilda uppdrag.</li>
+        <li style="margin-bottom: 10px;"><strong>Samarbete kräver utsedda forum</strong> och sektorsövergripande strukturer som sammanför intressenter från hälso- och sjukvård, forskning, politik och teknik för att gemensamt driva utvecklingen framåt.</li>
+        <li style="margin-bottom: 10px;">Att <strong>bygga tillit är nödvändigt</strong>. Detta kräver en transparent hantering av etiska och sociala frågor, samt att <strong>patient- och användarperspektiv inkluderas aktivt i alla processer</strong>.</li>
+        <li style="margin-bottom: 10px;">Idag skapar fragmenterad lagstiftning och varierande tolkningar stora utmaningar. Ett <strong>enhetligt nationellt tillvägagångsätt till legala, etiska och styrningsrelaterade ramverk</strong> – i linje med den europeiska utvecklingen – är därför brådskande. Sverige kan spela en ledande roll i att utforma dessa modeller genom pilotprojekt, regulatoriska sandlådor och deltagande i standardiseringsinitiativ, både inom Norden och EU.</li>
       </ul>
     </div>
   </div>
   <div class="outputs-puzzle-detail-row">
     <div id="outputs-detail-impl" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--impl">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Implementation & Infrastructure</h3>
-      <p style="margin-bottom: 15px;">Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Implementering & Infrastruktur</h3>
+      <p style="margin-bottom: 15px;"><em>Praktiska steg och strukturer som krävs för att bygga ett fungerande och enhetligt system för hälsodata.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">To develop a <strong>national digital infrastructure</strong> that serves Sweden's needs while aligning with EHDS principles and <strong>the holistic view of primary and secondary data use</strong>, stakeholders must work together.</li>
-        <li style="margin-bottom: 10px;">To achieve sustainable access and utilization of health data, <strong>unified standards</strong> are essential. This standardization includes not only <strong>terminologies and concepts</strong>, but also <strong>metadata</strong> down to the <strong>variable level</strong>. Working <strong>methods</strong>, <strong>processes</strong>, and documentation <strong>routines must be adapted</strong> accordingly.</li>
-        <li style="margin-bottom: 10px;"><strong>High-quality, structured health data</strong> with uniform standards and definitions must be captured already at the <strong>point of primary documentation</strong>. This ensures data can later <strong>support advanced applications</strong> such as AI systems, machine learning, federated analyses and precision medicine — for training, validation, and deployment.</li>
-        <li style="margin-bottom: 10px;">In a European context, the health data ecosystem should enable cutting-edge research through <strong>federated analysis and machine learning</strong>, allowing knowledge generation from distributed real-world data sources across Europe while keeping sensitive <strong>data secure at its source</strong>.</li>
+        <li style="margin-bottom: 10px;">För att utveckla en <strong>nationell digital infrastruktur</strong> som tjänar Sveriges behov och samtidigt ligger i linje med EHDS-principerna, och en <strong>helhetssyn på primär- och sekundärdataanvändning</strong>, måste intressenter arbeta tillsammans.</li>
+        <li style="margin-bottom: 10px;">För att uppnå hållbar tillgång och nyttjande av hälsodata är <strong>enhetliga standarder</strong> väsentliga. Denna standardisering omfattar inte bara <strong>terminologier och begrepp</strong>, utan även <strong>metadata</strong> ner på <strong>variabelnivå</strong>. <strong>Arbetsmetoder</strong>, <strong>processer</strong> och dokumentations<strong>rutiner måste anpassas</strong> därefter.</li>
+        <li style="margin-bottom: 10px;"><strong>Strukturerade hälsodata av hög kvalitet</strong> med enhetliga standarder och definitioner måste fångas redan vid <strong>den primära dokumentationen</strong>. Detta säkerställer att data senare kan <strong>stödja avancerade tillämpningar</strong> som AI-system, maskininlärning, federerade analyser och precisionsmedicin – för testning, träning, validering och driftsättning.</li>
+        <li style="margin-bottom: 10px;">I ett europeiskt sammanhang bör ekosystemet för hälsodata möjliggöra spetsforskning genom <strong>federerad analys och maskininlärning</strong>, vilket tillåter kunskapsgenerering från distribuerade datakällor över hela Europa samtidigt som känsliga <strong>data förblir säkra vid sin källa</strong>.</li>
       </ul>
     </div>
     <div id="outputs-detail-systemic" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--systemic">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Systemic Change & Resources</h3>
-      <p style="margin-bottom: 15px;"><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Systemförändring & Resurser</h3>
+      <p style="margin-bottom: 15px;"><em>Resurser och attitydförändringar som krävs för transformationen av hälsodatalandskapet.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">Transforming the Swedish health data ecosystem requires a clear overview of ongoing initiatives and the actors driving them. Systemic change depends on <strong>dedicated funding</strong>, <strong>new skills</strong>, and <strong>updated organizational structures</strong>, including <strong>targeted training for existing staff</strong> in new workflows and digital processes.</li>
-        <li style="margin-bottom: 10px;">Because healthcare and research are evolving in parallel, <strong>primary and secondary use of health data</strong> are increasingly <strong>intertwined</strong> and <strong>are not relevant to differentiate</strong>. Data circulates in a <strong>continuous loop</strong>, serving multiple purposes — for example, <strong>research data feeding into clinical decision support</strong> in precision medicine, or clinical data being reused for research and quality improvement.</li>
-        <li style="margin-bottom: 10px;">Consequently, governance models, data stewardship principles, and consent frameworks must evolve to create this circular data reality.</li>
-        <li style="margin-bottom: 10px;">Sustainable progress will require both <strong>political commitment</strong> and <strong>long-term investment in people</strong>, <strong>technology</strong>, and <strong>governance mechanisms</strong> to ensure that Sweden's implementation of the EHDS delivers tangible benefits for patients, clinicians, and society at large.</li>
+        <li style="margin-bottom: 10px;">Att förändra det svenska ekosystemet för hälsodata kräver en tydlig överblick över pågående initiativ och de aktörer som driver dem. Systemförändring är beroende av <strong>dedikerad finansiering</strong>, <strong>ny kompetens</strong> och <strong>uppdaterade organisationsstrukturer</strong>, inklusive <strong>riktad utbildning för befintlig personal</strong> i nya arbetsflöden och digitala processer.</li>
+        <li style="margin-bottom: 10px;">Eftersom hälso- och sjukvård och forskning utvecklas parallellt, blir <strong>primär och sekundär användning av hälsodata</strong> alltmer <strong>sammanflätade</strong> och <strong>är inte längre relevanta att skilja på</strong>. Data cirkulerar i ett <strong>kontinuerligt kretslopp</strong> och tjänar flera syften – till exempel <strong>forskningsdata som matas in i kliniskt beslutsstöd</strong> inom precisionsmedicin, eller kliniska data som återanvänds för forskning och kvalitetsförbättring.</li>
+        <li style="margin-bottom: 10px;">Följaktligen måste styrningsmodeller, principer för dataförvaltning och ramverk för samtycke utvecklas för att skapa denna cirkulära dataverklighet.</li>
+        <li style="margin-bottom: 10px;">Hållbara framsteg kommer att kräva både <strong>politiskt engagemang</strong> och <strong>långsiktiga investeringar i människor</strong>, <strong>teknik</strong> och <strong>styrningsmekanismer</strong> för att säkerställa att Sveriges implementering av EHDS levererar konkreta fördelar för patienter, kliniker och samhället i stort.</li>
       </ul>
     </div>
   </div>

@@ -7,11 +7,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const pull = document.getElementById('pull');
   const menu = document.querySelector('nav ul');
 
-  ['click', 'touch'].forEach(function (e) {
-    pull?.addEventListener(e, function () {
-      menu.classList.toggle('hide')
-    }, false);
-  });
+  const toggleMenu = function (ev) {
+    if (ev) ev.preventDefault();
+    if (menu) menu.classList.toggle('hide');
+  };
+  if (pull) {
+    pull.addEventListener('click', toggleMenu, false);
+  }
 
   /*
    * Make the header images move on scroll
