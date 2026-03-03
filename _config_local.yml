@@ -1,0 +1,4 @@
+# Use local theme gem instead of remote_theme (for offline/local serve)
+# Run: bundle exec jekyll serve --config _config.yml,_config_local.yml
+theme: type-on-strap
+remote_theme: ~   # null – use theme gem above, don't fetch from GitHub

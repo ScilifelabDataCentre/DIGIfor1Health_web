@@ -1,0 +1,39 @@
+---
+description: Jekyll site conventions and structure for DIGIfor1Health
+alwaysApply: true
+---
+
+# DIGIfor1Health Jekyll Project
+
+This is a Jekyll static site using the Type-on-Strap theme.
+
+## Project Structure
+
+- **`_config.yml`**: Main Jekyll configuration
+- **`_includes/`**: Reusable Liquid templates (navbar, footer, etc.)
+- **`_layouts/`**: Page layout templates
+- **`_sass/`**: SCSS stylesheets (customize via `_sass/includes/` and `_sass/_custom.scss`)
+- **`pages/`**: Markdown pages (about.md, contact.md, etc.)
+- **`_posts/`**: Blog posts
+- **`assets/`**: Static assets (images, JS, CSS)
+
+## Key Conventions
+
+- **Liquid templates**: Use `.liquid` extension for includes and layouts
+- **Styling**: Customize via `_sass/includes/_navbar.scss`, `_sass/_custom.scss`
+- **Pages**: Create in `pages/` directory as `.md` files
+- **Images**: Store in `assets/img/` or page-specific `assets/img/` folders
+- **Multi-language**: Site supports Swedish (default) and English (`en/` directory)
+
+## Common Tasks
+
+- **Navbar changes**: Edit `_includes/default/navbar.liquid` and `_sass/includes/_navbar.scss`
+- **Footer changes**: Edit `_includes/default/footer.liquid` and `_sass/includes/_footer.scss`
+- **Page content**: Edit files in `pages/` directory
+- **Styling**: Modify SCSS files in `_sass/` directory
+
+## Build & Deploy
+
+- Uses Jekyll (Ruby-based)
+- Check `Gemfile` for dependencies
+- GitHub Actions workflows in `.github/workflows/`
