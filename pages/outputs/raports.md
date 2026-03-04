@@ -14,7 +14,10 @@ hide_title: true
   <div class="row mb-4">
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <img src="{{ '/assets/img/pexels/First_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 1">
+        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 1">
+          <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
+          <img src="{{ '/assets/img/pexels/First_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 1">
+        </button>
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 1:<br>Tillgängliggörande av genomikdata i framtiden</h5>
           <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_GDI_GoE_GMS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
@@ -23,7 +26,10 @@ hide_title: true
     </div>
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <img src="{{ '/assets/img/pexels/TEF_avrsa.png' | relative_url }}" class="card-img-top" alt="Användarresa 2">
+        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 2">
+          <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
+          <img src="{{ '/assets/img/pexels/TEF_avrsa.png' | relative_url }}" class="card-img-top" alt="Användarresa 2">
+        </button>
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 2:<br>AI testning och validering inom hälsa (på engelska)</h5>
           <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_TEF-Health_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
@@ -32,7 +38,10 @@ hide_title: true
     </div>
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <img src="{{ '/assets/img/pexels/HDS_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 3">
+        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 3">
+          <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
+          <img src="{{ '/assets/img/pexels/HDS_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 3">
+        </button>
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 3:<br>Stöd vid utveckling och innovation av hälsodataprodukter</h5>
           <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_HDS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
@@ -77,6 +86,44 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
   <!-- /.row -->
 
   <p class="mt-4"><a href="{{ '/outputs/' | relative_url }}" class="outputs-back-to-resultat">&larr; Tillbaka till Resultat</a></p>
+
+  <div id="raports-video-modal" class="raports-video-modal" aria-hidden="true">
+    <div class="raports-video-modal-backdrop" data-raports-close aria-label="Stäng"></div>
+    <div class="raports-video-modal-content">
+      <button type="button" class="raports-video-modal-close" aria-label="Stäng video" data-raports-close>&times;</button>
+      <div class="raports-video-modal-body">
+        <iframe id="raports-video-iframe" src="" title="Video"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var modal = document.getElementById('raports-video-modal');
+      var iframe = document.getElementById('raports-video-iframe');
+      if (!modal || !iframe) return;
+      function openRaportsVideo(url) {
+        if (!url) return;
+        iframe.src = url;
+        modal.classList.add('raports-video-modal--open');
+        modal.setAttribute('aria-hidden', 'false');
+      }
+      function closeRaportsVideo() {
+        modal.classList.remove('raports-video-modal--open');
+        modal.setAttribute('aria-hidden', 'true');
+        iframe.src = '';
+      }
+      document.querySelectorAll('.raports-video-trigger').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var url = this.getAttribute('data-video-url') || '';
+          openRaportsVideo(url);
+        });
+      });
+      document.querySelectorAll('[data-raports-close]').forEach(function(el) {
+        el.addEventListener('click', closeRaportsVideo);
+      });
+    })();
+  </script>
 
 </div>
 <!-- /.container -->

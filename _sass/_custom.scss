@@ -491,9 +491,53 @@ h1.title.raports-section-title {
     right: 0;
     bottom: 0;
     z-index: 9999;
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+.raports-video-modal.raports-video-modal--open {
+    display: flex;
+}
+.raports-video-trigger {
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    width: 100%;
+    position: relative;
+}
+.raports-video-trigger .card-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+// Play icon overlay (click to watch video)
+.raports-video-play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.raports-video-play-overlay .fa-play {
+    font-size: 1.75rem;
+    margin-left: 4px; // optical centering of play triangle
+}
+.raports-video-trigger:hover .raports-video-play-overlay {
+    background: rgba(4, 92, 100, 0.85);
+    transform: translate(-50%, -50%) scale(1.08);
 }
 
 .raports-video-modal-backdrop {
