@@ -14,7 +14,7 @@ hide_title: true
   <div class="row mb-4">
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 1">
+        <button type="button" class="raports-video-trigger" data-video-url="https://play.kth.se/embed/secure/iframe/entryId/0_qo29oj8h/uiConfId/23453971/st/0" aria-label="Spela video för Användarresa 1">
           <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
           <img src="{{ '/assets/img/pexels/First_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 1">
         </button>
@@ -26,7 +26,7 @@ hide_title: true
     </div>
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 2">
+        <button type="button" class="raports-video-trigger" data-video-url="https://play.kth.se/embed/secure/iframe/entryId/0_2lbw85dc/uiConfId/23453971/st/0" aria-label="Spela video för Användarresa 2">
           <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
           <img src="{{ '/assets/img/pexels/TEF_avrsa.png' | relative_url }}" class="card-img-top" alt="Användarresa 2">
         </button>
@@ -38,7 +38,7 @@ hide_title: true
     </div>
     <div class="col-md-4 mb-3">
       <div class="card h-100">
-        <button type="button" class="raports-video-trigger" data-video-url="" aria-label="Spela video för Användarresa 3">
+        <button type="button" class="raports-video-trigger" data-video-url="https://play.kth.se/embed/secure/iframe/entryId/0_teicum62/uiConfId/23453971/st/0" aria-label="Spela video för Användarresa 3">
           <span class="raports-video-play-overlay" aria-hidden="true"><i class="fas fa-play"></i></span>
           <img src="{{ '/assets/img/pexels/HDS_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 3">
         </button>
@@ -92,7 +92,7 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
     <div class="raports-video-modal-content">
       <button type="button" class="raports-video-modal-close" aria-label="Stäng video" data-raports-close>&times;</button>
       <div class="raports-video-modal-body">
-        <iframe id="raports-video-iframe" src="" title="Video"></iframe>
+        <iframe id="raports-video-iframe" src="" title="Video" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation"></iframe>
       </div>
     </div>
   </div>

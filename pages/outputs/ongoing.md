@@ -65,7 +65,9 @@ hide_title: true
              <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS rapport (augusti 2024):
           </h4>
-            <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
+            <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br><br>
+            <strong>Legal Toolbox:</strong><span style="display: block; height: 0.5em;"></span>
+            <a href="https://legaltoolbox.healthdatasweden.eu/" target="_blank">https://legaltoolbox.healthdatasweden.eu/</a>
           </p>
         </div>
       </div>
@@ -116,7 +118,8 @@ hide_title: true
             GMS
           </h4>
           <p class="card-text">
-           <a href="https://genomicmedicine.se">Genomic Medicine Sweden</a><br>
+           <a href="https://genomicmedicine.se">Genomic Medicine Sweden</a><span style="display: block; height: 0.5em;"></span>
+           <a href="https://genomicmedicine.se/2025/11/19/genomic-medicine-sweden-lanserar-ny-rapport-om-precisionsmedicinens-framsteg/" target="_blank">GMS lanserar ny rapport om precisionsmedicinens framsteg nov 2025</a>
           </p>
         </div>
       </div>
