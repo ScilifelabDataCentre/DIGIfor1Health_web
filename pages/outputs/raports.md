@@ -17,7 +17,7 @@ hide_title: true
         <img src="{{ '/assets/img/pexels/First_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 1">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 1:<br>Tillgängliggörande av genomikdata i framtiden</h5>
-          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+          <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_GDI_GoE_GMS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ hide_title: true
         <img src="{{ '/assets/img/pexels/TEF_avrsa.png' | relative_url }}" class="card-img-top" alt="Användarresa 2">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 2:<br>AI testning och validering inom hälsa (på engelska)</h5>
-          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+          <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_TEF-Health_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@ hide_title: true
         <img src="{{ '/assets/img/pexels/HDS_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 3">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 3:<br>Stöd vid utveckling och innovation av hälsodataprodukter</h5>
-          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+          <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_HDS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Ladda ner PDF</a>
         </div>
       </div>
     </div>
