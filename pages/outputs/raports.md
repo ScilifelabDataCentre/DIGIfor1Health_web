@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Användarresan
+title: Användarresor
 permalink: /outputs/raports/
 bootstrap: true
 hide: true
@@ -17,7 +17,7 @@ hide_title: true
 
 <div class="container">
 
-  <h1 class="title raports-section-title">Användarresan</h1>
+  <h1 class="title raports-section-title">Användarresor</h1>
 
   <div class="row mb-4">
     <div class="col-md-4 mb-3">

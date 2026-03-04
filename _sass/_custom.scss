@@ -179,6 +179,22 @@ a.raports-verktyg-image-wrap {
     backface-visibility: hidden;
     transform: translateZ(0);
 }
+// Mobile: show only the text part of the banner (left side), keep image inside content area
+@media (max-width: 767px) {
+    .raports-verktyg-outer {
+        overflow: hidden;
+    }
+    .raports-verktyg-image-wrap {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+    }
+    .raports-verktyg-img {
+        object-position: 35% center;
+    }
+}
 @media (min-width: 768px) {
     .raports-verktyg-image-wrap {
         height: 200px;
@@ -297,6 +313,17 @@ a.raports-verktyg-image-wrap {
 }
 .ongoing-collapse-card .card-body a {
     color: #0072B5;
+}
+.ongoing-links-list {
+    margin: 0 0 1rem 0;
+    padding-left: 1.35rem;
+    list-style-type: disc;
+}
+.ongoing-links-list li {
+    margin-bottom: 0.35rem;
+}
+.ongoing-links-list:last-child {
+    margin-bottom: 0;
 }
 
 // Outputs page: Top navigation boxes (Evenemang, Rapporter, Ingående projekt)
