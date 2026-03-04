@@ -139,6 +139,52 @@ h1.title.raports-section-title {
                  0 0 5px rgba(0, 0, 0, 0.2) !important;
 }
 
+// Rapporter page: Verktyg section – same width/position as .container (matches card row exactly)
+// .raports-verktyg-outer duplicates Bootstrap .container width so image aligns with cards
+.raports-verktyg-outer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    @media (min-width: 576px) { max-width: 540px; }
+    @media (min-width: 768px) { max-width: 720px; }
+    @media (min-width: 992px) { max-width: 960px; }
+    @media (min-width: 1200px) { max-width: 1140px; }
+}
+// Image wrap: break out of outer’s padding so image spans full container width (like row with -15px)
+a.raports-verktyg-image-wrap {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.raports-verktyg-image-wrap {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: calc(100% + 30px);
+    overflow: hidden;
+    border-radius: 8px;
+    height: 180px;
+    box-sizing: border-box;
+}
+.raports-verktyg-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box;
+    image-rendering: -webkit-optimize-contrast;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+@media (min-width: 768px) {
+    .raports-verktyg-image-wrap {
+        height: 200px;
+    }
+}
+
 // Rapporter page: Ladda ner PDF button colour
 .raports-download-btn {
     background-color: #D3E4A3 !important;
