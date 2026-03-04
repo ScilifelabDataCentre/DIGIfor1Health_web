@@ -4,9 +4,13 @@ title: Ingående projekt
 permalink: /outputs/ongoing/
 bootstrap: true
 hide: true
+hide_title: true
 ---
 
 <div class="container">
+
+  <h1 class="title raports-section-title">Ingående projekt</h1>
+
   <div class="row justify-content-center">
     <div class="col-lg-12 mb-4">
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">
@@ -61,7 +65,9 @@ hide: true
              <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
             • HDS rapport (augusti 2024):
           </h4>
-            <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br>
+            <a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">Hur hanterar Sveriges regioner sin hälsodata?</a><br><br>
+            <strong>Legal Toolbox:</strong><span style="display: block; height: 0.5em;"></span>
+            <a href="https://legaltoolbox.healthdatasweden.eu/" target="_blank">https://legaltoolbox.healthdatasweden.eu/</a>
           </p>
         </div>
       </div>
@@ -112,10 +118,14 @@ hide: true
             GMS
           </h4>
           <p class="card-text">
-           <a href="https://genomicmedicine.se">Genomic Medicine Sweden</a><br>
+           <a href="https://genomicmedicine.se">Genomic Medicine Sweden</a><span style="display: block; height: 0.5em;"></span>
+           <a href="https://genomicmedicine.se/2025/11/19/genomic-medicine-sweden-lanserar-ny-rapport-om-precisionsmedicinens-framsteg/" target="_blank">GMS lanserar ny rapport om precisionsmedicinens framsteg nov 2025</a>
           </p>
         </div>
       </div>
     </div>
   </div>
+
+  <p class="mt-4"><a href="{{ '/outputs/' | relative_url }}" class="outputs-back-to-resultat">&larr; Tillbaka till Resultat</a></p>
+
 </div>

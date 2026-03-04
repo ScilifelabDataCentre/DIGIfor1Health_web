@@ -57,7 +57,7 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
 
 </div>
 <!-- /.container --> 
-<p style="text-align: center;">
+<p style="text-align: center; font-size: 1.125em;">
 Sevim Barbasso Helmers, projektledare, SciLifeLab Data Centre, SciLifeLab<br>
 Natalia Kotova, samverkansledare, Operations Office, SciLifeLab
 </p>
@@ -101,7 +101,8 @@ Jöran Lindeberg (HDS)<br>
 Katarina Nyström (GMS) <br>
 Manolis Nymark (GDI) <br>
 Rebecka Rosenberg (TEF-Health)<br>
-Rikard Lövström (TEF-Health, SciLifeLab)</p>
+Rikard Lövström (TEF-Health, SciLifeLab)<br>
+Malin Karnå (GMS)</p>
         </div>
       </div>
     </div>
