@@ -4,9 +4,12 @@ title: Evenemang
 permalink: /outputs/events/
 bootstrap: true
 hide: true
+hide_title: true
 ---
 
 <div class="container">
+
+  <h1 class="title raports-section-title">Evenemang</h1>
 
   <div class="row">
     <div class="col-lg-6 mb-4">
@@ -68,6 +71,8 @@ Inbjudna aktörer var projekt som DIGIfor1healthSE haft dialog med, referensgrup
    
   </div>
   <!-- /.row -->
+
+  <p class="mt-4"><a href="{{ '/outputs/' | relative_url }}" class="outputs-back-to-resultat">&larr; Tillbaka till Resultat</a></p>
 
 </div>
 <!-- /.container -->

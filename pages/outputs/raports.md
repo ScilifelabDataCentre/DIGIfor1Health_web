@@ -1,13 +1,47 @@
 ---
 layout: page
-title: Rapporter
+title: Användarresan
 permalink: /outputs/raports/
 bootstrap: true
 hide: true
+hide_title: true
 ---
 
 <div class="container">
 
+  <h1 class="title raports-section-title">Användarresan</h1>
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="{{ '/assets/img/pexels/First_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 1">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 1:<br>Tillgängliggörande av genomikdata i framtiden</h5>
+          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="{{ '/assets/img/pexels/TEF_avrsa.png' | relative_url }}" class="card-img-top" alt="Användarresa 2">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 2:<br>AI testning och validering inom hälsa (på engelska)</h5>
+          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="{{ '/assets/img/pexels/HDS_avrsa2.png' | relative_url }}" class="card-img-top" alt="Användarresa 3">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">Användarresa 3:<br>Stöd vid utveckling och innovation av hälsodataprodukter</h5>
+          <a href="#" class="btn btn-primary mt-auto raports-download-btn">Ladda ner PDF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title raports-section-title">Rapporter</h1>
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
@@ -41,6 +75,8 @@ Rapporten var framtagen som ett underlag för redovisning till finansiären samt
    
   </div>
   <!-- /.row -->
+
+  <p class="mt-4"><a href="{{ '/outputs/' | relative_url }}" class="outputs-back-to-resultat">&larr; Tillbaka till Resultat</a></p>
 
 </div>
 <!-- /.container -->

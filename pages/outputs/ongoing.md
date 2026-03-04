@@ -4,9 +4,13 @@ title: Ingående projekt
 permalink: /outputs/ongoing/
 bootstrap: true
 hide: true
+hide_title: true
 ---
 
 <div class="container">
+
+  <h1 class="title raports-section-title">Ingående projekt</h1>
+
   <div class="row justify-content-center">
     <div class="col-lg-12 mb-4">
       <div class="card h-100" style="max-width: 800px; margin: 0 auto;">
@@ -118,4 +122,7 @@ hide: true
       </div>
     </div>
   </div>
+
+  <p class="mt-4"><a href="{{ '/outputs/' | relative_url }}" class="outputs-back-to-resultat">&larr; Tillbaka till Resultat</a></p>
+
 </div>

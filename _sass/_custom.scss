@@ -116,8 +116,61 @@ h1.title {
     }
 }
 
+// Rapporter page: "Rapporter" – match Användarresan (white + grey outline + shadow). Use simple selector so it applies.
+h1.title.raports-section-title {
+    font-family: $font-family-headings !important;
+    font-size: 2.3em !important;
+    font-weight: bold !important;
+    line-height: 1.3 !important;
+    margin: 0.67em 0 !important;
+    padding: 0.5em 0 !important;
+    text-align: center !important;
+    color: #fff !important;
+    text-shadow: -1px -1px 0 rgba(63, 63, 63, 0.4),
+                 -1px 0 0 rgba(63, 63, 63, 0.4),
+                 -1px 1px 0 rgba(63, 63, 63, 0.4),
+                 0 -1px 0 rgba(63, 63, 63, 0.4),
+                 0 1px 0 rgba(63, 63, 63, 0.4),
+                 1px -1px 0 rgba(63, 63, 63, 0.4),
+                 1px 0 0 rgba(63, 63, 63, 0.4),
+                 1px 1px 0 rgba(63, 63, 63, 0.4),
+                 1px 1px 2px var(--text-shadow),
+                 2px 2px 3px rgba(0, 0, 0, 0.3),
+                 0 0 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+// Rapporter page: Ladda ner PDF button colour
+.raports-download-btn {
+    background-color: #D3E4A3 !important;
+    border-color: #D3E4A3 !important;
+    color: #333 !important;
+}
+.raports-download-btn:hover {
+    background-color: darken(#D3E4A3, 8%) !important;
+    border-color: darken(#D3E4A3, 8%) !important;
+    color: #333 !important;
+}
+
+// Outputs subpages: Back to Resultat button (raports, events, ongoing)
+.outputs-back-to-resultat {
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 8px 16px;
+    border: 2px solid #491F53;
+    border-radius: 8px;
+    color: #491F53 !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.outputs-back-to-resultat:hover {
+    box-shadow: 0 2px 8px rgba(73, 31, 83, 0.2);
+    color: #491F53 !important;
+}
+
 // Outputs page: Top navigation boxes (Evenemang, Rapporter, Ingående projekt)
-// Match content width (same as .container: 1140px) and increase gap between boxes
 .outputs-nav-boxes {
     display: flex;
     justify-content: center;
@@ -183,6 +236,7 @@ h1.title {
     color: #491F53;
     margin: 0 0 15px 0;
     line-height: 1.3;
+    text-align: center;
 }
 
 .outputs-intro-text p {
@@ -228,6 +282,8 @@ h1.title {
     border: none;
     border-radius: 0;
     padding: clamp(10px, 1.43vw, 20px); // Scale padding with viewport
+    cursor: pointer;
+    transition: all 0.3s ease;
     text-align: center;
     min-width: clamp(180px, 17.86vw, 250px); // Scale width with viewport
     max-width: clamp(200px, 21.43vw, 300px); // Scale width with viewport
@@ -243,13 +299,16 @@ h1.title {
     line-height: 1.4;
 }
 
+.outputs-text-box:hover {
+    color: #045C64;
+    text-decoration: underline;
+}
 
 .outputs-image-container {
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    // Match the height of the text box columns
     height: 100%;
 }
 
@@ -275,15 +334,15 @@ h1.title {
 .outputs-image-container img {
     width: auto;
     height: auto;
-    max-width: clamp(360px, 42vw, 580px); // Slightly larger puzzle image
-    max-height: none; // Maintain aspect ratio
+    max-width: clamp(360px, 42vw, 580px);
+    max-height: none;
     object-fit: contain;
     border-radius: 0;
     box-shadow: none;
-    display: block; // Remove any inline spacing
+    display: block;
 }
 
-// Outputs page: Full puzzle theme text below in 2x2 layout (same as puzzle)
+// Outputs page: Full puzzle theme text below in 2x2 layout
 .outputs-puzzle-detail {
     max-width: 1140px;
     margin: 30px auto;
@@ -385,6 +444,7 @@ h1.title {
     text-decoration: underline;
     font-weight: 600;
 }
+
 .outputs-popup-readmore:hover {
     color: #491F53;
 }
@@ -421,4 +481,61 @@ h1.title {
         flex: 0 0 auto;
         order: 0; // Keep image in center
     }
+}
+
+// Rapporter page: Video popup modal
+.raports-video-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.raports-video-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.raports-video-modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    width: 900px;
+}
+
+.raports-video-modal-close {
+    position: absolute;
+    top: -36px;
+    right: 0;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.raports-video-modal-body {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.raports-video-modal-body iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

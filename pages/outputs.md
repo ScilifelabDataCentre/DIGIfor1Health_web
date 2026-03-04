@@ -13,8 +13,8 @@ bootstrap: true
     <img src="{{ '/outputs/assets/img/Events_v2a.jpg' | relative_url }}" alt="Evenemang" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/raports/' | relative_url }}" class="outputs-nav-box">
-    <span class="outputs-nav-box-title">Rapporter</span>
-    <img src="{{ '/outputs/assets/img/Resultat_v1.jpg' | relative_url }}" alt="Rapporter" class="outputs-nav-box-img">
+    <span class="outputs-nav-box-title outputs-nav-box-title--compact">Rapporter & Verktyg</span>
+    <img src="{{ '/outputs/assets/img/Resultat_v1.jpg' | relative_url }}" alt="Rapporter & Verktyg" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/ongoing/' | relative_url }}" class="outputs-nav-box">
     <span class="outputs-nav-box-title">Ingående projekt</span>
@@ -86,7 +86,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
         <li style="margin-bottom: 10px;">Det finns ett brådskande behov av ett <strong>sammanhängande system</strong> som möjliggör användning av hälsodata för att generera verklighetsbaserad evidens, främja innovation och stödja utvecklingen av både nya och avancerade analysmetoder. Ett sådant system måste också uppmuntra till nationell och internationell samverkan.</li>
         <li style="margin-bottom: 10px;">Ett <strong>proaktivt</strong> och <strong>samordnat tillvägagångssätt</strong>, förankrat i en gemensam vision hos alla intressenter, krävs <strong>snarare än ett reaktivt</strong>.</li>
         <li style="margin-bottom: 10px;">Även om <strong>EHDS</strong> utgör ett ramverk för att harmonisera tillgång till och användning av hälsodata, <strong>täcker det ännu inte alla krav för fullt utnyttjande</strong> – särskilt gällande precisionsmedicin, dataharmonisering samt integrering av forskning och vård. I takt med att <strong>genomförandeakter</strong> utvecklas, uppstår möjligheter att forma <strong>EHDS nationellt</strong>.</li>
-        <li style="margin-bottom: 10px;">Att driva <strong>utvecklingen</strong> baserat på <strong>nationella mål</strong> samtidigt som man aktivt engagerar sig i det europeiska implementeringsarbetet är därför avgörande. Att uppnå hållbar förändring <strong>tar tid</strong> och kräver tålamod, uthållighet och en <strong>gemensam förståelse för den långsiktiga visionen</strong>.</li>
+        <li style="margin-bottom: 10px;">Att driva <strong>utvecklingen</strong> baserat på <strong>nationella mål</strong> samtidigt som man aktivt engagerar sig i det europeiska implementeringsarbetet är därför avgörande. Att uppnå <strong>hållbar förändring</strong> <strong>tar tid</strong> och kräver tålamod, uthållighet och en <strong>gemensam förståelse för den långsiktiga visionen</strong>.</li>
       </ul>
     </div>
     <div id="outputs-detail-collab" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
