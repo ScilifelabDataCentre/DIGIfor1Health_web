@@ -216,6 +216,89 @@ a.raports-verktyg-image-wrap {
     color: #491F53 !important;
 }
 
+// Outputs/ongoing: Collapsible accordion – header shows org title + logo (or initial)
+.ongoing-accordion {
+    .card {
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        overflow: hidden;
+    }
+    .card:last-of-type {
+        margin-bottom: 0;
+    }
+}
+.ongoing-collapse-card .card-header {
+    padding: 0;
+    background: #fff;
+    border-bottom: none;
+}
+.ongoing-collapse-header {
+    margin-bottom: 0;
+}
+.ongoing-collapse-btn {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 14px 18px !important;
+    color: #045C64 !important;
+    font-weight: bold !important;
+    font-size: calc(1.1em + 1pt) !important;
+    text-decoration: none !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.ongoing-collapse-btn:hover {
+    color: #045C64 !important;
+    text-decoration: none !important;
+    background: rgba(4, 92, 100, 0.06) !important;
+}
+.ongoing-collapse-btn[aria-expanded="true"] {
+    background: rgba(4, 92, 100, 0.08) !important;
+}
+.ongoing-org-logo {
+    flex-shrink: 0;
+    width: 52px;
+    height: 40px;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: visible;
+}
+.ongoing-org-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    transform: scale(2);
+    transform-origin: center;
+}
+.ongoing-org-initial {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #045C64;
+    line-height: 1;
+}
+.ongoing-org-title {
+    flex: 1;
+}
+.ongoing-collapse-card .card-body {
+    padding: 16px 18px 20px;
+    border-top: 1px solid #e8e8e8;
+    color: #333;
+}
+.ongoing-collapse-card .card-body a {
+    color: #0072B5;
+}
+
 // Outputs page: Top navigation boxes (Evenemang, Rapporter, Ingående projekt)
 .outputs-nav-boxes {
     display: flex;
