@@ -5,6 +5,8 @@ permalink: /contact/
 position: 4
 feature-img: "assets/img/pexels/connect_D_c1.jpeg"
 tags: [Page]
+lang: sv
+lang_alt: /contact_en/
 ---
 
 <div style="text-align: center; font-size: 1.1em; margin-bottom: 50px;">

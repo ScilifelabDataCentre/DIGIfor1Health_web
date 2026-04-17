@@ -5,6 +5,8 @@ permalink: /outputs/ongoing/
 bootstrap: true
 hide: true
 hide_title: true
+lang: sv
+lang_alt: /outputs/ongoing_en/
 ---
 
 <div class="container">

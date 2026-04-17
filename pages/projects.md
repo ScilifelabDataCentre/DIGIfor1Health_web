@@ -5,6 +5,8 @@ permalink: /projects/
 position: 2
 feature-img: "assets/img/pexels/project_R_p.jpeg"
 bootstrap: true
+lang: sv
+lang_alt: /projects_en/
 ---
 
    <!-- Page Content -->

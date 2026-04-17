@@ -5,6 +5,8 @@ permalink: /outputs/raports/
 bootstrap: true
 hide: true
 hide_title: true
+lang: sv
+lang_alt: /outputs/raports_en/
 ---
 
 <!-- Verktyg section: same width as .container below (matches card row width) -->

@@ -7,4 +7,6 @@ feature-img: "assets/img/pexels/globe_R.jpeg"
 icon: "fa-search"
 excluded: true
 position: 5
+lang: sv
+lang_alt: /search_en/
 ---
