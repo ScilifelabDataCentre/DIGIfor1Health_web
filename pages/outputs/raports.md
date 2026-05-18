@@ -9,14 +9,6 @@ lang: sv
 lang_alt: /outputs/raports_en/
 ---
 
-<!-- Verktyg section: same width as .container below (matches card row width) -->
-<div class="raports-verktyg-outer">
-  <h1 class="title raports-section-title">Verktyg</h1>
-  <a href="https://legaltoolbox.healthdatasweden.eu/" target="_blank" rel="noopener noreferrer" class="raports-verktyg-image-wrap">
-    <img src="{{ '/outputs/assets/img/HDSlegalToolbox_pic.png' | relative_url }}" alt="HDS Legal Toolbox – Juridiska verktyg för företag inom hälsodata" class="raports-verktyg-img">
-  </a>
-</div>
-
 <div class="container">
 
   <h1 class="title raports-section-title">Användarresor</h1>

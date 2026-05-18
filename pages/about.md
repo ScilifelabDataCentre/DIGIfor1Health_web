@@ -50,7 +50,8 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
     Michel Silvestri (E-hälsomyndigheten) <br>
     Göran Larsson (Region Västerbotten) <br>
     Jonas Dahlqvist (Statistikmyndigheten SCB) <br>
-    Peter Kjäll (TechSverige) </p>
+    Peter Kjäll (TechSverige)
+          </p>
         </div>
       </div>
     </div>
