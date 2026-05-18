@@ -5,6 +5,11 @@
   z-index: 1000;
 }
 
+// Hide the theme's page-end separator above the site footer.
+.content > article {
+  border-bottom: none;
+}
+
 /* --- Aligner --- */
 /* within page/posts */
 
@@ -237,6 +242,22 @@ a.raports-verktyg-image-wrap {
 .outputs-back-to-resultat:hover {
     box-shadow: 0 2px 8px rgba(73, 31, 83, 0.2);
     color: #491F53 !important;
+}
+
+// Contact page: align entry text while preserving existing logo sizing.
+.contact-entries {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 15px;
+    row-gap: 1rem;
+    align-items: center;
+}
+.contact-entry {
+    display: contents;
+}
+.contact-entry-logo {
+    display: inline-flex;
+    align-items: center;
 }
 
 // Outputs/ongoing: Collapsible accordion – header shows org title + logo (or initial)

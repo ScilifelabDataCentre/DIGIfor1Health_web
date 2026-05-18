@@ -13,7 +13,7 @@ bootstrap: true
     <img src="{{ '/outputs/assets/img/Events_v2a.jpg' | relative_url }}" alt="Evenemang" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/raports/' | relative_url }}" class="outputs-nav-box">
-    <span class="outputs-nav-box-title outputs-nav-box-title--compact">Rapporter & Verktyg</span>
+    <span class="outputs-nav-box-title outputs-nav-box-title--compact">Rapporter</span>
     <img src="{{ '/outputs/assets/img/Resultat_v1.jpg' | relative_url }}" alt="Rapporter & Verktyg" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/ongoing/' | relative_url }}" class="outputs-nav-box">

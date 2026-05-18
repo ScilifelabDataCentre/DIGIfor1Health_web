@@ -43,7 +43,7 @@ DIGIfor1healthSE bidrar till ökad samordning mellan stat och region för ökat 
           <p class="card-text">
     Heléne Spjuth (Region Stockholm) <br>
     Magnus Kjellberg (Västra Götalandsregionen) <br>
-    Markus Lingman (Region Halland) <br>
+    Markus Lingman (Västra Götalandsregionen) <br>
     Anna Sandström (AstraZeneca) <br>
     Michel Silvestri (E-hälsomyndigheten) <br>
     Göran Larsson (Region Västerbotten) <br>
@@ -81,6 +81,7 @@ Adam Darwich (HDS)<br>
 David Herthnek (GDI & GoE)<br>
 Igori Comarovschii (TEF-Health)<br>
 Johan Viklund (GDI)<br>
+Aron Cederlund (GMS)<br>
 Per Fahlberg (GMS)<br>
 Rikard Lövström (TEF-Health, SciLifeLab)<br>
 Rikard Fred (SciLifeLab, precisionsmedicin)<br>
