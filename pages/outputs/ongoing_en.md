@@ -102,7 +102,7 @@ lang_alt: /outputs/ongoing/
         <div class="card ongoing-collapse-card">
           <div class="card-header ongoing-collapse-header" id="headingGoE">
             <button class="btn btn-link ongoing-collapse-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseGoE" data-parent="#ongoing-accordion" aria-expanded="false" aria-controls="collapseGoE">
-              <span class="ongoing-org-logo" aria-hidden="true"><img src="../../assets/img/contact-logos/GOE_logo_flat.jpg" alt="Genome of Europe"></span>
+              <span class="ongoing-org-logo" aria-hidden="true"><img src="../../assets/img/contact-logos/GOE_logo_flat.png" alt="Genome of Europe"></span>
               <span class="ongoing-org-title">GENOME OF EUROPE</span>
             </button>
           </div>
