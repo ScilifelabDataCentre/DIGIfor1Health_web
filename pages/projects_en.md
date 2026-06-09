@@ -77,8 +77,8 @@ lang_alt: /projects/
             <img src="assets/img/gms logo.png" /><br><BR>
             <a href="https://genomicmedicine.se/">Genomic Medicine Sweden – GMS</a>
           </h4>
-          <p class="card-text">is a national initiative aiming to give patients in Sweden equitable, cost-effective access to broad genome sequencing for better diagnostics and more personalised care, treatment, and prevention. Focus areas are rare diseases, cancer, infectious diseases, and complex diseases. GMS is led by the seven regions with university hospitals together with the seven universities with medical faculties. Collaboration also includes the other 14 regions, industry, patient organisations, and SciLifeLab. GMS has also established the National Genomics Platform for shared data. <br><br>
-           Contact:      <a href="mailto:per.sikora@gu.se">Per Sikora</a> </p>
+          <p class="card-text">is a national initiative that aims to ensure that patients in Sweden have equal and cost-effective access to broad gene sequencing to enable better diagnostics and more personalized care, treatment and prevention. Focus areas are rare diagnoses, cancer, infectious diseases and complex diseases. GMS is led by the seven regions with university healthcare together with the seven universities with medical faculties. The collaboration also includes the 14 other regions, the business community, patient organizations and SciLifeLab. GMS has also established the National Genomics Platform for joint data sharing. <br><br>
+           Contact person:      <a href="mailto:per.sikora@gu.se">Per Sikora</a> </p>
         </div>
       </div>
     </div>
