@@ -59,7 +59,7 @@ lang_alt: /outputs/raports/
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            Situation analysis April 2025 (in Swedish)
+            Situation analysis April 2025<br>(in Swedish)
           </h4>
           <p class="card-text">
 
