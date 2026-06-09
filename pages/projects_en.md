@@ -105,8 +105,8 @@ lang_alt: /projects/
             <img src="assets/img/SciLifeLab_full.jpg" /><br><BR>
             <a href="https://www.scilifelab.se">Science for Life Laboratory - SciLifeLab</a>
           </h4>
-          <p class="card-text">is a national research infrastructure for molecular bioscience covering all major universities in Sweden. SciLifeLab infrastructure and expertise are organised into three capabilities: Planetary biology, Precision medicine, and Pandemic laboratory preparedness. SciLifeLab offers services in genomics, proteomics, metabolomics, microscopy, structural biology, bioinformatics, single-cell biology, chemical biology, gene editing, and more. The infrastructure also provides training in cutting-edge technologies, bioinformatics, data management, etc. In addition to expertise in each EU DIGITAL-funded project, SciLifeLab has a coordinating role between these four EU projects and GMS. <br><br>
-           Contact:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</a> </p>
+          <p class="card-text">is a national research infrastructure for the promotion of molecular bioscience research and includes all major universities in Sweden. Infrastructure and expertise within SciLifeLab are divided into three strategic areas: Planetary Biology, Translation to healthcare, and Pandemic Laboratory Preparedness. SciLifeLab offers services in areas such as genomics, proteomics, metabolomics, microscopy, structural biology, bioinformatics, single-cell biology, chemical biology and gene editing. The infrastructure also offers training in various cutting-edge technologies, bioinformatics, data management, etc. In addition to an active role with expertise, SciLifeLab has a coordinating role between these five EU-DIGITAL projects and GMS. <br><br>
+           Contact person:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</a> </p>
         </div>
        
       </div>
