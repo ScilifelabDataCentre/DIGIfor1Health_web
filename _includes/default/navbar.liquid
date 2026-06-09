@@ -14,7 +14,7 @@
 		</a>
         {% endif %}
         <a class="site-title" aria-label="{{ site.title }}" href="{{ home_href | relative_url }}">
-        {{ site.title }}
+        {% if current_page.lang == 'en' %}{{ site.title }}{% else %}Hem{% endif %}
 		</a>
 	</div>
 
