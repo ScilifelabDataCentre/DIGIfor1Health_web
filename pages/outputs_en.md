@@ -55,7 +55,7 @@ function showPopup(id) {
   var popup = document.getElementById('outputs-popup-overlay');
   var popupText = document.getElementById('outputs-popup-text');
   var content = {
-    'popup1': '<p style="margin: 0;"><em>The overarching <strong>goals</strong> and <strong>strategic approach</strong> to managing health data in Sweden ahead of the European Health Data Space (<strong>EHDS</strong>).</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup1': '<p style="margin: 0;"><em>The overarching <strong>goals</strong> and <strong>strategic approach</strong> for managing health data in Sweden towards the European Health Data Space (<strong>EHDS</strong>).</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
     'popup2': '<p style="margin: 0;"><em>Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-impl" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
     'popup3': '<p style="margin: 0;"><em>The need for <strong>collaboration, clear leadership</strong>, and <strong>stakeholder involvement</strong>.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
     'popup4': '<p style="margin: 0;"><em><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-systemic" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>'
@@ -82,8 +82,8 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
 <div class="outputs-puzzle-detail">
   <div class="outputs-puzzle-detail-row">
     <div id="outputs-detail-vision" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--vision">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & strategy</h3>
-      <p style="margin-bottom: 15px;"><em>The overarching <strong>goals</strong> and <strong>strategic approach</strong> to managing health data in Sweden ahead of the European Health Data Space (<strong>EHDS</strong>).</em></p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Vision & Strategy</h3>
+      <p style="margin-bottom: 15px;"><em>The overarching <strong>goals</strong> and <strong>strategic approach</strong> for managing health data in Sweden towards the European Health Data Space (<strong>EHDS</strong>).</em></p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">There is an urgent need for a <strong>coherent system</strong> that enables the use of health data to drive real-world evidence generation, foster innovation, and support the development of novel as well as advanced analytic methodologies. Such a system must also encourage national and international collaboration.</li>
         <li style="margin-bottom: 10px;">A <strong>proactive</strong> and <strong>coordinated approach</strong>, grounded in a shared vision across all stakeholders, is needed <strong>rather than a reactive one</strong>.</li>
