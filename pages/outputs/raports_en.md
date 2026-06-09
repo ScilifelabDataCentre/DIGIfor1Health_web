@@ -21,7 +21,7 @@ lang_alt: /outputs/raports/
           <img src="../../assets/img/pexels/First_avrsa2.png" class="card-img-top" alt="User journey 1">
         </button>
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">User journey 1:<br>Making genomic data available in the future</h5>
+          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">User journey 1:<br>Making genomic data accessible in the future (in Swedish)</h5>
           <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_GDI_GoE_GMS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Download PDF</a>
         </div>
       </div>
