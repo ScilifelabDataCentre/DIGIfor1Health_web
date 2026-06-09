@@ -28,10 +28,10 @@ DIGIfor1healthSE contributes to increased coordination between the state and reg
     Johanna Furuhjelm (TEF-Health, Karolinska Institutet) <br>
     Katrine Riklund (EUCAIM, Umeå University) <br>
     Sebastiaan Meijer (HDS, KTH Royal Institute of Technology) <br>
-    Per Sikora (GMS, Region Västra Götaland) <br>
+    Per Sikora (GMS, Västra Götaland Region) <br>
     Johan Rung (SciLifeLab/UU) <br> 
-    Sandra Falck (SciLifeLab/KTH), chair <br>
-    Päivi Östling (SciLifeLab/KI), adjunct </p>
+    Sandra Falck (SciLifeLab/KTH), Chair <br>
+    Päivi Östling (SciLifeLab/KI), co-opted </p>
         </div>
       </div>
     </div>
@@ -43,13 +43,13 @@ DIGIfor1healthSE contributes to increased coordination between the state and reg
             Reference group:
           </h4>
           <p class="card-text">
-    Heléne Spjuth (Region Stockholm) <br>
-    Magnus Kjellberg (Region Västra Götaland) <br>
+    Heléne Spjuth (Stockholm Region) <br>
+    Magnus Kjellberg (Västra Götaland Region) <br>
     Markus Lingman (Västra Götaland Region) <br>
     Anna Sandström (AstraZeneca) <br>
-    Michel Silvestri (E-hälsomyndigheten) <br>
-    Göran Larsson (Region Västerbotten) <br>
-    Jonas Dahlqvist (Statistics Sweden, SCB) <br>
+    Michel Silvestri (Swedish eHealth Agency) <br>
+    Göran Larsson (Västerbotten Region) <br>
+    Jonas Dahlqvist (Statistics Sweden) <br>
     Peter Kjäll (TechSverige) </p>
         </div>
       </div>
