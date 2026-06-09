@@ -74,12 +74,12 @@ The situational analysis highlights that it is of great importance for Sweden to
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            Pilot study September 2023
+            Feasibility study September 2023<br>(in Swedish)
           </h4>
           <p class="card-text">
-    For effective and sustainable use of health data through integration of the DIGITAL projects in Sweden: <a href="https://doi.org/10.17044/scilifelab.24199164" target="_blank">https://doi.org/10.17044/scilifelab.24199164</a> <br><br>
+    For efficient and sustainable use of health data through integration of DIGITAL projects in Sweden: Compilation of areas of expertise: <a href="https://doi.org/10.17044/scilifelab.24199164" target="_blank">https://doi.org/10.17044/scilifelab.24199164</a> <br><br>
 
-The report was produced as input for reporting to the funder and to guide planning and delivery of current health data collaborations. It compiles our shared expertise in legal issues, semantic interoperability, technical infrastructure, and data security. It also includes risk analyses and discussion on designing solutions for data sharing and proposals for continued work on health data ahead of the European Health Data Space (EHDS).</p>
+The report was developed as a basis for reporting to the funder and as guidance for the planning and implementation of current collaborations in health data in the future. It contains a compilation of our common areas of expertise in legal issues, semantic interoperability, technical infrastructure and data security. It also contains risk analyses and discussion on the design of solutions for data sharing and proposals for continued work with health data ahead of the introduction of the European Health Data Area EHDS.</p>
         </div>
       </div>
     </div>
