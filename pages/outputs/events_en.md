@@ -22,12 +22,6 @@ lang_alt: /outputs/events/
             The road to EHDS – How to meet the need for sustainable access and utilization of health data in Sweden?
           </h4>
           <p class="card-text">
-  <p style="font-size: calc(1em + 2pt);">
-    Date: 3 September 2025<br>
-    Venue: Life City, Stockholm
-    </p>
-    <br>
-
 The purpose of the event was to collectively discuss solutions on how to meet the needs for sustainable access and utilization of health data in Sweden in order to develop a national digital infrastructure for the implementation of EHDS, based on a holistic view of both primary and secondary data use. During the event, three workshops based on patient cases were also conducted to progress further on aspects of interoperability, data security, as well as ethical and social questions.
 
 <br>
