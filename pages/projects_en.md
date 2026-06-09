@@ -51,8 +51,8 @@ lang_alt: /projects/
             <img src="assets/img/HDS logotype_landscape.jpg" /><br>
             <a href="https://www.healthdatasweden.eu/">Health Data Sweden – HDS</a>
           </h4>
-          <p class="card-text">helps secure, make available, and develop tomorrow’s digital health services, with a focus on health data and high-quality, accessible, health-promoting, and sustainable health, care, and welfare services for European citizens. The project strengthens contact with regional and national networks and supports development of new products and services, implementation, and training. HDS is a European Digital Innovation Hub (EDIH) and acts as a one-stop shop helping companies respond dynamically to digital challenges and become more competitive.<br> <br>
-           Contact:     <a href="mailto:smeijer@kth.se">Sebastiaan Meijer</a> </p>
+          <p class="card-text">contributes to securing, making accessible and developing the digital health services of the future, with a focus on health data and high-quality, accessible, health-promoting and sustainable healthcare and welfare services for European citizens. The project focuses on increasing contact with regional and national networks and offering and supporting the development of new products and services, implementation and training. HDS is a European Digital Innovation Hub, EDIH, and acts as a one-stop-shop that helps companies dynamically respond to the digital challenges and become more competitive.<br> <br>
+           Contact person:     <a href="mailto:smeijer@kth.se">Sebastiaan Meijer</a> </p>
         </div>
       </div>
     </div>
