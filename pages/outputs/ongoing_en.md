@@ -61,6 +61,10 @@ lang_alt: /outputs/ongoing/
           </div>
           <div id="collapseHDS" class="collapse" data-parent="#ongoing-accordion" aria-labelledby="headingHDS">
             <div class="card-body">
+              <strong>Legal Toolbox:</strong>
+              <ul class="ongoing-links-list">
+                <li><a href="https://legaltoolbox.healthdatasweden.eu/" target="_blank">https://legaltoolbox.healthdatasweden.eu/</a></li>
+              </ul>
               <h4 class="card-title" style="font-weight: 900; text-align: left; color: #3F3F3F; font-size: calc(1em + 0.5pt);">
                 HDS examples of customer journey services:
               </h4>
@@ -73,11 +77,7 @@ lang_alt: /outputs/ongoing/
                 HDS report (August 2024):
               </h4>
               <ul class="ongoing-links-list">
-                <li><a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">How do Sweden’s regions manage their health data?</a></li>
-              </ul>
-              <strong>Legal Toolbox:</strong>
-              <ul class="ongoing-links-list">
-                <li><a href="https://legaltoolbox.healthdatasweden.eu/" target="_blank">https://legaltoolbox.healthdatasweden.eu/</a></li>
+                <li><a href="https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/ny-rapport-hur-hanterar-sveriges-regioner-sin-halsodata/">How do Sweden's regions manage their health data?</a></li>
               </ul>
             </div>
           </div>
