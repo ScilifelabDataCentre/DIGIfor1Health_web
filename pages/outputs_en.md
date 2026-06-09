@@ -57,7 +57,7 @@ function showPopup(id) {
   var content = {
     'popup1': '<p style="margin: 0;"><em>The overarching <strong>goals</strong> and <strong>strategic approach</strong> for managing health data in Sweden towards the European Health Data Space (<strong>EHDS</strong>).</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-vision" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
     'popup2': '<p style="margin: 0;"><em>Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-impl" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
-    'popup3': '<p style="margin: 0;"><em>The need for <strong>collaboration, clear leadership</strong>, and <strong>stakeholder involvement</strong>.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
+    'popup3': '<p style="margin: 0;"><em>Need for <strong>collaboration, clear leadership</strong>, and <strong>stakeholder involvement</strong>.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-collab" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>',
     'popup4': '<p style="margin: 0;"><em><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</em></p><p style="margin: 15px 0 0 0;"><a href="#outputs-detail-systemic" onclick="closePopup()" class="outputs-popup-readmore">Read more...</a></p>'
   };
   var popupContent = document.querySelector('.outputs-popup-content');
@@ -92,8 +92,8 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
       </ul>
     </div>
     <div id="outputs-detail-collab" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--collab">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Collaboration & governance</h3>
-      <p style="margin-bottom: 15px;"><em>The need for <strong>collaboration, clear leadership</strong>, and <strong>stakeholder involvement</strong>.</em></p>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Collaboration & Governance</h3>
+      <p style="margin-bottom: 15px;"><em>Need for <strong>collaboration, clear leadership</strong>, and <strong>stakeholder involvement</strong>.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">A <strong>clear government directive</strong> is recommended to ensure that all relevant <strong>authorities take a holistic view of data use</strong>, beyond the boundaries of their individual mandates.</li>
         <li style="margin-bottom: 10px;"><strong>True collaboration requires designated forums</strong> and cross-sectoral structures that bring together stakeholders from healthcare, research, policy, and technology to jointly drive development forward.</li>
