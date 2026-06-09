@@ -101,7 +101,6 @@ Simon Nilsson (EUCAIM)</p>
 Sevim Barbasso Helmers, project manager<br>
 Elisabeth Mach (EUCAIM), group lead<br>
 Jöran Lindeberg (HDS)<br>
-Katarina Nyström (GMS) <br>
 Manolis Nymark (GDI) <br>
 Rebecka Rosenberg (TEF-Health)<br>
 Rikard Lövström (TEF-Health, SciLifeLab)<br>
