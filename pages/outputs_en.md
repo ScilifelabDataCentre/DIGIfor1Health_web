@@ -114,7 +114,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
       </ul>
     </div>
     <div id="outputs-detail-systemic" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--systemic">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Systemic change & resources</h3>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Systemic Change & Resources</h3>
       <p style="margin-bottom: 15px;"><em><strong>Resources</strong> and <strong>mindset shifts</strong> needed for the transformation of the health data landscape.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">Transforming the Swedish health data ecosystem requires a clear overview of ongoing initiatives and the actors driving them. Systemic change depends on <strong>dedicated funding</strong>, <strong>new skills</strong>, and <strong>updated organizational structures</strong>, including <strong>targeted training for existing staff</strong> in new workflows and digital processes.</li>
