@@ -14,6 +14,7 @@ Project manager: <a href="mailto:Sevim.Barbasso-Helmers@scilifelab.uu.se">Sevim 
 Technical support: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Centre</a>
 </div>
 
+<div class="contact-entries">
 <div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/EGDI logo_2.png" alt="GDI Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"></span><span>GDI contact: <a href="mailto:bengt.persson@scilifelab.se">Bengt Persson</a></span></div>
 
 <div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/LOGO_EUCAI.png" alt="EUCAIM Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"></span><span>EUCAIM contact: <a href="mailto:katrine.riklund@umu.se">Katrine Riklund</a></span></div>
@@ -25,3 +26,4 @@ Technical support: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Cen
 <div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/gms logo.png" alt="GMS Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"></span><span>GMS contact: <a href="mailto:per.sikora@gu.se">Per Sikora</a></span></div>
 
 <div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/GOE_logo_flat.png" alt="GOE Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"></span><span>GOE contact: <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a></span></div>
+</div>
