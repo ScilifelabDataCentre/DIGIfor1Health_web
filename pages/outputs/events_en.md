@@ -42,6 +42,7 @@ Participating stakeholders included the government, authorities, institutions, r
             DIGIfor1healthSE – sustainable access to health data
           </h4>
           <p class="card-text">
+<br>
 
 The purpose of the event was to increase participants' knowledge about DIGIfor1healthSE, its collaboration, and the actors involved. The event provided an opportunity to listen, connect, and contribute ideas on how we can create long-term access to health data for Sweden and Europe.
 
