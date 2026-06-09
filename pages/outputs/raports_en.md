@@ -59,13 +59,13 @@ lang_alt: /outputs/raports/
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            Situation analysis April 2025
+            Situation analysis April 2025 (in Swedish)
           </h4>
           <p class="card-text">
 
-   DIGIfor1healthSE — collaboration for sustainable access to and use of health data: <a href="https://doi.org/10.17044/scilifelab.28882028" target="_blank">https://doi.org/10.17044/scilifelab.28882028</a> <br> <br>
+   DIGIfor1healthSE - a collaboration for sustainable access and use of health data: <a href="https://doi.org/10.17044/scilifelab.28882028" target="_blank">https://doi.org/10.17044/scilifelab.28882028</a> <br> <br>
 
-The analysis highlights that it is vital for Sweden to develop a national digital infrastructure for health data with a holistic view of primary and secondary use ahead of EHDS implementation, in collaboration with relevant stakeholders. To enable privacy-preserving, efficient access to health data, data must be freed from siloed systems in Sweden and fit-for-purpose, harmonised solutions developed—achieving interoperability across semantic, technical, organisational, and legal dimensions while integrating ethical and social aspects.</p>
+The situational analysis highlights that it is of great importance for Sweden to develop a national digital infrastructure for health data based on a holistic view of primary and secondary use, ahead of the implementation of the European Health Data Space (EHDS), in collaboration with relevant stakeholders. To enable integrity-secure and efficient access to health data, data must be freed from the various systems in Sweden and appropriate and harmonized solutions must be developed. This is to achieve interoperability in all areas: semantic, technical, organizational and legal, where ethical and social aspects are also integrated.</p>
         </div>
       </div>
     </div>
