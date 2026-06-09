@@ -25,5 +25,5 @@ Technical support: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Cen
 
 <div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/gms logo.png" alt="GMS Logo" style="height: 20px; vertical-align: middle; margin-right: 10px;"></span><span>GMS contact: <a href="mailto:per.sikora@gu.se">Per Sikora</a></span></div>
 
-<div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/GOE_logo_flat.png" alt="GOE Logo" style="height: 20px; vertical-align: middle; margin-right: 10px;"></span><span>GOE contact: <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a></span></div>
+<div class="contact-entry"><span class="contact-entry-logo"><img src="../assets/img/contact-logos/GOE_logo_flat.png" alt="GOE Logo" style="height: 20px; vertical-align: middle; margin-right: 10px;"></span><span>GoE contact: <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a></span></div>
 </div>
