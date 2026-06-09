@@ -64,8 +64,8 @@ lang_alt: /projects/
             <img src="assets/img/tefs-maybefinals_tef-image-black-horizontal.png" /><br>
             <a href="https://tefhealth.se/">Testing and Experimentation facilities – TEF-Health</a>
           </h4>
-          <p class="card-text">establishes European testing and experimentation facilities for artificial intelligence and robotics in healthcare. The project aims to increase adoption of AI-driven solutions in healthcare by providing services and tools to validate and certify the latest technology while ensuring compliance with relevant legal, ethical, quality, and interoperability standards and requirements. A combination of physical and virtual facilities and consulting services will be offered so technology providers can test and develop their latest AI-based software and hardware in real environments. <br><br>
-           Contact:     <a href="mailto:johanna.furuhjelm@ki.se">Johanna Furuhjelm</a> </p>
+          <p class="card-text">establishes European testing and experimentation facilities for artificial intelligence and robotics in healthcare. The aim of the project is to increase the implementation of AI-powered solutions in healthcare by providing services and tools for validating and certifying the latest technologies while ensuring compliance with relevant legal, ethical, quality and interoperability standards and requirements. A combination of physical and virtual facilities as well as consultancy services will be offered where technology providers can receive support to test and develop their latest AI-based software/hardware technologies in real-world environments. <br><br>
+           Contact person:     <a href="mailto:johanna.furuhjelm@ki.se">Johanna Furuhjelm</a> </p>
         </div>
      </div>
     </div>
