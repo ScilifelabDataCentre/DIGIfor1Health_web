@@ -91,8 +91,8 @@ lang_alt: /projects/
             <img src="assets/img/GOE_logo_flat.jpg" />
             <a href="https://digital-strategy.ec.europa.eu/en/news/genome-europe-project-launched-first-step-towards-european-reference-genome/">Genome of Europe - GOE</a>
           </h4>
-          <p class="card-text">aims to create a pan-European reference database of whole-genome data for future research and healthcare. Clinicians and researchers can learn about genetic variation in Sweden and links to disease by comparing patients or research participants with control individuals in GoE. Sweden’s participation in GoE is not only to build a reference dataset but also to launch a flagship genomics project that strengthens Sweden’s competitiveness in research and innovation, creates synergies with other health data initiatives, and ultimately contributes to improved healthcare where research and development are integral.  <br><br>
-           Contact:     <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a> </p>
+          <p class="card-text">aims to create a pan-European reference database of whole genome data, for use in future research and healthcare. Clinicians and researchers can get answers about genetic variation in Sweden, as well as links to disease, by comparing the genomes of patients or research subjects with the control individuals included in the GoE. The goal of Sweden's participation in the GoE is not only to create a reference dataset, but also to launch a flagship project in genomics that increases Sweden's competitiveness in research and innovation, provides synergies with other initiatives in the health data area, and ultimately contributes to improved healthcare where research and development are an integral part.  <br><br>
+           Contact person:     <a href="mailto:adam.ameur@igp.uu.se">Adam Ameur</a> </p>
         </div>
       </div>
     </div>
