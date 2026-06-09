@@ -15,8 +15,8 @@ lang_alt: /outputs/
     <img src="assets/img/Events_v2a.jpg" alt="Events" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/raports_en/' | relative_url }}" class="outputs-nav-box">
-    <span class="outputs-nav-box-title outputs-nav-box-title--compact">Reports & tools</span>
-    <img src="assets/img/Resultat_v1.jpg" alt="Reports & tools" class="outputs-nav-box-img">
+    <span class="outputs-nav-box-title">Reports</span>
+    <img src="assets/img/Resultat_v1.jpg" alt="Reports" class="outputs-nav-box-img">
   </a>
   <a href="{{ '/outputs/ongoing_en/' | relative_url }}" class="outputs-nav-box">
     <span class="outputs-nav-box-title">Participating projects</span>
