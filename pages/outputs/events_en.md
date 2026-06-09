@@ -19,7 +19,7 @@ lang_alt: /outputs/events/
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            Towards EHDS — meeting the need for sustainable access to and use of health data in Sweden
+            The road to EHDS – How to meet the need for sustainable access and utilization of health data in Sweden?
           </h4>
           <p class="card-text">
   <p style="font-size: calc(1em + 2pt);">
@@ -28,11 +28,11 @@ lang_alt: /outputs/events/
     </p>
     <br>
 
-The event aimed to discuss solutions for sustainable access to and use of health data in Sweden for developing a national digital infrastructure ahead of EHDS implementation, from a holistic view of primary and secondary use. The event also included three patient-case workshops on interoperability and data security as well as ethical and social issues.
+The purpose of the event was to collectively discuss solutions on how to meet the needs for sustainable access and utilization of health data in Sweden in order to develop a national digital infrastructure for the implementation of EHDS, based on a holistic view of both primary and secondary data use. During the event, three workshops based on patient cases were also conducted to progress further on aspects of interoperability, data security, as well as ethical and social questions.
 
 <br>
 <br>
-Participants included actors that DIGIfor1healthSE had engaged with, reference group members, relevant agencies in healthcare and digitalisation, and representatives from government offices.
+Participating stakeholders included the government, authorities, institutions, regions/clinics, patient organizations, national quality registries, industry/system vendors, academia/researchers, innovators, and health data projects.
 
 <br>
 <br>
