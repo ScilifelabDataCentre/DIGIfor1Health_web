@@ -1,9 +1,8 @@
 ---
 layout: page
-title:   The English version of this website will be developed later. <br> Thank you very much for the patience
+title: English redirect
+hide: true
 permalink: /en/
-subtitle:
-feature-img: "assets/img/pexels/dots.jpeg"
-icon: "fa-globe"
-position: 8
 ---
+<script>window.location.replace("{{ '/index_en.html' | relative_url }}");</script>
+<p style="text-align:center;margin:2em;"><a href="{{ '/index_en.html' | relative_url }}">Continue to the English home page</a></p>

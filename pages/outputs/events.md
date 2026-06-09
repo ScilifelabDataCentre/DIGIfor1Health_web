@@ -5,6 +5,8 @@ permalink: /outputs/events/
 bootstrap: true
 hide: true
 hide_title: true
+lang: sv
+lang_alt: /outputs/events_en/
 ---
 
 <div class="container">

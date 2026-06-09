@@ -5,6 +5,8 @@ permalink: /outputs/
 position: 3
 feature-img: "assets/img/feature-img/lab_desk.jpeg"
 bootstrap: true
+lang: sv
+lang_alt: /outputs_en/
 ---
 <!-- Top navigation boxes -->
 <div class="outputs-nav-boxes">

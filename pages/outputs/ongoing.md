@@ -5,6 +5,8 @@ permalink: /outputs/ongoing/
 bootstrap: true
 hide: true
 hide_title: true
+lang: sv
+lang_alt: /outputs/ongoing_en/
 ---
 
 <div class="container">
@@ -53,7 +55,7 @@ hide_title: true
         <div class="card ongoing-collapse-card">
           <div class="card-header ongoing-collapse-header" id="headingHDS">
             <button class="btn btn-link ongoing-collapse-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseHDS" data-parent="#ongoing-accordion" aria-expanded="false" aria-controls="collapseHDS">
-              <span class="ongoing-org-logo" aria-hidden="true"><img src="{{ '/assets/img/contact-logos/HDS logotype_landscape.jpg' | relative_url }}" alt="HDS"></span>
+              <span class="ongoing-org-logo" aria-hidden="true"><img src="{{ '/assets/img/contact-logos/HDS logotype_landscape.png' | relative_url }}" alt="HDS"></span>
               <span class="ongoing-org-title">HDS</span>
             </button>
           </div>
@@ -100,7 +102,7 @@ hide_title: true
         <div class="card ongoing-collapse-card">
           <div class="card-header ongoing-collapse-header" id="headingGoE">
             <button class="btn btn-link ongoing-collapse-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseGoE" data-parent="#ongoing-accordion" aria-expanded="false" aria-controls="collapseGoE">
-              <span class="ongoing-org-logo" aria-hidden="true"><img src="{{ '/assets/img/contact-logos/GOE_logo_flat.jpg' | relative_url }}" alt="Genome of Europe"></span>
+              <span class="ongoing-org-logo" aria-hidden="true"><img src="{{ '/assets/img/contact-logos/GOE_logo_flat.png' | relative_url }}" alt="Genome of Europe"></span>
               <span class="ongoing-org-title">GENOME OF EUROPE</span>
             </button>
           </div>

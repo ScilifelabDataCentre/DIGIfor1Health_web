@@ -1,13 +1,19 @@
 <header class="site-header">
+    {% assign current_page = page %}
+    {% if current_page.lang == 'en' %}
+        {% assign home_href = '/index_en.html' %}
+    {% else %}
+        {% assign home_href = '/' %}
+    {% endif %}
 
     <!-- Logo and title -->
 	<div class="branding">
         {% if site.avatar %}
-		<a href="{{ '/' | relative_url }}">
+		<a href="{{ home_href | relative_url }}">
 			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
 		</a>
         {% endif %}
-        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ home_href | relative_url }}">
         {{ site.title }}
 		</a>
 	</div>
@@ -25,30 +31,42 @@
             {% assign emptyArray = '' | split: '' %}
             {% assign menus = site.data.menu | default: emptyArray %}
             {% assign pages = site.pages | concat: menus | sort: 'position' %}
+            {% assign nav_lang = current_page.lang | default: 'sv' %}
             {% for page in pages %}
-            {% unless page.title == null or page.hide or name_page contains page.title %}
+                {% assign item_lang = page.lang | default: 'sv' %}
+                {% assign nav_dup_key = page.title | append: '::' | append: item_lang %}
+            {% unless page.title == null or page.hide or name_page contains nav_dup_key %}
+                {% assign show_nav_item = false %}
+                {% if item_lang == nav_lang %}
+                    {% assign show_nav_item = true %}
+                {% endif %}
+                {% if show_nav_item %}
                 <li class="separator"> | </li>
                 <li>
-                    {% if page.title contains "English version" %}
-                        <a class="clear language-selector" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
+                    <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
+                        {% if page.icon %}
                             <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>
-                        </a>
-                    {% else %}
-                        <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
-                            {% if page.icon %}
-                                <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>
-                            {% endif %}
-                            <span class="navbar-label">{{ page.title }}</span>
-                        </a>
-                    {% endif %}
+                        {% endif %}
+                        <span class="navbar-label">{{ page.title }}</span>
+                    </a>
                 </li>
+                {% endif %}
             {% endunless %}
-            {% assign name_page = page.title | append: name_page %}
+            {% assign name_page = nav_dup_key | append: '||' | append: name_page %}
             {% endfor %}
+
+            {% if current_page.lang_alt %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear language-selector" aria-label="{% if current_page.lang == 'en' %}Swedish version{% else %}English version{% endif %}" title="{% if current_page.lang == 'en' %}Swedish version{% else %}English version{% endif %}" href="{{ current_page.lang_alt | relative_url }}">
+                    <span class="navbar-lang-label">{% if current_page.lang == 'en' %}🇸🇪 Svenska{% else %}🇬🇧 English{% endif %}</span>
+                </a>
+            </li>
+            {% endif %}
 
             {% if site.color_theme == 'auto' %}
             <li class="separator"> | </li>
-            <li><a id="theme-toggle" title="{{ page.title }} " aria-label="{{ page.title }}" onclick="themeToggle()"></a></li>
+            <li><a id="theme-toggle" title="Theme" aria-label="Theme" onclick="themeToggle()"></a></li>
             {% endif %}
         </ul>
     </nav>
