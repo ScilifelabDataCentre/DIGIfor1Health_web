@@ -55,7 +55,7 @@ lang_alt: /outputs/ongoing/
         <div class="card ongoing-collapse-card">
           <div class="card-header ongoing-collapse-header" id="headingHDS">
             <button class="btn btn-link ongoing-collapse-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseHDS" data-parent="#ongoing-accordion" aria-expanded="false" aria-controls="collapseHDS">
-              <span class="ongoing-org-logo" aria-hidden="true"><img src="../../assets/img/contact-logos/HDS logotype_landscape.jpg" alt="HDS"></span>
+              <span class="ongoing-org-logo" aria-hidden="true"><img src="../../assets/img/contact-logos/HDS logotype_landscape.png" alt="HDS"></span>
               <span class="ongoing-org-title">HDS</span>
             </button>
           </div>

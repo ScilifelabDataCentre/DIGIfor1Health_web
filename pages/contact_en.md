@@ -18,7 +18,7 @@ Technical support: <a href="mailto:datacentre@scilifelab.se">SciLifeLab Data Cen
 
 <img src="../assets/img/contact-logos/LOGO_EUCAI.png" alt="EUCAIM Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">EUCAIM contact: <a href="mailto:katrine.riklund@umu.se">Katrine Riklund</a>
 
-<img src="../assets/img/contact-logos/HDS logotype_landscape.jpg" alt="HDS Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">HDS contact: <a href="mailto:smeijer@kth.se">Sebastiaan Meijer</a>
+<img src="../assets/img/contact-logos/HDS logotype_landscape.png" alt="HDS Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">HDS contact: <a href="mailto:smeijer@kth.se">Sebastiaan Meijer</a>
 
 <img src="../assets/img/contact-logos/tefs-maybefinals_tef-image-black-horizontal.png" alt="TEF-Health Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">TEF-Health contact: <a href="mailto:daniel.lundqvist@ki.se">Daniel Lundqvist</a>
 
