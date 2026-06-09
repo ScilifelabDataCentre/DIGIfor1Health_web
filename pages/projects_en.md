@@ -38,8 +38,8 @@ lang_alt: /projects/
             <img src="assets/img/LOGO_EUCAI.png" /><br><BR>
             <a href="https://cancerimage.eu/">Cancer Image Europe – EUCAIM</a>
           </h4>
-          <p class="card-text">builds on the existing big data initiative for medical imaging “AI for Health Imaging” (AI4HI), where 86 institutions from 20 countries in five EU-funded projects generate information on 91,000 cancer patients. These projects are developing a comprehensive, advanced architecture for identifying, collecting, storing, integrating, and using medical imaging. EUCAIM builds infrastructure for data sharing, AI development, testing, and validation, delivering both central and federated solutions. EUCAIM is an important effort to coordinate cancer data and plays a decisive role in accelerating information-driven cancer care nationally and in Europe. <br><br>
-           Contact:     <a href="mailto:katrine.riklund@umu.se">Katrine Riklund</a> </p>
+          <p class="card-text">builds on the existing big data initiative for medical imaging “AI for Health Imaging” AI4HI where 86 institutions from 20 countries are involved in 5 different EU-funded projects generating information on 91,000 cancer patients. Within these, the development of a comprehensive and advanced architecture for the discernment, collection, storage, integration and use of all medical imaging is underway. EUCAIM is building infrastructure for data sharing, AI development, testing and validation where both central and federated solutions will be delivered. EUCAIM is an important effort for the coordination of cancer data and plays a crucial role in the acceleration of information-driven cancer care both nationally and in Europe. <br><br>
+           Contact person:     <a href="mailto:katrine.riklund@umu.se">Katrine Riklund</a> </p>
         </div>
       </div>
     </div>
