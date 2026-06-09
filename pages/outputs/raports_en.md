@@ -45,7 +45,7 @@ lang_alt: /outputs/raports/
           <img src="../../assets/img/pexels/HDS_avrsa2.png" class="card-img-top" alt="User journey 3">
         </button>
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">User journey 3:<br>Support for developing health data products and innovation</h5>
+          <h5 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">User journey 3:<br>Supporting the development and innovation of health data products<br>(in Swedish)</h5>
           <a href="https://github.com/ScilifelabDataCentre/DIGIfor1Health_web/raw/master/assets/Anvresa_DIGIfor1healthSE_HDS_pdf%20och%20text.pdf" class="btn btn-primary mt-auto raports-download-btn" download target="_blank">Download PDF</a>
         </div>
       </div>
