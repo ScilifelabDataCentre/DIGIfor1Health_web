@@ -104,7 +104,7 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
   </div>
   <div class="outputs-puzzle-detail-row">
     <div id="outputs-detail-impl" class="outputs-puzzle-detail-box outputs-puzzle-detail-box--impl">
-      <h3 style="margin-top: 0; margin-bottom: 15px;">Implementation & infrastructure</h3>
+      <h3 style="margin-top: 0; margin-bottom: 15px;">Implementation & Infrastructure</h3>
       <p style="margin-bottom: 15px;"><em>Practical <strong>steps</strong> and <strong>structures</strong> required to build a functional and unified health data system.</em></p>
       <ul style="text-align: left; padding-left: 20px;">
         <li style="margin-bottom: 10px;">To develop a <strong>national digital infrastructure</strong> that serves Sweden’s needs while aligning with EHDS principles and the <strong>holistic view of primary and secondary data use</strong>, stakeholders must work together.</li>
