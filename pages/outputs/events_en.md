@@ -39,21 +39,15 @@ Participating stakeholders included the government, authorities, institutions, r
         
         <div class="card-body">
           <h4 class="card-title" style="font-weight: bold; text-align: center; color: #045C64;">
-            DIGIfor1healthSE — sustainable access to health data
+            DIGIfor1healthSE – sustainable access to health data
           </h4>
           <p class="card-text">
 
-   <p style="font-size: calc(1em + 2pt);">
-    Date: 26 May 2025<br>
-    Venue: Life City, Stockholm
-    </p>
-    <br>
+The purpose of the event was to increase participants' knowledge about DIGIfor1healthSE, its collaboration, and the actors involved. The event provided an opportunity to listen, connect, and contribute ideas on how we can create long-term access to health data for Sweden and Europe.
 
-The event aimed to increase participants’ knowledge of DIGIfor1healthSE, its collaboration, and the organisations behind it. It offered opportunities to listen, meet, and contribute ideas on how to create long-term access to health data for Sweden and Europe. <br>
 <br>
 <br>
-
-Invited participants included projects DIGIfor1healthSE had dialogued with, reference group members, relevant agencies in healthcare and digitalisation, and representatives from government offices. 
+Invited stakeholders included projects that DIGIfor1healthSE has engaged in dialogue with, members of the reference group, relevant authorities within healthcare and digitalization, as well as representatives from various ministries within the Government Offices of Sweden.
 
 <br>
 <br>
