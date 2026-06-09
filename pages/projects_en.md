@@ -25,8 +25,8 @@ lang_alt: /projects/
             <br><BR>
             <a href="https://gdi.onemilliongenomes.eu/">Genomic Data Infrastructure – GDI</a>
           </h4>
-          <p class="card-text">aims to implement a European infrastructure for genomic data and underpins the European 1+MG initiative, in which 27 countries have signed a declaration to make genomic data and associated basic clinical phenotype data available for personalised treatments and improved research and innovation. The goal is for at least 15 European countries to have national 1+MG nodes fully operational by the end of the project. More than 20 countries are involved in total. <br><br>
-           Contact:     <a href="mailto:bengt.persson@scilifelab.se">Bengt Persson</a> </p>
+          <p class="card-text">aims to implement a European infrastructure for genomics data and is the basis for enabling the European 1+MG initiative, where 27 countries have signed a declaration to make genomic data with associated basic clinical phenotypic data accessible, to enable personalized treatments and improved research and innovation. The goal is for at least 15 countries in Europe to have national 1+MG nodes in full operation by the end of the project. In total, over 20 countries are involved. <br><br>
+           Contact person:     <a href="mailto:bengt.persson@scilifelab.se">Bengt Persson</a> </p>
         </div>
       </div>
     </div>
