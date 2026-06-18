@@ -48,7 +48,7 @@ lang_alt: /projects/
 
         <div class="card-body">
           <h4 class="card-title">
-            <img src="assets/img/HDS logotype_landscape.png" /><br>
+            <img src="assets/img/HDS logotype_landscape.jpg" /><br>
             <a href="https://www.healthdatasweden.eu/">Health Data Sweden – HDS</a>
           </h4>
           <p class="card-text">contributes to securing, making accessible and developing the digital health services of the future, with a focus on health data and high-quality, accessible, health-promoting and sustainable healthcare and welfare services for European citizens. The project focuses on increasing contact with regional and national networks and offering and supporting the development of new products and services, implementation and training. HDS is a European Digital Innovation Hub, EDIH, and acts as a one-stop-shop that helps companies dynamically respond to the digital challenges and become more competitive.<br> <br>
@@ -88,7 +88,7 @@ lang_alt: /projects/
 
       <div class="card-body">
           <h4 class="card-title">
-            <img src="assets/img/GOE_logo_flat.png" />
+            <img src="assets/img/GOE_logo_flat.jpg" />
             <a href="https://digital-strategy.ec.europa.eu/en/news/genome-europe-project-launched-first-step-towards-european-reference-genome/">Genome of Europe - GOE</a>
           </h4>
           <p class="card-text">aims to create a pan-European reference database of whole genome data, for use in future research and healthcare. Clinicians and researchers can get answers about genetic variation in Sweden, as well as links to disease, by comparing the genomes of patients or research subjects with the control individuals included in the GoE. The goal of Sweden's participation in the GoE is not only to create a reference dataset, but also to launch a flagship project in genomics that increases Sweden's competitiveness in research and innovation, provides synergies with other initiatives in the health data area, and ultimately contributes to improved healthcare where research and development are an integral part.  <br><br>
