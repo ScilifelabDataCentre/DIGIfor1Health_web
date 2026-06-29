@@ -106,8 +106,7 @@ Innovation Hub, EDIH, och fungerar som en one-stop-shop som hjälper företag at
             <img src="assets/img/SciLifeLab_full.jpg" /><br><BR>
             <a href="https://www.scilifelab.se">Science for Life Laboratory - SciLifeLab</a>
           </h4>
-          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. Infrastruktur och expertis inom SciLifeLab delas upp i tre kapabiliteter: Planitär
-biologi, Precisionsmedicin och Pandemisk laboratorieberedskap. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver expertis inom respektive EU-DIGITAL-finansierat projekt har SciLifeLab en koordinerande roll mellan dessa fyra EU-projekt och GMS. <br><br>
+          <p class="card-text">är en nationell forskningsinfrastruktur för främjande av molekylär biovetenskaplig forskning och omfattar alla större universitet i Sverige. Infrastruktur och expertis inom SciLifeLab delas upp i tre strategiska områden: Planetär biologi, Translationell forskning för hälso- och sjukvård, samt Laboratorieberedskap för pandemier. SciLifeLab erbjuder service inom exempelvis genomik, proteomik, metabolomik, mikroskopi, strukturbiologi, bioinformatik, single-cell biology, kemisk biologi och geneditering. Infrastrukturen erbjuder även utbildning inom olika spjutspetsteknologier, bioinformatik, datahantering, etc. Utöver en aktiv roll med expertis, har SciLifeLab en koordinerande roll mellan dessa fem EU-DIGITAL-projekt och GMS. <br><br>
            Kontaktperson:     <a href="mailto:sandra.falck@scilifelab.se">Sandra Falck</a> </p>
         </div>
        
