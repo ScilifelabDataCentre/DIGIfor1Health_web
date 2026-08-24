@@ -97,13 +97,12 @@ Simon Nilsson (EUCAIM)</p>
         
         <div class="card-body">
           <h4 class="card-title">
-            Arbetsgrupp: <br> Legala aspekter
+            Arbetsgrupp: <br> Etiska, legala och sociala aspekter (ELSI)
           </h4>
           <p class="card-text">
 Sevim Barbasso Helmers, projektledare<br>
 Elisabeth Mach (EUCAIM), gruppansvarig<br>
 Jöran Lindeberg (HDS)<br>
-Katarina Nyström (GMS) <br>
 Manolis Nymark (GDI) <br>
 Rebecka Rosenberg (TEF-Health)<br>
 Rikard Lövström (TEF-Health, SciLifeLab)<br>
