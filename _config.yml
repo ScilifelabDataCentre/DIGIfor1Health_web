@@ -11,10 +11,10 @@ favicon: assets/img/SciLifeLabT.ico                  # Icon displayed in the tab
 
 # Header and footer text
 header_text: Välkommen till DIGIfor1healthSE
-header_feature_image: assets/img/header/header_bubblor_T.jpg
+header_feature_image: assets/img/header/Digifor1Health_Banner_2026-09-16_V3_T.jpg
 header_feature_image_responsive: true
-header_feature_image_small: assets/img/header/header_bubblor_T-small.jpg
-header_feature_image_medium: assets/img/header/header_bubblor_T-medium.jpg
+header_feature_image_small: assets/img/header/Digifor1Health_Banner_2026-09-16_V3_T-small.jpg
+header_feature_image_medium: assets/img/header/Digifor1Health_Banner_2026-09-16_V3_T-medium.jpg
 
 footer_text: >
   <hr>
